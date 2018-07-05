@@ -1,0 +1,32 @@
+{
+  "name": "hmcts-design-system",
+  "version": "1.0.0-alpha",
+  "description": "HMCTS Design System",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server.js --preset es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmcts/hmcts-design-system.git"
+  },
+  "author": "Trevor Saint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmcts/hmcts-design-system/issues"
+  },
+  "homepage": "https://github.com/hmcts/hmcts-design-system#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^4.0.1",
+    "nunjucks": "^3.1.3",
+    "require-dir": "^1.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
