@@ -8,7 +8,8 @@ const nunjucks = require('nunjucks');
 
 
 // Routing
-const router = require('./app/routes/index');
+const routes = require('./app/routes/index');
+const autoRoutes = require('./app/routes/auto');
 
 
 const app = express();
@@ -35,8 +36,14 @@ nunjucks.configure(appViews, {
 app.set('view engine', 'html');
 
 
+// Middleware to serve static assets
+app.use('/public', express.static(path.join(__dirname, '/public')));
+app.use('/assets', express.static(path.join(__dirname, 'node_modules', 'govuk-frontend', 'assets')));
+
+
 // Use routes
-app.use('/', router);
+app.use(routes);
+app.use(autoRoutes);
 
 
 // Start app on port 3000

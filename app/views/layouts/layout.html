@@ -16,7 +16,19 @@
 
   <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-  {% block content %}{% endblock %}
+  <div class="app-pane">
+
+  {% include "_header.html" %}
+
+  {% include "_nav.html" %}
+
+  {% block content %}
+
+  {% endblock %}
+
+  </div>
+
+  {% include "_svg.html" %}
 
 </body>
 </html>

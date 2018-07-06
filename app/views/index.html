@@ -2,6 +2,45 @@
 
 {% block content %}
 
-<h1>HMCTS Design System</h1>
+<div class="app-pane__body">
+
+  <div class="app-pane__nav">
+
+    <nav class="app-subnav">
+      <ul class="app-subnav__section">
+        <li class="app-subnav__section-item app-subnav__section-item--current"><a href="#">Colour</a></li>
+        <li class="app-subnav__section-item"><a href="#">Images</a></li>
+        <li class="app-subnav__section-item"><a href="#">Layout</a></li>
+        <li class="app-subnav__section-item"><a href="#">Page templates</a></li>
+        <li class="app-subnav__section-item"><a href="#">Spacing</a></li>
+        <li class="app-subnav__section-item"><a href="#">Typography</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="app-pane__content">
+
+    <div class="app-content">
+
+      <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> Colour</h1>
+
+      <p>Always use the GOV.UK colour palette.</p>
+
+      <h2 class="govuk-heading-l">Colour contrast</h2>
+
+      <p>You must make sure that the contrast ratio of text and interactive elements in your service meets <a href="#">level AA of the Web Content Accessibility Guidelines (WCAG 2.0)</a></p>
+
+      <h2 class="govuk-heading-l">Sass variables</h2>
+
+      <p>Use the Sass variables listed below, so you’ll automatically get any updates to the GOV.UK colour palette when you update GOV.UK Frontend.</p>
+
+    </div>
+
+    {% include "_footer.html" %}
+
+  </div>
+
+</div>
 
 {% endblock %}

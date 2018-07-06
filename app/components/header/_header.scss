@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.app-header {
+  background-color: govuk-colour("black");
+  color: govuk-colour("white");
+  padding: govuk-spacing(2) govuk-spacing(3);
+
+  display: flex;
+  flex: 1 0 auto;
+}
+
+
+.app-header__link {
+  display: inline-block;
+
+  &:link {
+    color: govuk-colour("white");
+    text-decoration: none;
+  }
+
+  &:focus {
+    color: govuk-colour("black");
+  }
+
+}
+
+
+.app-header__logotype-crest {
+  fill: currentColor;
+  height: 42px;
+  margin-right: govuk-spacing(2);
+  vertical-align: middle;
+  width: 50px;
+}
+
+
+.app-header__logotype-text {
+  @include govuk-font($size: 24, $weight: bold);
+  vertical-align: middle;
+}
+
+
+
+.app-header__title {
+  @include govuk-font($size: 24);
+  vertical-align: middle;
+}

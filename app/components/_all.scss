@@ -1,0 +1,47 @@
+@import "header/header";
+@import "nav/nav";
+@import "subnav/subnav";
+@import "footer/footer";
+
+
+.app-pane {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.app-pane__body {
+  position: relative;
+  display: flex;
+  min-height: 0;
+  flex: 1 1 100%;
+}
+
+
+.app-pane__nav {
+  border-right: 1px solid $govuk-border-colour;
+  width: 300px;
+  flex: 0 0 auto;
+}
+
+
+.app-pane__content {
+  display: flex;
+  margin-left: auto;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+
+.app-content {
+  flex: 1 0 auto;
+  padding: 30px;
+}
+
+
+.app-content p {
+  max-width: 38em;
+}
+
