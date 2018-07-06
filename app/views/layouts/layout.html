@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HMCTS Design System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <!--[if lte IE 8]><link href="/public/stylesheets/application-ie8.css" rel="stylesheet"><![endif]-->
+  <!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" rel="stylesheet"><!--<![endif]-->
+
+</head>
+<body>
+
+  <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+  {% block content %}{% endblock %}
+
+</body>
+</html>

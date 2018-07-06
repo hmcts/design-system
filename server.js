@@ -1,21 +1,24 @@
 // Core dependencies
-import path from 'path';
+const path = require('path');
 
 
 // NPM dependencies
-import express from 'express';
-import nunjucks from 'nunjucks';
+const express = require('express');
+const nunjucks = require('nunjucks');
 
 
 // Routing
-import router from './app/routes/index';
+const router = require('./app/routes/index');
 
-let app = express();
+
+const app = express();
 
 
 // Setup application
-let appViews = [
-  path.join(__dirname, 'app/views')
+const appViews = [
+  path.join(__dirname, 'app/views'),
+  path.join(__dirname, 'app/views/layouts'),
+  path.join(__dirname, 'app/views/partials')
 ];
 
 
@@ -37,12 +40,12 @@ app.use('/', router);
 
 
 // Start app on port 3000
-app.listen(3000, (err) => {  
+app.listen(3000, (err) => {
   if (err) {
     throw err;
   } else {
     console.log('Listening on port 3000!');
-  }  
+  }
 });
 
 
