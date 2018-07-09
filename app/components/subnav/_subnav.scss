@@ -1,22 +1,31 @@
+/* ==========================================================================
+   #SUBNAV
+   ========================================================================== */
+
 .app-subnav {
   @include govuk-font(16);
+  margin-top: govuk-spacing(3);
   padding: govuk-spacing(3);
-  margin-top: 20px;
 }
 
-.app-subnav__section {
+
+.app-subnav__list {
+  list-style-type: none;
   margin: 0 0 govuk-spacing(4);
   padding: 0;
-  list-style-type: none;
+}
+
+
+.app-subnav__list-item {
 
   a,
   a:link,
   a:visited {
-    display: block;
-    padding: 10px govuk-spacing(6) 10px govuk-spacing(2);
+    background-color: inherit;
     border-left: 4px solid transparent;
     color: govuk-colour("black");
-    background-color: inherit;
+    display: block;
+    padding: govuk-spacing(2);
     text-decoration: none;
   }
 
@@ -26,7 +35,9 @@
 
 }
 
-.app-subnav__section-item--current {
+
+.app-subnav__list-item--current {
+
   a,
   a:link,
   a:visited {
@@ -34,4 +45,5 @@
     border-left-color: govuk-colour("black");
     font-weight: bold;
   }
+
 }
