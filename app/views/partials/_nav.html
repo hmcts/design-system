@@ -1,9 +1,9 @@
 <nav class="app-nav">
   <ul class="app-nav__list">
-    <li class="app-nav__list-item"><a href="#">Get started</a></li>
-    <li class="app-nav__list-item app-nav__list-item--current"><a href="#">Styles</a></li>
-    <li class="app-nav__list-item"><a href="#">Components</a></li>
-    <li class="app-nav__list-item"><a href="#">Patterns</a></li>
-    <li class="app-nav__list-item"><a href="#">Community</a></li>
+    <li class="app-nav__list-item {% if sectionID == 'start' %} app-nav__list-item--current{% endif %}"><a href="/">Get started</a></li>
+    <li class="app-nav__list-item {% if sectionID == 'styles' %} app-nav__list-item--current{% endif %}"><a href="/styles">Styles</a></li>
+    <li class="app-nav__list-item {% if sectionID == 'components' %} app-nav__list-item--current{% endif %}"><a href="/components">Components</a></li>
+    <li class="app-nav__list-item {% if sectionID == 'patterns' %} app-nav__list-item--current{% endif %}"><a href="/patterns">Patterns</a></li>
+    <li class="app-nav__list-item {% if sectionID == 'community' %} app-nav__list-item--current{% endif %}"><a href="/community">Community</a></li>
   </ul>
 </nav>
