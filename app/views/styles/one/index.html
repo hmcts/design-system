@@ -1,5 +1,8 @@
 {% extends "layouts/layout.html" %}
 
+{% set sectionID = 'styles' %}
+{% set pageID = 'one' %}
+
 {% block content %}
 
 <div class="app-pane__body">
@@ -14,7 +17,13 @@
 
     <div class="app-content">
 
-      <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> Colour</h1>
+      <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> One</h1>
+
+      <div class="govuk-prose-scope">
+
+        {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+
+      </div>
 
     </div>
 

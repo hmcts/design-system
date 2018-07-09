@@ -18,14 +18,18 @@
   "homepage": "https://github.com/hmcts/hmcts-design-system#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "express-markdown": "0.0.6",
     "govuk-frontend": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "gulp-nodemon": "^2.2.1",
     "gulp-sass": "^4.0.1",
+    "markdown-it": "^8.4.1",
     "nunjucks": "^3.1.3",
+    "nunjucks-markdown": "^2.0.1",
     "require-dir": "^1.0.0",
     "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "marked": "^0.4.0"
   }
 }

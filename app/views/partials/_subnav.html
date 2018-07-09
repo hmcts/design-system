@@ -1,10 +1,10 @@
 <nav class="app-subnav">
+
+  {% if sectionID == 'styles' %}
   <ul class="app-subnav__list">
-    <li class="app-subnav__list-item app-subnav__list-item--current"><a href="#">Colour</a></li>
-    <li class="app-subnav__list-item"><a href="#">Images</a></li>
-    <li class="app-subnav__list-item"><a href="#">Layout</a></li>
-    <li class="app-subnav__list-item"><a href="#">Page templates</a></li>
-    <li class="app-subnav__list-item"><a href="#">Spacing</a></li>
-    <li class="app-subnav__list-item"><a href="#">Typography</a></li>
+    <li class="app-subnav__list-item {% if pageID == 'one' %} app-subnav__list-item--current {% endif %}"><a href="/{{sectionID}}/one">One</a></li>
+    <li class="app-subnav__list-item {% if pageID == 'two' %} app-subnav__list-item--current {% endif %}"><a href="/{{sectionID}}/two">Two</a></li>
   </ul>
+  {% endif %}
+
 </nav>

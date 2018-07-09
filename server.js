@@ -5,6 +5,8 @@ const path = require('path');
 // NPM dependencies
 const express = require('express');
 const nunjucks = require('nunjucks');
+const markdown = require('nunjucks-markdown');
+const marked = require('marked');
 
 
 // Routing
@@ -24,7 +26,7 @@ const appViews = [
 
 
 // Configurations
-nunjucks.configure(appViews, {
+var env = nunjucks.configure(appViews, {
   autoescape: true,
   express: app,
   noCache: true,
@@ -44,6 +46,24 @@ app.use('/assets', express.static(path.join(__dirname, 'node_modules', 'govuk-fr
 // Use routes
 app.use(routes);
 app.use(autoRoutes);
+
+
+var renderer = new marked.Renderer();
+
+marked.setOptions({
+  renderer: renderer,
+  gfm: true,
+  tables: true,
+  breaks: false,
+  pendantic: false,
+  sanitize: true,
+  smartLists: true,
+  smartypants: false
+});
+
+
+// markdown register
+markdown.register(env, marked);
 
 
 // Start app on port 3000
