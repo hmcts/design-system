@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %}
 
 {% set sectionID = "styles" %}
-{% set pageID = "one" %}
+{% set pageId = "one" %}
 
 {% block content %}
 
@@ -9,19 +9,7 @@
 
   <div class="app-pane__nav">
 
-    {{dsSubnav({
-      items: [
-        {
-          "title": "One",
-          "link": "/styles/one",
-          "selected": true
-        },
-        {
-          "title": "Two",
-          "link": "/styles/two"
-        }
-      ]
-    }) }}
+      {% include "_style-nav.html" %}
 
   </div>
 
