@@ -30,7 +30,7 @@ const appViews = [
 
 
 // Configurations
-var env = nunjucks.configure(appViews, {
+const env = nunjucks.configure(appViews, {
   autoescape: true,
   express: app,
   noCache: true,
@@ -46,12 +46,13 @@ app.use('/public', express.static(path.join(__dirname, '/public')));
 app.use('/assets', express.static(path.join(__dirname, 'node_modules', 'govuk-frontend', 'assets')));
 app.use('/assets', express.static(path.join(__dirname, '/node_modules/@hmcts/frontend/assets')));
 
+
 // Use routes
 app.use(routes);
 app.use(autoRoutes);
 
 
-var renderer = new marked.Renderer();
+const renderer = new marked.Renderer();
 
 marked.setOptions({
   renderer: renderer,
