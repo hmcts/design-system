@@ -1,2 +1,10 @@
-Here's where the timeline readme goes.
+Here's some guidance
+
+```html
+  <p>Some code</p>
+```
+
+```javascript
+  code.blah();
+```
 
