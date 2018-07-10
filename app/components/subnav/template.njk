@@ -1,0 +1,9 @@
+<nav class="app-subnav{% if params.classes %} {{ params.classes }}{% endif %}">
+
+  <ul class="app-subnav__list">
+    {% for item in params.items %}
+    <li class="app-subnav__list-item{% if item.selected %} app-subnav__list-item--selected{% endif %}"><a href="{{item.link}}">{{item.title}}</a></li>
+    {% endfor %}
+  </ul>
+
+</nav>
