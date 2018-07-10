@@ -1,59 +1,42 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/guidance.html" %}
 
+{% set sectionId = "components" %}
 {% set pageId = "timeline" %}
 
-{% block content %}
+{% block subNav %}
+  {% include "_components-subnav.html" %}
+{% endblock %}
 
-<div class="app-pane__body">
+{% block pageContent %}
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Components</span> Timeline</h1>
 
-  <div class="app-pane__nav">
+  {{hmctsTimeline({
+    events: [
+      {
+        title: "Response submitted",
+        by: "DWP Appeals Officer",
+        dateUtc: "2018-01-25T14:04",
+        date: "25 Jan 2018",
+        time: "14:04pm"
+      },
+      {
+        title: "Appeal marked as compliant",
+        by: "DJ DeVere",
+        dateUtc: "2017-12-05T09:10",
+        date: "5 Dec 2017",
+        time: "9:10am"
+      },
+      {
+        title: "Interlocutory referral to DJ DeVere",
+        by: "DLC Admin",
+        dateUtc: "2017-11-20T14:27",
+        date: "20 Nov 2017",
+        time: "14:27pm"
+      }
+    ]
+  }) }}
 
-    {% include "_components-subnav.html" %}
-
+  <div class="govuk-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
   </div>
-
-  <div class="app-pane__content">
-
-    <div class="app-content">
-
-      <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Components</span> Timeline</h1>
-
-      {{hmctsTimeline({
-        events: [
-          {
-            title: "Response submitted",
-            by: "DWP Appeals Officer",
-            dateUtc: "2018-01-25T14:04",
-            date: "25 Jan 2018",
-            time: "14:04pm"
-          },
-          {
-            title: "Appeal marked as compliant",
-            by: "DJ DeVere",
-            dateUtc: "2017-12-05T09:10",
-            date: "5 Dec 2017",
-            time: "9:10am"
-          },
-          {
-            title: "Interlocutory referral to DJ DeVere",
-            by: "DLC Admin",
-            dateUtc: "2017-11-20T14:27",
-            date: "20 Nov 2017",
-            time: "14:27pm"
-          }
-        ]
-      }) }}
-
-      <div class="govuk-prose-scope">
-        {% markdown %}{% include "./README.md" %}{% endmarkdown %}
-      </div>
-
-    </div>
-
-    {% include "_footer.html" %}
-
-  </div>
-
-</div>
-
 {% endblock %}

@@ -1,27 +1,11 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/guidance.html" %}
 
-{% block content %}
+{% set sectionId = "styles" %}
 
-<div class="app-pane__body">
+{% block subNav %}
+  {% include "_styles-subnav.html" %}
+{% endblock %}
 
-  <div class="app-pane__nav">
-
-    {% include "_styles-subnav.html" %}
-
-  </div>
-
-  <div class="app-pane__content">
-
-    <div class="app-content">
-
-      <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> Colour</h1>
-
-    </div>
-
-    {% include "_footer.html" %}
-
-  </div>
-
-</div>
-
+{% block pageContent %}
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> Colour</h1>
 {% endblock %}
