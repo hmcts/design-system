@@ -1,27 +1,11 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/guidance.html" %}
 
-{% block content %}
+{% set sectionId = "patterns" %}
 
-<div class="app-pane__body">
+{% block subNav %}
+  {% include "_patterns-subnav.html" %}
+{% endblock %}
 
-  <div class="app-pane__nav">
-
-    {% include "_patterns-subnav.html" %}
-
-  </div>
-
-  <div class="app-pane__content">
-
-    <div class="app-content">
-
-      <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> Patterns</h1>
-
-    </div>
-
-    {% include "_footer.html" %}
-
-  </div>
-
-</div>
-
+{% block pageContent %}
+  <h1 class="govuk-heading-xl">Patterns</h1>
 {% endblock %}

@@ -1,9 +1,29 @@
-<nav class="app-nav">
-  <ul class="app-nav__list">
-    <li class="app-nav__list-item {% if sectionId == 'start' %} app-nav__list-item--current{% endif %}"><a href="/">Get started</a></li>
-    <li class="app-nav__list-item {% if sectionId == 'styles' %} app-nav__list-item--current{% endif %}"><a href="/styles">Styles</a></li>
-    <li class="app-nav__list-item {% if sectionId == 'components' %} app-nav__list-item--current{% endif %}"><a href="/components">Components</a></li>
-    <li class="app-nav__list-item {% if sectionId == 'patterns' %} app-nav__list-item--current{% endif %}"><a href="/patterns">Patterns</a></li>
-    <li class="app-nav__list-item {% if sectionId == 'community' %} app-nav__list-item--current{% endif %}"><a href="/community">Community</a></li>
-  </ul>
-</nav>
+{{dsNav({
+  items: [
+    {
+      title: "Get started",
+      link: "/",
+      selected: sectionId == 'started'
+    },
+    {
+      title: "Styles",
+      link: "/styles",
+      selected: sectionId == 'styles'
+    },
+    {
+      title: "Components",
+      link: "/components",
+      selected: sectionId == 'components'
+    },
+    {
+      title: "Patterns",
+      link: "/patterns",
+      selected: sectionId == 'patterns'
+    },
+    {
+      title: "Community",
+      link: "/community",
+      selected: sectionId == 'community'
+    }
+  ]
+}) }}
