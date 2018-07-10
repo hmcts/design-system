@@ -1,36 +1,15 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/guidance.html" %}
 
 {% set sectionID = "styles" %}
 {% set pageId = "one" %}
 
-{% block content %}
+{% block subNav %}
+  {% include "_style-nav.html" %}
+{% endblock %}
 
-<div class="app-pane__body">
-
-  <div class="app-pane__nav">
-
-      {% include "_style-nav.html" %}
-
+{% block pageContent %}
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> One</h1>
+  <div class="govuk-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
   </div>
-
-  <div class="app-pane__content">
-
-    <div class="app-content">
-
-      <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> One</h1>
-
-      <div class="govuk-prose-scope">
-
-        {% markdown %}{% include "./README.md" %}{% endmarkdown %}
-
-      </div>
-
-    </div>
-
-    {% include "_footer.html" %}
-
-  </div>
-
-</div>
-
 {% endblock %}
