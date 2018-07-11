@@ -1,27 +1,11 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/guidance.html" %}
 
-{% block content %}
+{% set sectionId = "community" %}
 
-<div class="app-pane__body">
+{% block subNav %}
+  {% include "community-subnav.html" %}
+{% endblock %}
 
-  <div class="app-pane__nav">
-
-    {% include "community-subnav.html" %}
-
-  </div>
-
-  <div class="app-pane__content">
-
-    <div class="app-content">
-
-      <h1 class="govuk-heading-xl">Community</h1>
-
-    </div>
-
-    {% include "footer.html" %}
-
-  </div>
-
-</div>
-
+{% block pageContent %}
+  <h1 class="govuk-heading-xl">Community</h1>
 {% endblock %}
