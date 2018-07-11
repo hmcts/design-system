@@ -1,6 +1,23 @@
-.app-footer {
-  background-color: govuk-colour("grey-3");
-  border-top: 1px solid $govuk-border-colour;
-  color: govuk-colour("grey-1");
-  padding: 40px 30px 25px 30px;
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.app-width-container--full {
+  max-width: 100%;
+  padding: 0;
+
+  @include govuk-media-query($from: desktop) {
+    margin: 0 auto;
+    padding: 0 govuk-spacing(6);
+  }
+
+}
+
+.app-footer .govuk-footer__section-break {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.app-footer .govuk-visually-hidden {
+  position: relative;
 }
