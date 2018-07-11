@@ -3,8 +3,10 @@
    ========================================================================== */
 
 .app-nav {
-  @include govuk-font(16);
+  @include govuk-font(19);
   border-bottom: 1px solid $govuk-border-colour;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
@@ -25,15 +27,16 @@
   a:link,
   a:visited {
     border-bottom: 4px solid transparent;
-    color: govuk-colour("black");
+    color: govuk-colour("purple");
     display: block;
+    font-weight: bold;
     padding: govuk-spacing(3);
     padding-bottom: govuk-spacing(3) - 4px; // Compensate for 4px border
     text-decoration: none;
   }
 
   a:hover {
-    border-bottom-color: govuk-colour("grey-3");
+    border-bottom-color: govuk-colour("light-purple");
   }
 
 }
@@ -44,9 +47,8 @@
   a,
   a:link,
   a:visited {
-    border-bottom-color: govuk-colour("black");
-    color: govuk-colour("black");
-    font-weight: bold;
+    border-bottom-color: govuk-colour("purple");
+    color: govuk-colour("purple");
   }
 
 }

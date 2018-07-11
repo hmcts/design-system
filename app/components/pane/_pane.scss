@@ -2,45 +2,176 @@
    #PANE
    ========================================================================== */
 
-.app-pane {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+  $toc-width: 300px;
+  $toc-width-tablet: 210px;
+
+
+
+
+
+.app-link {
+
+  &:link,
+  &:visited {
+    color: govuk-colour("purple");
+  }
+
+  &:hover {
+    color: govuk-colour("light-purple");
+  }
+
 }
 
 
-.app-pane__body {
-  display: flex;
-  flex: 1 1 100%;
-  min-height: 0;
-  position: relative;
-}
+  .app-pane.app-pane--enabled {
+    $pane-height: 100vh;
+    overflow: hidden;
+
+    @include govuk-media-query($from: tablet) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @include govuk-media-query($from: tablet, $and: '(orientation: portrait)') {
+        height: $pane-height;
+    }
+
+    @include govuk-media-query($from: desktop) {
+      height: $pane-height;
+    }
+
+  }
 
 
-.app-pane__nav {
-  border-right: 1px solid $govuk-border-colour;
-  flex: 0 0 auto;
-  overflow-y: scroll;
-  width: 300px;
-}
+  .app-pane__header {
+
+    @include govuk-media-query($from: tablet) {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 auto;
+
+      > * {
+        flex: 1 0 auto;
+      }
+
+    }
+
+  }
 
 
-.app-pane__content {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  margin-left: auto;
-  overflow-y: scroll;
-}
+  .app-pane__body {
+
+    @include govuk-media-query($from: tablet) {
+      display: flex;
+      position: relative;
+      min-height: 0;
+      flex: 1 1 100%;
+
+      > * {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+      }
+
+    }
+
+  }
+
+
+  .app-pane__subnav {
+    border-right: 1px solid $govuk-border-colour;
+
+    @include govuk-media-query($from: tablet) {
+      width: $toc-width-tablet;
+      border-right: 1px solid $govuk-border-colour;
+      flex: 0 0 auto;
+    }
+
+    @include govuk-media-query($from: desktop) {
+      width: $toc-width;
+    }
+
+  }
+
+
+  .app-pane__content {
+    @include govuk-media-query($from: tablet) {
+      display: flex;
+      margin-left: auto;
+      flex: 1 1 auto;
+      flex-direction: column;
+
+      // Stick footer to bottom of screen if content is shorter than viewport
+      .app-content {
+        display: block;
+        flex: 1 0 auto;
+      }
+
+    }
+
+  }
+
 
 
 .app-content {
-  flex: 1 0 auto;
-  padding: 30px;
+  @include govuk-responsive-padding(6);
 }
 
 
-.app-content p {
-  max-width: 38em;
+
+
+// .app-pane {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100vh;
+//   overflow: hidden;
+// }
+
+
+// .app-pane__body {
+//   display: flex;
+//   flex: 1 1 100%;
+//   min-height: 0;
+//   position: relative;
+// }
+
+
+// .app-pane__nav {
+//   border-right: 1px solid $govuk-border-colour;
+//   flex: 0 0 auto;
+//   overflow-y: scroll;
+//   width: 300px;
+// }
+
+
+// .app-pane__content {
+//   display: flex;
+//   flex: 1 1 auto;
+//   flex-direction: column;
+//   margin-left: auto;
+//   overflow-y: scroll;
+// }
+
+
+// .app-content {
+//   flex: 1 0 auto;
+//   padding: 30px;
+// }
+
+
+// .app-content p {
+//   max-width: 38em;
+// }
+
+
+
+.app-width-container {
+  max-width: 100%;
+  padding: 0;
+
+  @include govuk-media-query($from: desktop) {
+    margin: 0 auto;
+    padding: 0 govuk-spacing(6);
+  }
+
 }

@@ -1,29 +1,33 @@
-{{dsNav({
-  items: [
-    {
-      title: 'Get started',
-      link: '/',
-      selected: sectionId == 'started'
-    },
-    {
-      title: 'Styles',
-      link: '/styles',
-      selected: sectionId == 'styles'
-    },
-    {
-      title: 'Components',
-      link: '/components',
-      selected: sectionId == 'components'
-    },
-    {
-      title: 'Patterns',
-      link: '/patterns',
-      selected: sectionId == 'patterns'
-    },
-    {
-      title: 'Community',
-      link: '/community',
-      selected: sectionId == 'community'
-    }
-  ]
-}) }}
+<div class="app-pane__nav">
+
+  {{dsNav({
+    items: [
+      {
+        title: 'Get started',
+        link: '/get-started',
+        selected: sectionId == 'get-started'
+      },
+      {
+        title: 'Styles',
+        link: '/styles',
+        selected: sectionId == 'styles'
+      },
+      {
+        title: 'Components',
+        link: '/components',
+        selected: sectionId == 'components'
+      },
+      {
+        title: 'Patterns',
+        link: '/patterns',
+        selected: sectionId == 'patterns'
+      },
+      {
+        title: 'Community',
+        link: '/community',
+        selected: sectionId == 'community'
+      }
+    ]
+  }) }}
+
+</div>

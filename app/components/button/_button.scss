@@ -1,0 +1,47 @@
+@function tint(
+  $color,
+  $percent
+) {
+  @if not _is-color($color) {
+    @error "`#{$color}` is not a valid color for the `$color` argument in " +
+    "the `tint` mixin.";
+  } @else {
+    @return mix(#ffffff, $color, $percent);
+  }
+}
+
+
+@function shade(
+  $color,
+  $percent
+) {
+  @if not _is-color($color) {
+    @error "`#{$color}` is not a valid color for the `$color` argument in " +
+    "the `tint` mixin.";
+  } @else {
+    @return mix(#000000, $color, $percent);
+  }
+}
+
+
+$button-shadow-size: $govuk-border-width-form-element;
+$app-button-inverted-background-colour: govuk-colour("white");
+$app-button-inverted-foreground-colour: govuk-colour("purple");
+$app-button-inverted-shadow-colour: shade($app-button-inverted-foreground-colour, 30%);
+
+
+.app-button--inverted,
+.app-button--inverted:link,
+.app-button--inverted:visited {
+  background-image: url('/public/images/app-icon-pointer.svg');
+  color: $app-button-inverted-foreground-colour;
+  background-color: $app-button-inverted-background-colour;
+  box-shadow: 0 $button-shadow-size 0 $app-button-inverted-shadow-colour;
+}
+
+
+.app-button--inverted:hover,
+.app-button--inverted:focus {
+  color: $app-button-inverted-foreground-colour !important;
+  background-color: tint($app-button-inverted-foreground-colour, 90%);
+}

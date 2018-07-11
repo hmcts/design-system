@@ -23,14 +23,14 @@
   a:visited {
     background-color: inherit;
     border-left: 4px solid transparent;
-    color: govuk-colour("black");
+    color: govuk-colour("purple");
     display: block;
     padding: govuk-spacing(2);
     text-decoration: none;
   }
 
   a:hover {
-    border-left-color: govuk-colour("grey-3");
+    border-left-color: govuk-colour("light-purple");
   }
 
 }
@@ -42,7 +42,7 @@
   a:link,
   a:visited {
     background-color: govuk-colour("grey-4");
-    border-left-color: govuk-colour("black");
+    border-left-color: govuk-colour("purple");
     font-weight: bold;
   }
 

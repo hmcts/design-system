@@ -1,16 +1,31 @@
-{% extends "layouts/default.html" %}
+{% extends "layouts/base.html" %}
 
+{% block body %}
 
-{% block content %}
-  <div class="app-pane__body">
-    <div class="app-pane__nav">
-      {% block subNav %}{% endblock %}
-    </div>
-    <div class="app-pane__content">
-      <div class="app-content">
-        {% block pageContent %}{% endblock %}
+  <div class="app-pane app-pane--enabled">
+
+    {% include "header.html" %}
+
+    {% include "nav.html" %}
+
+    <div class="app-pane__body">
+
+      <div class="app-pane__subnav">
+        {% block subNav %}{% endblock %}
       </div>
-      {% include "footer.html" %}
+
+      <div class="app-pane__content">
+
+        <main class="app-content" role="main">
+          {% block pageContent %}{% endblock %}
+        </main>
+
+        {% include "footer.html" %}
+
+      </div>
+
     </div>
+
   </div>
+
 {% endblock %}
