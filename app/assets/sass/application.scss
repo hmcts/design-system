@@ -10,7 +10,12 @@ $govuk-global-styles: true;
 @import "../../components/all";
 
 
+html {
+  background-color: govuk-colour("grey-3");
+}
+
 body {
+  background-color: govuk-colour("white");
   margin: 0;
 }
 
