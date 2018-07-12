@@ -19,10 +19,12 @@ Here’s some guidance
 
   <div class="app-tabs__panel" id="html">
     <h2 class="govuk-heading-s">HTML</h2>
+    {# {{getHtmlCode('./app/views/components/timeline/examples/includes/default.html') | escape }} #}
   </div>
 
   <div class="app-tabs__panel" id="nunjucks">
     <h2 class="govuk-heading-s">Nunjucks</h2>
+    {# {{ getNunjucksCode('./app/views/components/timeline/examples/includes/default.html') | safe }} #}
   </div>
 
 </div>
