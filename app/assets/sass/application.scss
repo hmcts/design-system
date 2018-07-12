@@ -40,3 +40,7 @@ body {
 //   }
 
 // }
+
+code {
+  @include govuk-font($size: 19)
+}

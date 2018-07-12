@@ -1,4 +1,5 @@
 {%- from "timeline/macro.njk" import hmctsTimeline %}
+{%- from "example/macro.njk" import dsExample %}
 {%- from "nav/macro.njk" import dsNav %}
 {%- from "subnav/macro.njk" import dsSubnav %}
 
@@ -21,6 +22,9 @@
 
   <meta name="description" content="">
   <meta property="og:image" content="/assets/images/govuk-opengraph-image.png">
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 
   <!--[if lte IE 8]><link href="/public/stylesheets/application-ie8.css" rel="stylesheet"><![endif]-->
   <!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" rel="stylesheet"><!--<![endif]-->

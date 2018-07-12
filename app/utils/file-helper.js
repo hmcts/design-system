@@ -42,8 +42,6 @@ exports.getHtmlCode = path => {
   let fileContents = this.getFileContents(path);
   let parsedFile = matter(fileContents);
   let content = parsedFile.content;
-  console.log('the content')
-  console.log(content);
   let html;
   try {
     html = nunjucks.renderString(content);

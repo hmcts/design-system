@@ -8,6 +8,9 @@ const nunjucks = require('nunjucks');
 const markdown = require('nunjucks-markdown');
 const marked = require('marked');
 const fileHelper = require('./app/utils/file-helper');
+const NunjucksCodeHighlight = require('nunjucks-highlight.js');
+const hljs = require('highlight.js');
+const highlight = new NunjucksCodeHighlight(nunjucks, hljs);
 
 // Routing
 const routes = require('./app/routes/index');
@@ -40,6 +43,7 @@ const nunjucksEnvironment = nunjucks.configure(appViews, {
 
 nunjucksEnvironment.addGlobal('getNunjucksCode', fileHelper.getNunjucksCode);
 nunjucksEnvironment.addGlobal('getHtmlCode', fileHelper.getHtmlCode);
+nunjucksEnvironment.addExtension('NunjucksCodeHighlight', highlight);
 
 // Set view engine
 app.set('view engine', 'html');
@@ -62,11 +66,11 @@ marked.setOptions({
   renderer: renderer,
   gfm: true,
   tables: true,
-  breaks: false,
-  pendantic: false,
+  breaks: true,
+  pendantic: true,
   sanitize: false,
   smartLists: true,
-  smartypants: false
+  smartypants: true
 });
 
 
