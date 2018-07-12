@@ -119,49 +119,31 @@
 
 
 
-
-// .app-pane {
-//   display: flex;
-//   flex-direction: column;
-//   height: 100vh;
-//   overflow: hidden;
-// }
+html, body { height: 100%; }
 
 
-// .app-pane__body {
-//   display: flex;
-//   flex: 1 1 100%;
-//   min-height: 0;
-//   position: relative;
-// }
+// App example
+.app-example {
+  border: 1px solid $govuk-border-colour;
+  overflow: hidden;
+  background-color: govuk-colour("white");
+}
 
 
-// .app-pane__nav {
-//   border-right: 1px solid $govuk-border-colour;
-//   flex: 0 0 auto;
-//   overflow-y: scroll;
-//   width: 300px;
-// }
+.app-example__frame {
+  background-color: govuk-colour("white");
+  border: 0;
+  display: block;
+  width: 100%;
+}
 
 
-// .app-pane__content {
-//   display: flex;
-//   flex: 1 1 auto;
-//   flex-direction: column;
-//   margin-left: auto;
-//   overflow-y: scroll;
-// }
 
 
-// .app-content {
-//   flex: 1 0 auto;
-//   padding: 30px;
-// }
-
-
-// .app-content p {
-//   max-width: 38em;
-// }
+.app-example-page {
+  padding: 20px;
+  margin-bottom: -1px;
+}
 
 
 
