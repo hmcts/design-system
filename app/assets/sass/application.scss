@@ -10,28 +10,33 @@ $govuk-global-styles: true;
 @import "../../components/all";
 
 
+// html {
+//   background-color: govuk-colour("grey-3");
+// }
+
 body {
+  // background-color: govuk-colour("white");
   margin: 0;
 }
 
 
 // Recreate prose scope for use with markdown
-.govuk-prose-scope {
+// .govuk-prose-scope {
 
-  h1 {
-    @extend %govuk-heading-xl;
-  }
+//   h1 {
+//     @extend %govuk-heading-xl;
+//   }
 
-  h2 {
-    @extend %govuk-heading-l;
-  }
+//   h2 {
+//     @extend %govuk-heading-l;
+//   }
 
-  h3 {
-    @extend %govuk-heading-m;
-  }
+//   h3 {
+//     @extend %govuk-heading-m;
+//   }
 
-  h4 {
-    @extend %govuk-heading-s;
-  }
+//   h4 {
+//     @extend %govuk-heading-s;
+//   }
 
-}
+// }

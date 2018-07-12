@@ -1,16 +1,30 @@
-Here's some guidance
+Here’s some guidance
 
-<div class="example">
-  <iframe src="/components/timeline/examples/default" width="600" height="300"></iframe>
+<div class="app-example">
+
+  <!-- <span class="app-example__new-window">
+    <a href="#">Open this example in a new window</a>
+  </span> -->
+
+  <iframe class="app-example__frame" scrolling="auto" frameborder="0" height="300" src="/components/timeline/examples/default"></iframe>
+
 </div>
 
-```HTML
-  {{ getNunjucksCode('./app/views/components/timeline/examples/includes/default.html') | safe }}
-```
+<div class="app-tabs">
 
-```HTML
-  {{ getHtmlCode('./app/views/components/timeline/examples/includes/default.html') | safe }}
-```
+  <ul class="app-tabs__list">
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html">HTML</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks">Nunjucks</a></li>
+  </ul>
 
+  <div class="app-tabs__panel" id="html">
+    <h2 class="govuk-heading-s">HTML</h2>
+    {# {{getHtmlCode('./app/views/components/timeline/examples/includes/default.html') | escape }} #}
+  </div>
 
+  <div class="app-tabs__panel" id="nunjucks">
+    <h2 class="govuk-heading-s">Nunjucks</h2>
+    {# {{ getNunjucksCode('./app/views/components/timeline/examples/includes/default.html') | safe }} #}
+  </div>
 
+</div>

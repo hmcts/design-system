@@ -1,0 +1,18 @@
+/* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+
+.app-button-start,
+.app-button-start:link,
+.app-button-start:visited {
+  @include govuk-font($size: 19, $weight: bold);
+  background: govuk-colour("white") url("/public/images/app-icon-pointer.svg") no-repeat 100% 50%;
+  box-shadow: 0 2px 0 0 rgba(0,0,0,.50);
+  color: govuk-colour("purple");
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 38px;
+  text-decoration: none;
+}
