@@ -7,7 +7,7 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 const markdown = require('nunjucks-markdown');
 const marked = require('marked');
-
+const fileHelper = require('./app/utils/file-helper');
 
 // Routing
 const routes = require('./app/routes/index');
@@ -24,19 +24,22 @@ const appViews = [
   path.join(__dirname, '/node_modules/@hmcts/frontend/'),
   path.join(__dirname, '/node_modules/@hmcts/frontend/components'),
   path.join(__dirname, 'app/views'),
+  path.join(__dirname, 'app/views/components'),
   path.join(__dirname, 'app/views/layouts'),
   path.join(__dirname, 'app/views/partials'),
   path.join(__dirname, 'app/components')
 ];
 
-
 // Configurations
-const env = nunjucks.configure(appViews, {
+const nunjucksEnvironment = nunjucks.configure(appViews, {
   autoescape: true,
   express: app,
   noCache: true,
   watch: true
 });
+
+nunjucksEnvironment.addGlobal('getNunjucksCode', fileHelper.getNunjucksCode);
+nunjucksEnvironment.addGlobal('getHtmlCode', fileHelper.getHtmlCode);
 
 // Set view engine
 app.set('view engine', 'html');
@@ -68,8 +71,7 @@ marked.setOptions({
 
 
 // markdown register
-markdown.register(env, marked);
-
+markdown.register(nunjucksEnvironment, marked);
 
 // Start app on port 3000
 app.listen(3000, (err) => {

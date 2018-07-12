@@ -4,11 +4,13 @@ Here's some guidance
   <iframe src="/components/timeline/examples/default" width="600" height="300"></iframe>
 </div>
 
-```html
-  <p>Some code</p>
+```HTML
+  {{ getNunjucksCode('./app/views/components/timeline/examples/includes/default.html') | safe }}
 ```
 
-```javascript
-  code.blah();
+```HTML
+  {{ getHtmlCode('./app/views/components/timeline/examples/includes/default.html') | safe }}
 ```
+
+
 
