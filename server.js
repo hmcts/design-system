@@ -17,6 +17,11 @@ const routes = require('./app/routes/index');
 const autoRoutes = require('./app/routes/auto');
 
 
+// Port
+const port = process.env.PORT || 3000;
+
+
+// App
 const app = express();
 
 
@@ -77,13 +82,16 @@ marked.setOptions({
 // markdown register
 markdown.register(nunjucksEnvironment, marked);
 
+
 // Start app on port 3000
-app.listen(3000, (err) => {
+app.listen(port, (err) => {
+
   if (err) {
-    throw err;
+      throw err;
   } else {
-    console.log('Listening on port 3000!');
+      console.log('Listening on port 3000!');
   }
+
 });
 
 
