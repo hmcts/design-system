@@ -43,7 +43,7 @@ Tabs.prototype.setupHtml = function() {
   }, this));
 
   // setup state
-  this.tabs.attr('tabindex', '-1');
+  // this.tabs.attr('tabindex', '-1');
   this.panels.addClass(this.cssHide);
 
 };
@@ -109,12 +109,12 @@ Tabs.prototype.hidePanel = function(tab) {
 
 Tabs.prototype.unhighlightTab = function(tab) {
   tab.attr('aria-selected', 'false');
-  tab.attr('tabindex', '-1');
+  // tab.attr('tabindex', '-1');
 };
 
 Tabs.prototype.highlightTab = function(tab) {
   tab.attr('aria-selected', 'true');
-  tab.attr('tabindex', '0');
+  // tab.attr('tabindex', '0');
 };
 
 Tabs.prototype.getCurrentTab = function() {
