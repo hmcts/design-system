@@ -38,5 +38,12 @@
 
   {% include "svg.html" %}
 
+  {% block bodyEnd %}
+    {% block scripts %}
+      {% include "scripts.html" %}
+      {% block pageScripts %}{% endblock %}
+    {% endblock %}
+  {% endblock %}
+
 </body>
 </html>

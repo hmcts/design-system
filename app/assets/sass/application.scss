@@ -12,3 +12,25 @@ $govuk-global-styles: true;
 body {
   margin: 0;
 }
+
+
+// Recreate prose scope for use with markdown
+.app-prose-scope {
+
+  h1 {
+    @extend %govuk-heading-xl;
+  }
+
+  h2 {
+    @extend %govuk-heading-l;
+  }
+
+  h3 {
+    @extend %govuk-heading-m;
+  }
+
+  h4 {
+    @extend %govuk-heading-s;
+  }
+
+}

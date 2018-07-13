@@ -26,7 +26,7 @@
 
   <ul class="app-tabs__list">
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html">HTML</a></li>
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks" aria-selected="true">Nunjucks</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks">Nunjucks</a></li>
   </ul>
 
   <div class="app-tabs__panel js-hidden" id="html">
@@ -34,7 +34,7 @@
     <button class="app-tabs__close" type="button">Close</button>
   </div>
 
-  <div class="app-tabs__panel" id="nunjucks">
+  <div class="app-tabs__panel js-hidden" id="nunjucks">
     {{nunjucksCode | safe}}
     <button class="app-tabs__close" type="button">Close</button>
   </div>
