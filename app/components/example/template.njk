@@ -15,7 +15,7 @@
 <div class="app-example">
 
   <span class="app-example__new-window">
-    <a href="#">Open this example in a new window</a>
+    <a href="/components/timeline/examples/default" target="_blank">Open this example in a new window</a>
   </span>
 
   <iframe class="app-example__frame" scrolling="auto" frameborder="0" height="350" src="/components/timeline/examples/default"></iframe>
@@ -30,17 +30,13 @@
   </ul>
 
   <div class="app-tabs__panel js-hidden" id="html">
-
     {{htmlCode | safe}}
-
+    <button class="app-tabs__close" type="button">Close</button>
   </div>
 
   <div class="app-tabs__panel" id="nunjucks">
-
     {{nunjucksCode | safe}}
-
     <button class="app-tabs__close" type="button">Close</button>
-
   </div>
 
 </div>
