@@ -14,18 +14,18 @@
 
 <div class="app-example">
 
-  <!-- <span class="app-example__new-window">
+  <span class="app-example__new-window">
     <a href="#">Open this example in a new window</a>
-  </span> -->
+  </span>
 
-  <iframe class="app-example__frame" scrolling="auto" frameborder="0" height="300" src="/components/timeline/examples/default"></iframe>
+  <iframe class="app-example__frame" scrolling="auto" frameborder="0" height="350" src="/components/timeline/examples/default"></iframe>
 
 </div>
 
 <div class="app-tabs">
 
   <ul class="app-tabs__list">
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html">HTML</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html" aria-selected="true">HTML</a></li>
     <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks">Nunjucks</a></li>
   </ul>
 
@@ -33,7 +33,7 @@
     {{nunjucksCode | safe}}
   </div>
 
-  <div class="app-tabs__panel" id="html">
+  <div class="app-tabs__panel js-hidden" id="html">
     {{htmlCode | safe}}
   </div>
 
