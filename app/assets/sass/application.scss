@@ -33,4 +33,34 @@ body {
     @extend %govuk-heading-s;
   }
 
+  p {
+    @extend %govuk-body-m;
+  }
+
+  strong, b {
+    @include govuk-typography-weight-bold;
+  }
+
+  ul, ol {
+    @extend %govuk-list;
+  }
+
+  ol {
+    @extend %govuk-list--number;
+  }
+
+  ul {
+    @extend %govuk-list--bullet;
+  }
+
+  a {
+    @extend %govuk-link;
+  }
+
+  hr {
+    @extend %govuk-section-break;
+    @extend %govuk-section-break--visible;
+    @extend %govuk-section-break--xl;
+  }
+
 }
