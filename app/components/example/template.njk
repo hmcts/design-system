@@ -25,18 +25,16 @@
 <div class="app-tabs">
 
   <ul class="app-tabs__list">
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html" aria-selected="true">HTML</a></li>
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks">Nunjucks</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html">HTML</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks" aria-selected="true">Nunjucks</a></li>
   </ul>
-
-  <div class="app-tabs__panel" id="nunjucks">
-    {{nunjucksCode | safe}}
-  </div>
 
   <div class="app-tabs__panel js-hidden" id="html">
     {{htmlCode | safe}}
   </div>
 
-
+  <div class="app-tabs__panel" id="nunjucks">
+    {{nunjucksCode | safe}}
+  </div>
 
 </div>
