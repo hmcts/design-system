@@ -14,6 +14,43 @@ body {
 }
 
 
+// App utility classes
+.js-enabled .app-js-hidden {
+  display: none;
+}
+
+
+@mixin ds-link-style-default {
+
+  &:link {
+    color: govuk-colour("purple");
+  }
+
+  &:visited {
+    color: govuk-colour("purple");
+  }
+
+  &:hover {
+    color: govuk-colour("light-purple");
+  }
+
+  &:active {
+    color: govuk-colour("black");
+  }
+
+  &:focus {
+    color: govuk-colour("black");
+  }
+
+}
+
+
+// Override default link colour
+%govuk-list a {
+  @include ds-link-style-default;
+}
+
+
 // Recreate prose scope for use with markdown
 .app-prose-scope {
 
@@ -49,12 +86,12 @@ body {
     @extend %govuk-list--number;
   }
 
-  ul {
-    @extend %govuk-list--bullet;
+  a {
+    @include ds-link-style-default;
   }
 
-  a {
-    @extend %govuk-link;
+  ul {
+    @extend %govuk-list--bullet;
   }
 
   hr {

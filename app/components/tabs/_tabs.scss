@@ -25,6 +25,8 @@
 
 .app-tabs__tab {
   @include govuk-font($size: 19, $weight: bold);
+  background-color: govuk-colour("white");
+  color: govuk-colour("purple");
   padding: 20px;
   display: block;
   text-decoration: none;

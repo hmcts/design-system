@@ -1,7 +1,7 @@
 var Tabs = function(container) {
   this.container = container;
   this.keys = { left: 37, right: 39, up: 38, down: 40 };
-  this.cssHide = 'js-hidden';
+  this.cssHide = 'app-js-hidden';
   this.tabs = container.find('.app-tabs__tab');
   this.panels = container.find('.app-tabs__panel');
   this.container.on('click', '[role=tab]', $.proxy(this, 'onTabClick'));

@@ -29,3 +29,5 @@ Some more stuff
 Some more again
 
 ## Research on this component
+
+[I’m an inline-style link](https://www.google.com)
