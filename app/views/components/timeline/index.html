@@ -9,5 +9,7 @@
 
 {% block pageContent %}
   <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Components</span> Timeline</h1>
-  {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
 {% endblock %}

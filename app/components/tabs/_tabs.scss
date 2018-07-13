@@ -4,10 +4,11 @@
 
 .app-tabs {
   background: govuk-colour("white");
+  margin-bottom: govuk-spacing(6);
 }
 
 
-.app-tabs__list {
+.app-prose-scope .app-tabs__list {
   border: 1px solid $govuk-border-colour;
   border-top: 0;
   font-size: 0; // Remove white space when using display: inline-block
@@ -16,9 +17,10 @@
 }
 
 
-.app-tabs__list-item {
+.app-prose-scope .app-tabs__list-item {
   border-right: 1px solid $govuk-border-colour;
   display: inline-block;
+  margin: 0;
 }
 
 .app-tabs__tab {
