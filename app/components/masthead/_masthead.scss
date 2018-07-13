@@ -3,6 +3,8 @@
   @include govuk-responsive-padding(6, "bottom");
   background-color: govuk-colour("purple");
   color: govuk-colour("white");
+
+  margin-top: -1px; // Covers the navigation border bottom
 }
 
 .app-masthead__title {
