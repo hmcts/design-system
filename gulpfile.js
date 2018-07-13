@@ -21,6 +21,7 @@ gulp.task('generate-assets', () => {
   runSequence(
     'clean',
     'copy-assets',
+    'copy-component-javascript',
     'sass'
   );
 });
@@ -28,6 +29,7 @@ gulp.task('generate-assets', () => {
 
 gulp.task('watch', () => {
   runSequence(
-    'watch-sass'
+    'watch-sass',
+    'watch-assets'
   );
 });
