@@ -1,6 +1,4 @@
-Use the Timeline component to show a linear record of what's happened.
-
-{{dsExample()}}
+Use the Progress bar component to show users which stage of the journey they’re at. 
 
 ## When to use this component
 
@@ -27,7 +25,5 @@ Some more stuff
 ### Sub heading
 
 Some more again
-
-[GitHub](http://github.com)
 
 ## Research on this component

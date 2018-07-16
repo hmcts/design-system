@@ -3,20 +3,39 @@ $govuk-global-styles: true;
 
 // Import GOV.UK Frontend
 @import "node_modules/govuk-frontend/all";
-
 @import "node_modules/@hmcts/frontend/all";
+
 
 // Import HMCTS Components
 @import "../../components/all";
 
+
+html {
+  background-color: govuk-colour("grey-3");
+}
+
 body {
+  background-color: govuk-colour("white");
   margin: 0;
 }
 
 
-// App utility classes
-.js-enabled .app-js-hidden {
-  display: none;
+.app-hide-mobile {
+  @include govuk-media-query($until: mobile) {
+    display: none;
+  }
+}
+
+.app-hide-tablet {
+  @include govuk-media-query($from: tablet) {
+    display: none;
+  }
+}
+
+.app-hide-desktop {
+  @include govuk-media-query($from: desktop) {
+    display: none;
+  }
 }
 
 
@@ -45,9 +64,52 @@ body {
 }
 
 
-// Override default link colour
-%govuk-list a {
-  @include ds-link-style-default;
+// a:not(.app-example-page) {
+//   @include ds-link-style-default;
+// }
+
+
+// App utility classes
+.js-enabled .app-js-hidden {
+  display: none;
+}
+
+
+.app-content {
+
+  //@include govuk-responsive-padding(6);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul:not(.app-tabs__list),
+  ol {
+    max-width: 38em;
+  }
+
+  img {
+    @include govuk-responsive-margin(2, "top");
+    @include govuk-responsive-margin(6, "bottom");
+    border: 1px solid $govuk-border-colour;
+    box-sizing: border-box;
+    height: auto;
+    padding: govuk-spacing(2);
+    width: 100%;
+  }
+
+}
+
+
+// Add styling for inline code
+li code,
+td code,
+p code {
+  background-color: govuk-colour("grey-4");
+  padding: 0 govuk-spacing(1);
 }
 
 

@@ -5,9 +5,13 @@
 .app-header {
   background-color: govuk-colour("black");
   color: govuk-colour("white");
-  //display: flex;
-  //flex: 1 0 auto;
-  padding: govuk-spacing(3) govuk-spacing(6);
+  padding: govuk-spacing(3);
+
+  @include govuk-media-query($from: tablet) {
+    padding-left: govuk-spacing(6);
+    padding-right: govuk-spacing(6);
+  }
+
 }
 
 

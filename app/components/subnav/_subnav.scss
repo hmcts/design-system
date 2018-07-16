@@ -1,36 +1,72 @@
 /* ==========================================================================
-   #SUBNAV
+   #SUBNAV (mobile and desktop)
    ========================================================================== */
+
+.app-pane__subnav {
+
+  @include govuk-media-query($until: tablet) {
+    background-color: govuk-colour("grey-4");
+  }
+
+}
 
 .app-subnav {
   @include govuk-font(16);
-  margin-top: govuk-spacing(3);
-  padding: govuk-spacing(3);
+
+  @include govuk-media-query($from: tablet) {
+    margin-bottom: govuk-spacing(3);
+    padding: govuk-spacing(4);
+  }
+
 }
 
 
 .app-subnav__list {
-  list-style-type: none;
-  margin: 0 0 govuk-spacing(4);
+  list-style: none;
+  margin: 0;
   padding: 0;
+
+  @include govuk-media-query($until: tablet) {
+    display: flex;
+    margin: 0 0 -1px;
+    overflow-y: scroll;
+    white-space: nowrap;
+  }
+
 }
 
 
 .app-subnav__list-item {
 
+  @include govuk-media-query($until: tablet) {
+    display: flex;
+  }
+
   a,
   a:link,
   a:visited {
     background-color: inherit;
-    border-left: 4px solid transparent;
     color: govuk-colour("purple");
     display: block;
-    padding: govuk-spacing(2);
     text-decoration: none;
+
+    @include govuk-media-query($until: tablet) {
+      border-bottom: 4px solid transparent;
+      padding: govuk-spacing(3);
+      padding-bottom: govuk-spacing(3) - 4px; // Compensate for 4px border
+    }
+
+    @include govuk-media-query($from: tablet) {
+      background-color: inherit;
+      border-left: 4px solid transparent;
+      padding: govuk-spacing(2);
+    }
+
+
   }
 
   a:hover {
-    border-left-color: govuk-colour("light-purple");
+    border-color: govuk-colour("light-purple");
   }
 
 }
@@ -42,7 +78,8 @@
   a:link,
   a:visited {
     background-color: govuk-colour("grey-4");
-    border-left-color: govuk-colour("purple");
+    border-color: govuk-colour("purple");
+    color: govuk-colour("purple");
     font-weight: bold;
   }
 
