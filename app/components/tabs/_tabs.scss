@@ -13,7 +13,8 @@
   border-top: 0;
   font-size: 0; // Remove white space when using display: inline-block
   list-style: none;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -27,10 +28,10 @@
   @include govuk-font($size: 19, $weight: bold);
   background-color: govuk-colour("white");
   color: govuk-colour("purple");
-  padding: 20px;
   display: block;
-  text-decoration: none;
+  padding: 20px;
   position: relative;
+  text-decoration: none;
 
   &:link,
   &:visited {
