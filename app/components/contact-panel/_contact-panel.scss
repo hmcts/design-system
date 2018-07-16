@@ -25,11 +25,17 @@
 }
 
 
-.app-contact-panel__link:link {
+.app-contact-panel__link:link,
+.app-contact-panel__link:visited {
   color: govuk-colour("white");
 }
 
 
 .app-contact-panel__link:hover {
   color: lighten(govuk-colour("purple"), 45%);
+}
+
+
+.app-contact-panel__link:focus {
+  color: govuk-colour("black");
 }

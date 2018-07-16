@@ -8,14 +8,14 @@
   @include govuk-font($size: 19, $weight: bold);
   background: govuk-colour("white") url("/public/images/app-icon-pointer.svg") no-repeat 100% 50%;
   box-shadow: 0 2px 0 0 rgba(0,0,0,.50);
-  display: inline-block;
   color: govuk-colour("purple");
-  padding-top: 10px;
+  display: inline-block;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 38px;
-  text-decoration: none;
+  padding-top: 10px;
   text-align: center;
+  text-decoration: none;
   width: 100%;
 
   @include govuk-media-query($from: desktop) {
