@@ -12,6 +12,7 @@ const NunjucksCodeHighlight = require('nunjucks-highlight.js');
 const hljs = require('highlight.js');
 const highlight = new NunjucksCodeHighlight(nunjucks, hljs);
 
+
 // Routing
 const routes = require('./app/routes/index');
 const autoRoutes = require('./app/routes/auto');
@@ -83,13 +84,13 @@ marked.setOptions({
 markdown.register(nunjucksEnvironment, marked);
 
 
-// Start app on port 3000
+// Start app
 app.listen(port, (err) => {
 
   if (err) {
       throw err;
   } else {
-      console.log('Listening on port 3000!');
+      console.log('Listening on port 3000 url: http://localhost:3000');
   }
 
 });
