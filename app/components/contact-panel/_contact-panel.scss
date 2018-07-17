@@ -1,3 +1,7 @@
+/* ==========================================================================
+   #CONTACT PANEL
+   ========================================================================== */
+
 .app-contact-panel {
   @include govuk-responsive-margin(6, "top");
   @include govuk-responsive-margin(6, "bottom");
@@ -26,6 +30,7 @@
 
 
 .app-contact-panel__link:link,
+.app-contact-panel__link:active
 .app-contact-panel__link:visited {
   color: govuk-colour("white");
 }

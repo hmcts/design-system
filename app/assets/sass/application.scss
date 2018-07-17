@@ -64,11 +64,6 @@ body {
 }
 
 
-// a:not(.app-example-page) {
-//   @include ds-link-style-default;
-// }
-
-
 // App utility classes
 .js-enabled .app-js-hidden {
   display: none;
@@ -76,8 +71,6 @@ body {
 
 
 .app-content {
-
-  //@include govuk-responsive-padding(6);
 
   h1,
   h2,
@@ -142,6 +135,11 @@ p code {
 
   ul, ol {
     @extend %govuk-list;
+
+    a {
+      @include ds-link-style-default;
+    }
+
   }
 
   ol {

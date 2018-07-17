@@ -7,5 +7,5 @@
 {% endblock %}
 
 {% block pageContent %}
-  <h1 class="govuk-heading-xl">Community</h1>
+  <div class="app-prose-scope">{% markdown %}{% include "./README.md" %}{% endmarkdown %}</div>
 {% endblock %}

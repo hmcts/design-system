@@ -8,21 +8,35 @@
 }
 
 
-.app-prose-scope .app-tabs__list {
+.app-tabs__list {
   border: 1px solid $govuk-border-colour;
   border-top: 0;
-  font-size: 0; // Remove white space when using display: inline-block
   list-style: none;
   margin: 0;
   padding: 0;
+
+  // A specific selector to override .app-prose-scope
+  .app-prose-scope & {
+    font-size: 0; // Remove white space when using display: inline-block
+    margin: 0;
+    padding: 0;
+  }
+
 }
 
 
-.app-prose-scope .app-tabs__list-item {
+.app-tabs__list-item {
   border-right: 1px solid $govuk-border-colour;
   display: inline-block;
   margin: 0;
+
+  // A specific selector to override .app-prose-scope
+  .app-prose-scope & {
+    margin-bottom: 0;
+  }
+
 }
+
 
 .app-tabs__tab {
   @include govuk-font($size: 19, $weight: bold);
@@ -34,13 +48,24 @@
   text-decoration: none;
 
   &:link,
+  &:active,
   &:visited {
     background-color: govuk-colour("white");
     color: govuk-colour("purple");
+
+    // A specific selector to override .app-prose-scope
+    .app-prose-scope & {
+      color: govuk-colour("purple");
+    }
+
   }
 
   &:hover {
-    color: govuk-colour("light-purple");
+
+    .app-prose-scope & {
+      color: govuk-colour("light-purple");
+    }
+
   }
 
   &:focus {
@@ -52,9 +77,16 @@
     color: govuk-colour("black");
     margin-bottom: -1px;
     padding-bottom: 21px;
+
+    // A specific selector to override .app-prose-scope
+    .app-prose-scope & {
+      color: govuk-colour("black");
+    }
+
   }
 
 }
+
 
 .app-tabs__panel {
   @include govuk-font($size: 19);
@@ -68,6 +100,7 @@
   }
 
 }
+
 
 .app-tabs__close {
   @include govuk-font($size: 16);
