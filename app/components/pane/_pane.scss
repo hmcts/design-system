@@ -2,11 +2,17 @@
    #PANE
    ========================================================================== */
 
-  $toc-width: 300px;
-  $toc-width-tablet: 210px;
+$toc-width: 300px;
+$toc-width-tablet: 210px;
 
 
+.app-template {
+  background-color: govuk-colour("grey-3");
+}
 
+.app-template__body {
+  background-color: govuk-colour("white");
+}
 
 
 .app-link {
@@ -59,70 +65,68 @@
 }
 
 
-  .app-pane__body {
-
-    @include govuk-media-query($from: tablet) {
-      display: flex;
-      position: relative;
-      min-height: 0;
-      flex: 1 1 100%;
-
-      > * {
-        overflow-x: scroll;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: none;
-      }
-
-    }
-
-  }
-
-
-  .app-pane__subnav {
-    border-bottom: 1px solid $govuk-border-colour;
-
-    @include govuk-media-query($from: tablet) {
-      border-right: 1px solid $govuk-border-colour;
-      flex: 0 0 auto;
-      width: $toc-width-tablet;
-    }
-
-    @include govuk-media-query($from: desktop) {
-      width: $toc-width;
-    }
-
-  }
-
-
-  .app-pane__content {
-    @include govuk-media-query($from: tablet) {
-      display: flex;
-      margin-left: auto;
-      flex: 1 1 auto;
-      flex-direction: column;
-
-      // Stick footer to bottom of screen if content is shorter than viewport
-      .app-content {
-        display: block;
-        flex: 1 0 auto;
-      }
-
-    }
-
-  }
-
-
-
-.app-content {
-  //@include govuk-responsive-padding(6);
-  padding: 15px;
+.app-pane__body {
 
   @include govuk-media-query($from: tablet) {
-    padding: 30px;
+    display: flex;
+    position: relative;
+    min-height: 0;
+    flex: 1 1 100%;
+
+    > * {
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none;
+    }
+
   }
 
 }
 
+
+.app-pane__subnav {
+  border-bottom: 1px solid $govuk-border-colour;
+
+  @include govuk-media-query($from: tablet) {
+    border-right: 1px solid $govuk-border-colour;
+    flex: 0 0 auto;
+    width: $toc-width-tablet;
+  }
+
+  @include govuk-media-query($from: desktop) {
+    width: $toc-width;
+  }
+
+}
+
+
+.app-pane__content {
+  @include govuk-media-query($from: tablet) {
+    display: flex;
+    margin-left: auto;
+    flex: 1 1 auto;
+    flex-direction: column;
+
+    // Stick footer to bottom of screen if content is shorter than viewport
+    .app-content {
+      display: block;
+      flex: 1 0 auto;
+    }
+
+  }
+
+}
+
+
+
+.app-content {
+  padding: govuk-spacing(3);
+
+  @include govuk-media-query($from: tablet) {
+    padding: govuk-spacing(6);
+  }
+
+}
 
 
 
@@ -154,16 +158,14 @@
   border: 1px solid $govuk-border-colour;
   position: absolute; top: -1px; right: -1px;
 
-  a {
+  a,
+  a:link,
+  a:visited {
     background-color: white;
+    color: govuk-colour("purple");
     display: block;
     padding: 5px 10px;
     text-decoration: none;
-  }
-
-  a:link,
-  a:visited {
-    color: govuk-colour("purple");
   }
 
   a:hover {
@@ -173,11 +175,6 @@
 }
 
 // App Example end -------------------------
-
-
-
-
-
 
 
 [class*="govuk-grid-column"] {
@@ -197,14 +194,14 @@
 
 
 .app-width-container {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: govuk-spacing(3);
+  margin-right: govuk-spacing(3);
   max-width: 100%;
   padding: 0;
 
   @include govuk-media-query($from: tablet) {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: govuk-spacing(6);
+    margin-right: govuk-spacing(6);
     padding: 0 govuk-spacing(6);
   }
 
@@ -218,10 +215,10 @@
 
 
 pre {
-  position: relative;
+  @include govuk-responsive-margin(4, "bottom");
+  font-size: 16px;
   margin: 0;
   padding: govuk-spacing(3);
+  position: relative;
   overflow: auto;
-  font-size: 16px;
-  @include govuk-responsive-margin(4, "bottom");
 }

@@ -6,12 +6,10 @@
 {%- from "tag/macro.njk" import govukTag -%}
 
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
-<html>
+<html class="app-template" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Home - HMCTS Design System</title>
+  <title>{{pageTitle}} - HMCTS Design System</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0c0c">
 
@@ -31,7 +29,7 @@
   <!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" rel="stylesheet"><!--<![endif]-->
 
 </head>
-<body>
+<body class="app-template__body">
 
   <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
