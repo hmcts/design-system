@@ -2,7 +2,7 @@
 
   <ul class="app-subnav__list">
     {% for item in params.items %}
-    <li class="app-subnav__list-item{% if item.selected %} app-subnav__list-item--selected{% endif %}"><a href="{{item.link}}">{{item.title}}</a></li>
+    <li class="app-subnav__list-item{% if item.selected %} app-subnav__list-item--selected{% endif %}"><a href="{{item.link}}"{% if item.selected %} aria-current="location"{% endif %}>{{item.title}}</a></li>
     {% endfor %}
   </ul>
 

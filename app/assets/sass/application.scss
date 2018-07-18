@@ -15,25 +15,6 @@ body {
 }
 
 
-.app-hide-mobile {
-  @include govuk-media-query($until: mobile) {
-    display: none;
-  }
-}
-
-.app-hide-tablet {
-  @include govuk-media-query($from: tablet) {
-    display: none;
-  }
-}
-
-.app-hide-desktop {
-  @include govuk-media-query($from: desktop) {
-    display: none;
-  }
-}
-
-
 @mixin ds-link-style-default {
 
   &:link {
