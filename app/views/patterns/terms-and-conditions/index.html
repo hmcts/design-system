@@ -1,0 +1,16 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "patterns" %}
+{% set pageTitle = "Terms and conditions" %}
+{% set pageId = "terms-and-conditions" %}
+
+{% block subNav %}
+  {% include "patterns-subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Patterns</span> Terms and conditions</h1>
+  <div class="govuk-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+{% endblock %}

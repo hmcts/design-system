@@ -1,0 +1,16 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "patterns" %}
+{% set pageTitle = "Privacy policy" %}
+{% set pageId = "privacy-policy" %}
+
+{% block subNav %}
+  {% include "patterns-subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Patterns</span> Privacy policy</h1>
+  <div class="govuk-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+{% endblock %}
