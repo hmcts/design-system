@@ -1,0 +1,21 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "components" %}
+{% set pageId = "collapsibles" %}
+{% set pageTitle = "Collapsibles" %}
+
+{% block subNav %}
+  {% include "components-subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Components</span> Collapsibles</h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+  {{dsContactPanel()}}
+
+{% endblock %}
