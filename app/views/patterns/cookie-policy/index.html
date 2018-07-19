@@ -9,8 +9,13 @@
 {% endblock %}
 
 {% block pageContent %}
+
   <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Patterns</span> Cookie policy</h1>
+
   <div class="govuk-prose-scope">
     {% markdown %}{% include "./README.md" %}{% endmarkdown %}
   </div>
+
+  {{dsContactPanel()}}
+
 {% endblock %}

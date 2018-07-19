@@ -8,8 +8,13 @@
 {% endblock %}
 
 {% block pageContent %}
+
   <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Get started</span> Example</h1>
+
   <div class="govuk-prose-scope">
     {% markdown %}{% include "./README.md" %}{% endmarkdown %}
   </div>
+
+  {{dsContactPanel()}}
+
 {% endblock %}
