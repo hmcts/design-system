@@ -201,12 +201,6 @@ $toc-width-tablet: 210px;
   @include govuk-media-query($from: tablet) {
     margin-left: govuk-spacing(6);
     margin-right: govuk-spacing(6);
-    padding: 0 govuk-spacing(6);
-  }
-
-  @include govuk-media-query($from: desktop) {
-    margin: 0 auto;
-    padding: 0 govuk-spacing(6);
   }
 
 }
