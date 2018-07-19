@@ -15,6 +15,11 @@ body {
 }
 
 
+p {
+  max-width: 628px; // Desired CPL 75 (paragraphs) chars at a font size of 19px
+}
+
+
 @mixin ds-link-style-default {
 
   &:link {
@@ -70,6 +75,23 @@ body {
     width: 100%;
   }
 
+}
+
+
+// Grid modifications
+[class*="govuk-grid-column"] {
+  @include govuk-media-query($until: desktop) {
+    padding: 0 $govuk-gutter-half;
+  }
+}
+
+
+.govuk-grid-column-one-third,
+.govuk-grid-column-two-thirds,
+.govuk-grid-column-one-quarter {
+  @include govuk-media-query($until: desktop) {
+    width: 100%;
+  }
 }
 
 
@@ -136,4 +158,14 @@ p code {
     @extend %govuk-section-break--xl;
   }
 
+}
+
+
+pre {
+  @include govuk-responsive-margin(4, "bottom");
+  font-size: 16px;
+  margin: 0;
+  padding: govuk-spacing(3);
+  position: relative;
+  overflow: auto;
 }

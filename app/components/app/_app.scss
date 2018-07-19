@@ -1,9 +1,14 @@
 /* ==========================================================================
-   #PANE
+   #APP
    ========================================================================== */
 
 $toc-width: 300px;
 $toc-width-tablet: 210px;
+
+
+.app-main-wrapper {
+  max-width: 1680px;
+}
 
 
 .app-template {
@@ -176,22 +181,6 @@ $toc-width-tablet: 210px;
 }
 
 
-[class*="govuk-grid-column"] {
-  @include govuk-media-query($until: desktop) {
-    padding: 0 $govuk-gutter-half;
-  }
-}
-
-
-.govuk-grid-column-one-third,
-.govuk-grid-column-two-thirds,
-.govuk-grid-column-one-quarter {
-  @include govuk-media-query($until: desktop) {
-    width: 100%;
-  }
-}
-
-
 .app-width-container {
   margin-left: govuk-spacing(3);
   margin-right: govuk-spacing(3);
@@ -203,15 +192,4 @@ $toc-width-tablet: 210px;
     margin-right: govuk-spacing(6);
   }
 
-}
-
-
-
-pre {
-  @include govuk-responsive-margin(4, "bottom");
-  font-size: 16px;
-  margin: 0;
-  padding: govuk-spacing(3);
-  position: relative;
-  overflow: auto;
 }
