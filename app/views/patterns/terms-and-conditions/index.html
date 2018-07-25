@@ -10,7 +10,12 @@
 
 {% block pageContent %}
 
-  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Patterns</span> Terms and conditions</h1>
+  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4"><span class="govuk-caption-xl">Pages</span> {{pageTitle}}</h1>
+
+  {{ govukTag({
+    classes: 'govuk-!-margin-bottom-8',
+    text: 'draft'
+  }) }}
 
   <div class="govuk-prose-scope">
     {% markdown %}{% include "./README.md" %}{% endmarkdown %}

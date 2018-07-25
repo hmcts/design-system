@@ -1,10 +1,8 @@
 # Get started
 
-The examples in the GOV.UK Design System come with code to make it easy for you to use them in your project. 
+The examples in the HMCTS Design System come with code to make it easy for you to use them in your project.
 
 Get started:
 
 - [prototyping](prototyping)
 - [in production](production)
-
-If you’ve used GOV.UK Elements, GOV.UK Template or the GOV.UK Frontend Toolkit before, you might also find it useful to read the guide on [updating your code](updating-your-code).

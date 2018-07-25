@@ -1,4 +1,4 @@
-Use the Cookie policy to
+Use the Cookie policy to inform users of how their information is collected.
 
 {{dsExample({
   section: 'patterns',
