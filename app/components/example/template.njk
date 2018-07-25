@@ -1,24 +1,28 @@
 
+{% set codeUrl = './app/views/components/' + params.componentName + '/examples/includes/'+params.exampleName+'.html' %}
+
+{% set exampleUrl = '/components/' + params.componentName + '/examples/'+params.exampleName %}
+
 
 {% set nunjucksCode %}
 {% code %}js
-{{ getNunjucksCode('./app/views/components/timeline/examples/includes/default.html') | safe}}
+{{ getNunjucksCode(codeUrl) | safe}}
 {% endcode %}
 {% endset %}
 
 {% set htmlCode %}
 {% code %}html
-{{ getHtmlCode('./app/views/components/timeline/examples/includes/default.html') | safe}}
+{{ getHtmlCode(codeUrl) | safe}}
 {% endcode %}
 {% endset %}
 
 <div class="app-example">
 
   <span class="app-example__new-window">
-    <a href="/components/timeline/examples/default" target="_blank">Open this example in a new window</a>
+    <a href="{{exampleUrl}}" target="_blank">Open this example in a new window</a>
   </span>
 
-  <iframe class="app-example__frame" scrolling="auto" frameborder="0" height="350" src="/components/timeline/examples/default"></iframe>
+  <iframe class="app-example__frame" scrolling="auto" frameborder="0" height="350" src="{{exampleUrl}}"></iframe>
 
 </div>
 

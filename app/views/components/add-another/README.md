@@ -1,7 +1,7 @@
-Use the Timeline component to show a linear record of what's happened.
+Use the Add another component to let users enter multiple items at once in a form.
 
 {{dsExample({
-  componentName: 'timeline',
+  componentName: 'add-another',
   exampleName: 'default'
 })}}
 
