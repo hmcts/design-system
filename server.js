@@ -34,6 +34,7 @@ const appViews = [
   path.join(__dirname, '/node_modules/@hmcts/frontend/components'),
   path.join(__dirname, 'app/views'),
   path.join(__dirname, 'app/views/components'),
+  path.join(__dirname, 'app/views/patterns'),
   path.join(__dirname, 'app/views/layouts'),
   path.join(__dirname, 'app/views/partials'),
   path.join(__dirname, 'app/components')

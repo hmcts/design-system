@@ -10,9 +10,14 @@
 
 {% block pageContent %}
 
-  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Patterns</span> Cookie policy</h1>
+  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4"><span class="govuk-caption-xl">Pages</span> {{pageTitle}}</h1>
 
-  <div class="govuk-prose-scope">
+  {{ govukTag({
+    classes: 'govuk-!-margin-bottom-8',
+    text: 'draft'
+  }) }}
+
+  <div class="app-prose-scope">
     {% markdown %}{% include "./README.md" %}{% endmarkdown %}
   </div>
 

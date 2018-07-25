@@ -1,8 +1,12 @@
+{% if params.section.length %}
+  {% set section = (params.section + '/') %}
+{% else %}
+  {% set section = 'components/' %}
+{% endif %}
 
-{% set codeUrl = './app/views/components/' + params.componentName + '/examples/includes/'+params.exampleName+'.html' %}
+{% set codeUrl = './app/views/' + section + params.name + '/examples/includes/'+params.example+'.html' %}
 
-{% set exampleUrl = '/components/' + params.componentName + '/examples/'+params.exampleName %}
-
+{% set exampleUrl = '/' + section + params.name + '/examples/'+params.example %}
 
 {% set nunjucksCode %}
 {% code %}js
