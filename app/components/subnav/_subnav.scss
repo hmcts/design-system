@@ -13,11 +13,26 @@
 .app-subnav {
   @include govuk-font(16);
 
+  display: flex;
+  overflow-x: scroll;
+
   @include govuk-media-query($from: tablet) {
     margin-bottom: govuk-spacing(3);
     padding: govuk-spacing(4);
+    display: block;
   }
 
+}
+
+.app-subnav h4 {
+  @include govuk-font($size: 19);
+  margin: 0;
+  padding: govuk-spacing(3);
+  color: govuk-colour("grey-1");
+  font-weight: normal;
+  @include govuk-media-query($until: tablet) {
+    display: none;
+  }
 }
 
 
@@ -29,10 +44,13 @@
   @include govuk-media-query($until: tablet) {
     display: flex;
     margin: 0 0 -1px;
-    overflow-y: scroll;
+    // overflow-y: scroll;
     white-space: nowrap;
   }
 
+  @include govuk-media-query($from: tablet) {
+    margin-bottom: govuk-spacing(4);
+  }
 }
 
 

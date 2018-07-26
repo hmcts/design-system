@@ -1,6 +1,27 @@
 {{dsSubnav({
-  items: [
-    {
+  sections: [{
+    heading: {
+      text: 'Ask users for...'
+    },
+    items: [{
+      title: 'Names',
+      link: '/patterns/thing',
+      selected: pageId == 'thing'
+    }]
+  }, {
+    heading: {
+      text: 'Help users to...'
+    },
+    items: [{
+      title: 'Upload documents',
+      link: '/patterns/thing',
+      selected: pageId == 'thing'
+    }]
+  }, {
+    heading: {
+      text: 'Pages'
+    },
+    items: [{
       title: 'Cookie policy',
       link: '/patterns/cookie-policy',
       selected: pageId == 'cookie-policy'
@@ -14,6 +35,6 @@
       title: 'Terms and conditions',
       link: '/patterns/terms-and-conditions',
       selected: pageId == 'terms-and-conditions'
-    }
-  ]
+    }]
+  }]
 }) }}
