@@ -2,7 +2,8 @@ Use the Add another component to let users enter multiple items at once in a for
 
 {{dsExample({
   name: 'add-another',
-  example: 'default'
+  example: 'default',
+  height: 670
 })}}
 
 ## When to use this component
