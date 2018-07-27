@@ -1,0 +1,15 @@
+{% from "sub-navigation/macro.njk" import hmctsSubNavigation %}
+
+{{ hmctsSubNavigation({
+  items: [{
+    text: 'Summary',
+    href: '/',
+    selected: true
+  }, {
+    text: 'Case file',
+    href: '/'
+  }, {
+    text: 'Timeline',
+    href: '/'
+  }]
+}) }}
