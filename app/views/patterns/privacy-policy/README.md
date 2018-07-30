@@ -3,7 +3,8 @@ Use the Privacy Policy to tell users how their data is used.
 {{dsExample({
   section: 'patterns',
   name: 'privacy-policy',
-  example: 'default'
+  example: 'default',
+  height: 2215
 })}}
 
 ## When to use this component
