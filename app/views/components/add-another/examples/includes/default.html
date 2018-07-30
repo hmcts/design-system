@@ -13,40 +13,40 @@
       classes: 'hmcts-add-another__item',
       legend: {
         text: "Question",
-        classes: "govuk-fieldset__legend--m  govuk-heading-m",
+        classes: "hmcts-add-another__title  govuk-fieldset__legend--m",
         isPageHeading: false
       }
     }) %}
 
-      {{ govukInput({
-        "label": {
-          "html": "Subject"
-        },
-        "id": "questions[0][subject]",
-        "name": "questions[0][subject]",
-        "attributes": {
-          "data-name": "questions[%index%][subject]",
-          "data-id": "questions[%index%][subject]"
-        }
-      }) }}
+    {{ govukInput({
+      "label": {
+        "html": "Subject"
+      },
+      "id": "questions[0][subject]",
+      "name": "questions[0][subject]",
+      "attributes": {
+        "data-name": "questions[%index%][subject]",
+        "data-id": "questions[%index%][subject]"
+      }
+    }) }}
 
-      {{ govukTextarea({
-        "name": "questions[0][question]",
-        "id": "questions[0][question]",
-        "attributes": {
-          "data-name": "questions[%index%][question]",
-          "data-id": "questions[%index%][question]"
-        },
-        "label": {
-          "html": "Question"
-        }
-      }) }}
+    {{ govukTextarea({
+      "name": "questions[0][question]",
+      "id": "questions[0][question]",
+      "attributes": {
+        "data-name": "questions[%index%][question]",
+        "data-id": "questions[%index%][question]"
+      },
+      "label": {
+        "html": "Question"
+      }
+    }) }}
 
     {% endcall %}
 
     {{ govukButton({
       "text": "Add another question",
-      "classes": "hmcts-button--secondary  govuk-!-margin-bottom-4  hmcts-add-another__add-button"
+      "classes": "hmcts-button--secondary  hmcts-add-another__add-button  govuk-!-margin-bottom-4"
     }) }}
 
     <div>
@@ -56,4 +56,5 @@
     </div>
 
   </form>
+
 </div>

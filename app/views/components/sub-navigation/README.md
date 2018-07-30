@@ -3,7 +3,7 @@ Use the Sub Navigation component for case navigation or other entities.
 {{dsExample({
   name: 'sub-navigation',
   example: 'default',
-  height: 200
+  height: 174
 })}}
 
 ## When to use this component
@@ -31,7 +31,5 @@ Some more stuff
 ### Sub heading
 
 Some more again
-
-[GitHub](http://github.com)
 
 ## Research on this component

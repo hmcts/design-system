@@ -32,6 +32,4 @@ Some more stuff
 
 Some more again
 
-[GitHub](http://github.com)
-
 ## Research on this component

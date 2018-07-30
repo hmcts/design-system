@@ -1,8 +1,9 @@
-Use the Timeline component to show a linear record of what's happened.
+Use the Timeline component to show a linear record of what’s happened.
 
 {{dsExample({
   name: 'timeline',
-  example: 'default'
+  example: 'default',
+  height: 454
 })}}
 
 ## When to use this component
@@ -30,7 +31,5 @@ Some more stuff
 ### Sub heading
 
 Some more again
-
-[GitHub](http://github.com)
 
 ## Research on this component
