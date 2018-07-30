@@ -3,7 +3,8 @@ Use the Terms and Conditions to tell users the terms and conditions.
 {{dsExample({
   section: 'patterns',
   name: 'terms-and-conditions',
-  example: 'default'
+  example: 'default',
+  height: 3570
 })}}
 
 ## When to use this component
