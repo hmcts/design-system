@@ -3,7 +3,8 @@ Use the Cookie policy to inform users of how their information is collected.
 {{dsExample({
   section: 'patterns',
   name: 'cookie-policy',
-  example: 'default'
+  example: 'default',
+  height: 2663
 })}}
 
 ## When to use this component
