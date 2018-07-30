@@ -2,7 +2,7 @@
 
   {% if params.sections %}
     {% for section in params.sections %}
-      <h4>{{section.heading.text}}</h4>
+      <h4 class="app-subnav__title">{{section.heading.text}}</h4>
       <ul class="app-subnav__list">
         {% for item in section.items %}
           <li class="app-subnav__list-item{% if item.selected %} app-subnav__list-item--selected{% endif %}"><a href="{{item.link}}"{% if item.selected %} aria-current="location"{% endif %}>{{item.title}}</a></li>
