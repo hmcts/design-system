@@ -1,0 +1,20 @@
+$govuk-global-styles: true;
+
+
+// Import GOV.UK Frontend
+@import "node_modules/govuk-frontend/all";
+@import "node_modules/@hmcts/frontend/all";
+
+
+body {
+  margin: 0;
+}
+
+
+// App example
+.app-example-page {
+  margin-bottom: -1px;
+  padding: 30px;
+  padding-top: 60px;
+  position: relative;
+}
