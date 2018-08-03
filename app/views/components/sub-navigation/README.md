@@ -1,4 +1,4 @@
-Use the Sub Navigation component for case navigation or other entities.
+Use the Sub navigation component for case navigation or other entities.
 
 {{dsExample({
   name: 'sub-navigation',
