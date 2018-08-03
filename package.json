@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/hmcts/hmcts-design-system#readme",
   "dependencies": {
-    "@hmcts/frontend": "0.0.6-alpha",
+    "@hmcts/frontend": "0.0.7-alpha",
     "express": "^4.16.3",
     "govuk-frontend": "^1.0.0",
     "gray-matter": "^4.0.1",
