@@ -1,5 +1,11 @@
 Use the Progress bar component to show users which stage of the journey they’re at. 
 
+{{dsExample({
+  name: 'progress-bar',
+  example: 'default',
+  height: 193
+})}}
+
 ## When to use this component
 
 Some stuff here

@@ -1,0 +1,23 @@
+{% from "progress-bar/macro.njk" import hmctsProgressBar %}
+
+{{ hmctsProgressBar({
+  items: [{
+    label: {
+      text: 'You apply'
+    },
+    complete: true
+  }, {
+    label: {
+      text: 'Your husband/wife responds'
+    },
+    current: true
+  }, {
+    label: {
+      text: 'The court decides'
+    }
+  }, {
+    label: {
+      text: 'Divorce finalised'
+    }
+  }]
+}) }}
