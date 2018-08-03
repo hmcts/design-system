@@ -1,0 +1,12 @@
+/* ==========================================================================
+   #TAGS
+   // Alternative colour modifiers for the GOV tag
+   ========================================================================== */
+
+.govuk-tag--approved {
+  background-color: govuk-colour("green");
+}
+
+.govuk-tag--experimental {
+  background-color: govuk-colour("purple");
+}
