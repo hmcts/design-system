@@ -4,7 +4,7 @@ Use the Cookie policy to inform users of how their information is collected.
   section: 'patterns',
   name: 'cookie-policy',
   example: 'default',
-  height: 2663
+  height: 2313
 })}}
 
 ## When to use this component

@@ -4,7 +4,7 @@ Use the Terms and Conditions to tell users the terms and conditions.
   section: 'patterns',
   name: 'terms-and-conditions',
   example: 'default',
-  height: 3570
+  height: 3070
 })}}
 
 ## When to use this component
