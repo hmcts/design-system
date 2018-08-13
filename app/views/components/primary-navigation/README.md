@@ -3,7 +3,7 @@ Use the Primary navigation component for...
 {{dsExample({
   name: 'primary-navigation',
   example: 'default',
-  height: 174
+  height: 179
 })}}
 
 ## When to use this component

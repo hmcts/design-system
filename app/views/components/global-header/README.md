@@ -3,7 +3,7 @@ Use the Global header component for...
 {{dsExample({
   name: 'global-header',
   example: 'default',
-  height: 174
+  height: 150
 })}}
 
 ## When to use this component
