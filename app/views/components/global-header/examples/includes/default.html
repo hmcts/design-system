@@ -1,0 +1,17 @@
+{% from "global-header/macro.njk" import hmctsGlobalHeader %}
+
+{{ hmctsGlobalHeader({
+  serviceName: 'Service name',
+  serviceUrl: '#',
+  navigationLabel: 'Account navigation',
+  navigation: [
+    {
+      text: 'Nav item 1',
+      href: '#1'
+    },
+    {
+      text: 'Nav item 2',
+      href: '#2'
+    }
+  ]
+}) }}

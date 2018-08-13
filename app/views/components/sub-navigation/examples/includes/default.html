@@ -1,15 +1,16 @@
 {% from "sub-navigation/macro.njk" import hmctsSubNavigation %}
 
 {{ hmctsSubNavigation({
+  label: 'Sub navigation',
   items: [{
-    text: 'Summary',
-    href: '#',
-    selected: true
+    text: 'Nav item 1',
+    href: '#1',
+    active: true
   }, {
-    text: 'Case file',
-    href: '#'
+    text: 'Nav item 2',
+    href: '#2'
   }, {
-    text: 'Timeline',
-    href: '#'
+    text: 'Nav item 3',
+    href: '#3'
   }]
 }) }}

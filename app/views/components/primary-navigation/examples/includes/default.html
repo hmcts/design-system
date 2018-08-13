@@ -1,0 +1,15 @@
+{% from "primary-navigation/macro.njk" import hmctsPrimaryNavigation %}
+
+{{ hmctsPrimaryNavigation({
+  items: [{
+    text: 'Item 1',
+    href: '#1',
+    selected: true
+  }, {
+    text: 'Item 2',
+    href: '#2'
+  }, {
+    text: 'Item 3',
+    href: '#3'
+  }]
+}) }}
