@@ -3,11 +3,9 @@
 {% set pageTitle = "Add another" %}
 
 {% block pageContent %}
-  {% include 'add-another/examples/includes/default.html' %}
+  {% include './template.html' %}
 {% endblock %}
 
 {% block pageScripts %}
-  <script>
-    new HMCTSFrontend.AddAnother($('.hmcts-add-another'));
-  </script>
+{% include './script.html' %}
 {% endblock %}
