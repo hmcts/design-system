@@ -14,6 +14,10 @@
 
 {% set exampleUrl = '/' + section + params.name + '/examples/'+params.example %}
 
+{% if section == 'components/' %}
+  {% set argumentsUrl = 'https://github.com/hmcts/frontend/tree/master/src/' + section + params.name + '#arguments' %}
+{% endif %}
+
 {% set nunjucksCode %}
 {% code %}js
 {{ getNunjucksCode(codeUrl) | safe}}
@@ -53,6 +57,11 @@
     {# <button class="app-button app-button--copy app-hide-mobile" type="button" aria-live="assertive">Copy</button>
     <button class="app-button app-button--close" type="button">Close</button> #}
     {{nunjucksCode | safe}}
+
+    {% if argumentsUrl %}
+    You can configure this component using the [Nunjucks macro arguments]({{argumentsUrl}})
+    {% endif %}
+
   </div>
 
 </div>
