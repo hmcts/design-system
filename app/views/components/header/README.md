@@ -1,7 +1,7 @@
-Use the Global header component for...
+Use the Header component for services that are not hosted on GOV.UK.
 
 {{dsExample({
-  name: 'global-header',
+  name: 'header',
   example: 'default',
   height: 150
 })}}
