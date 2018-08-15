@@ -3,7 +3,7 @@ Use the Progress bar component to show users which stage of the journey they’r
 {{dsExample({
   name: 'progress-bar',
   example: 'default',
-  height: 193
+  height: 213
 })}}
 
 ## When to use this component
