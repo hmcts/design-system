@@ -198,6 +198,7 @@ p code {
 
 pre {
   @include govuk-responsive-margin(4, "bottom");
+  background: #f8f8f8; // Matches _higlight.scss
   font-size: 16px;
   margin: 0;
   padding: govuk-spacing(3);
