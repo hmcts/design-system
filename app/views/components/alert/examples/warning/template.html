@@ -1,0 +1,7 @@
+{% from "alert/macro.njk" import hmctsAlert %}
+
+{{ hmctsAlert({
+  type: 'warning',
+  text: 'Questions weren’t sent - try again.',
+  iconFallbackText: 'Warning'
+}) }}
