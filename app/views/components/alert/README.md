@@ -2,7 +2,7 @@ Some content goes here...
 
 {{dsExample({
   name: 'alert',
-  example: 'success',
+  example: 'default',
   height: 175
 })}}
 
@@ -45,13 +45,5 @@ Some content goes here...
   example: 'information',
   height: 175
 })}}
-
-### Sub heading
-
-Some more stuff
-
-### Sub heading
-
-Some more again
 
 ## Research on this component

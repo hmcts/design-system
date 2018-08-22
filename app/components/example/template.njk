@@ -43,17 +43,17 @@
 <div class="app-tabs">
 
   <ul class="app-tabs__list">
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html">HTML</a></li>
-    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks">Nunjucks</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#html{{'-' + params.example}}">HTML</a></li>
+    <li class="app-tabs__list-item"><a class="app-tabs__tab" href="#nunjucks{{'-' + params.example}}">Nunjucks</a></li>
   </ul>
 
-  <div class="app-tabs__panel app-js-hidden" id="html">
+  <div class="app-tabs__panel app-js-hidden" id="html{{'-' + params.example}}">
     {# <button class="app-button app-button--copy app-hide-mobile" type="button" aria-live="assertive">Copy</button> #}
     {# <button class="app-button app-button--close" type="button">Close</button> #}
     {{htmlCode | safe}}
   </div>
 
-  <div class="app-tabs__panel app-js-hidden" id="nunjucks">
+  <div class="app-tabs__panel app-js-hidden" id="nunjucks{{'-' + params.example}}">
     {# <button class="app-button app-button--copy app-hide-mobile" type="button" aria-live="assertive">Copy</button>
     <button class="app-button app-button--close" type="button">Close</button> #}
     {{nunjucksCode | safe}}
