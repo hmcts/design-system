@@ -1,5 +1,3 @@
-Use the Header component for services that are not hosted on GOV.UK.
-
 {{dsExample({
   name: 'header',
   example: 'default',
