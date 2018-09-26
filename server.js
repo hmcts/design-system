@@ -22,7 +22,7 @@ const autoRoutes = require('./app/routes/auto');
 const port = process.env.PORT || 3000;
 
 
-// App
+// Application
 const app = express();
 
 
@@ -39,6 +39,7 @@ const appViews = [
   path.join(__dirname, 'app/views/partials'),
   path.join(__dirname, 'app/components')
 ];
+
 
 // Configurations
 const nunjucksEnvironment = nunjucks.configure(appViews, {
@@ -62,6 +63,7 @@ app.use('/assets', express.static(path.join(__dirname, 'node_modules', 'govuk-fr
 app.use('/assets', express.static(path.join(__dirname, '/node_modules/@hmcts/frontend/assets')));
 app.use('/node_modules/hmcts-frontend', express.static(path.join(__dirname, '/node_modules/@hmcts/frontend')));
 
+
 // Use routes
 app.use(routes);
 app.use(autoRoutes);
@@ -81,7 +83,7 @@ marked.setOptions({
 });
 
 
-// markdown register
+// Markdown register
 markdown.register(nunjucksEnvironment, marked);
 
 
@@ -89,9 +91,9 @@ markdown.register(nunjucksEnvironment, marked);
 app.listen(port, (err) => {
 
   if (err) {
-      throw err;
+    throw err;
   } else {
-      console.log('Listening on port 3000 url: http://localhost:3000');
+    console.log('Listening on port 3000 url: http://localhost:3000');
   }
 
 });
