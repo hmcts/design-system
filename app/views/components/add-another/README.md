@@ -8,21 +8,17 @@ Use the Add another component to let users enter multiple items at once in a for
 
 ## When to use this component
 
-Some stuff here
+Use the add another component when you need to let users enter variations of information multiple times, such as several names for a single application.
+
 
 ## When not to use this component
 
-Some stuff here
+Don’t use the add another component if you need to let users enter information which varies differently or is not similar.
 
-Some more stuff here
 
 ## How it works
 
-Here’s a list:
-
-1. Do this
-2. Do that
-3. Do it again
+There are 2 ways to use the add another component. You can use HTML or, if you’re using Nunjucks, you can use the Nunjucks macro.
 
 ### Sub heading
 
@@ -33,3 +29,5 @@ Some more stuff
 Some more again
 
 ## Research on this component
+
+This component has been tested in prototypes of several citizen and internal products.
