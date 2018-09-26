@@ -1,4 +1,4 @@
-Use the Primary navigation component for...
+Use the Primary Navigation component when your service has a number of top level links.
 
 {{dsExample({
   name: 'primary-navigation',
@@ -8,21 +8,15 @@ Use the Primary navigation component for...
 
 ## When to use this component
 
-Some stuff here
+Use this together with the [Header](/components/header) component for non-citizen facing services.
 
 ## When not to use this component
 
-Some stuff here
-
-Some more stuff here
+Do not use the Primary Navigation component for a citizen facing service because they already have their own primary navigation component in the header.
 
 ## How it works
 
-Here’s a list:
-
-1. Do this
-2. Do that
-3. Do it again
+The primary navigation should contain the top level items for a service. For example, it could contain “Cases” and “Appointments”.
 
 ### Sub heading
 
