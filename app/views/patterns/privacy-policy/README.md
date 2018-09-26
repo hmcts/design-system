@@ -1,4 +1,8 @@
-Use the Privacy Policy to tell users how their data is used.
+Use the privacy policy to tell users how their data is used. 
+
+Use this template to make sure you include all the required information. 
+
+Edit the content to make it specific to your service. Check with your product owner what data the service will collect and what your data retention policy is.
 
 {{dsExample({
   section: 'patterns',
@@ -9,15 +13,13 @@ Use the Privacy Policy to tell users how their data is used.
 
 ## When to use this component
 
-Some stuff here
+Every service for citizens and professional users needs a privacy policy. Services for staff and the judiciary may not need it.
 
-## When not to use this component
+If you need a privacy policy, link to it from the footer.
 
-Some stuff here
+You may also need to link to the privacy policy from within a user journey. Check with your product owner whether you need to do this for GDPR compliance.
 
-Some more stuff here
-
-## How it works
+<!-- ## How it works
 
 Here’s a list:
 
@@ -25,14 +27,12 @@ Here’s a list:
 2. Do that
 3. Do it again
 
-### Sub heading
 
-Some more stuff
-
-### Sub heading
-
-Some more again
 
 [GitHub](http://github.com)
 
-## Research on this component
+## Research on this component -->
+
+## Legal review
+
+The template been reviewed by a legal team including GDPR specialists.
