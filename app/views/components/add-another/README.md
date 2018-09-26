@@ -1,4 +1,4 @@
-Use the Add another component to let users enter multiple items at once in a form.
+Use the Add another component to let users enter multiple items in a form at the same time.
 
 {{dsExample({
   name: 'add-another',
