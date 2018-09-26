@@ -16,14 +16,15 @@ Do not use the Primary Navigation component for a citizen facing service because
 
 ## How it works
 
-The primary navigation should contain the top level items for a service. For example, it could contain “Cases” and “Appointments”.
+There are 2 ways to use the file upload component. You can use HTML or, if you’re using Nunjucks or the GOV.UK Prototype Kit, you can use the Nunjucks macro.
 
-### Sub heading
+### What links belong in the primary navigation component?
 
-Some more stuff
-
-### Sub heading
-
-Some more again
+The primary navigation should contain the top level items for a service. For example, it could contain “Cases” and “Appointments”. Preferably action buttons such as “Create case” shouldn't be placed here.
 
 ## Research on this component
+
+The primary navigation component has been tested in:
+
+- Judicial user interface
+- Professional user interface
