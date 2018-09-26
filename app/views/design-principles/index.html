@@ -1,0 +1,12 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "design-principles" %}
+{% set pageTitle = "Design principles" %}
+
+{% block subNav %}
+  {% include "design-principles-subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+  <div class="app-prose-scope">{% markdown %}{% include "./README.md" %}{% endmarkdown %}</div>
+{% endblock %}
