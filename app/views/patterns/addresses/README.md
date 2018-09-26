@@ -1,10 +1,6 @@
-Use the Add another component to let users enter multiple items in a form at the same time.
+Use the Addresses...
 
-{{dsExample({
-  name: 'add-another',
-  example: 'default',
-  height: 664
-})}}
+Example goes here...
 
 ## When to use this component
 
@@ -31,5 +27,7 @@ Some more stuff
 ### Sub heading
 
 Some more again
+
+[GitHub](http://github.com)
 
 ## Research on this component
