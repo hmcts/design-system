@@ -32,6 +32,8 @@
 
 {% block pageScripts %}
   <script>
-    new Tabs($('.app-tabs'));
+    $('.app-tabs').each(function(e, el) {
+      new Tabs($(el));
+    });
   </script>
 {% endblock %}
