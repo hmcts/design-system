@@ -19,12 +19,6 @@ Don’t use the timeline component if you need to let users know where they are 
 
 There are 2 ways to use the timeline component. You can use HTML or, if you’re using Nunjucks, you can use the Nunjucks macro.
 
-### Sub heading
-
-Some more stuff
-
-### Sub heading
-
-Some more again
-
 ## Research on this component
+
+This component is used in Judicial user interface.

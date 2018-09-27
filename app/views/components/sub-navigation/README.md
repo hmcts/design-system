@@ -1,4 +1,4 @@
-Use the Sub navigation component for case navigation or other entities.
+Use the Sub navigation component for sub pages in a system or service.
 
 {{dsExample({
   name: 'sub-navigation',
@@ -8,28 +8,17 @@ Use the Sub navigation component for case navigation or other entities.
 
 ## When to use this component
 
-Some stuff here
+Use this component when you have a second level of navigation. For example, once you're in a case, the sub navigation may consist of “Summary”, “Timeline”, “Documents” and “Questions”.
+
+Similarly, you might uses this for Fees and Payments where the items might consist of “Overview” and “Transactions”.
 
 ## When not to use this component
 
-Some stuff here
-
-Some more stuff here
-
-## How it works
-
-Here’s a list:
-
-1. Do this
-2. Do that
-3. Do it again
-
-### Sub heading
-
-Some more stuff
-
-### Sub heading
-
-Some more again
+Do not use this component for primary level items or global naivgation items.
 
 ## Research on this component
+
+This component has been used in:
+
+- Judical user interface
+- Manage an account for professional user interface

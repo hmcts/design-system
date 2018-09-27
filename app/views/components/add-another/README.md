@@ -1,4 +1,4 @@
-Use the Add another component to let users enter multiple items in a form at the same time.
+Use the Add another component to let users enter multiple form items at the same time.
 
 {{dsExample({
   name: 'add-another',
@@ -8,25 +8,15 @@ Use the Add another component to let users enter multiple items in a form at the
 
 ## When to use this component
 
-Use the add another component when you need to let users enter variations of information multiple times, such as several names for a single application.
-
+Use the Add Another component when you need to let users enter variations of information multiple times, such as several names for a single application.
 
 ## When not to use this component
 
-Don’t use the add another component if you need to let users enter information which varies differently or is not similar.
-
+Don’t use the Add Another component if you need to let users enter information which varies differently or is not similar. Or if one field is dependent on the answer to the previous.
 
 ## How it works
 
 There are 2 ways to use the add another component. You can use HTML or, if you’re using Nunjucks, you can use the Nunjucks macro.
-
-### Sub heading
-
-Some more stuff
-
-### Sub heading
-
-Some more again
 
 ## Research on this component
 
