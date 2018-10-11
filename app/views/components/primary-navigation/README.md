@@ -8,7 +8,7 @@ Use the Primary Navigation component when your service has a number of top level
 
 ## When to use this component
 
-Use this together with the [Header](/components/header) component for non-citizen facing services.
+Use this together with the [Header](/components/header) component for non-citizen facing services. This component comes directly after the Header.
 
 ## When not to use this component
 
