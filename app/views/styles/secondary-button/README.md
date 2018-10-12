@@ -8,11 +8,11 @@
 
 ## When to use this component
 
-Use the secondary button style to help users perform secondary actions on a page.
+Use the secondary button for actions that aren't the primary action to be taken on a page.
 
 ## When not to use this component
 
-Use the primary button style if only one action exists on a page.
+If there is a primary action to be taken, use the primary button. If the primary user need is to perform other tasks (like view information) then it's better to use a standard link style.
 
 ## How it works
 
