@@ -43,5 +43,3 @@ This component has been used in:
 - Judicial user interface
 - Professional user interface
 - Fees and payments
-
-Originally the details bar contained global actions such as “Make decision”. Research across multiple teams showed that users weren't spotting the action buttons so we have moved them out of the details bar.
