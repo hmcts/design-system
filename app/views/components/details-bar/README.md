@@ -24,7 +24,7 @@ Don't use this component if there is only one detail page such as clicking on a 
 
 {{dsExample({
   name: 'details-bar',
-  example: 'default',
+  example: 'standard',
   height: 175
 })}}
 
