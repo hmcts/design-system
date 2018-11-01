@@ -1,0 +1,16 @@
+{% from "menu/macro.njk" import hmctsMenu %}
+
+
+<div style="padding-left: 100px;">
+  {{ hmctsMenu({
+    items: [{
+      text: 'Make decision'
+    }, {
+      text: 'List for hearing',
+      classes: 'hmcts-button--secondary'
+    }, {
+      text: 'End case',
+      classes: 'hmcts-button--secondary'
+    }]
+  }) }}
+</div>
