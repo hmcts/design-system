@@ -16,11 +16,14 @@ Don't use this component when a basic in-page form has multiple actions.
 
 ## How it works
 
-By default this component just groups buttons together to ensure they are spaced correctly. But you can turn it into a toggle menu at particular screen size which is useful when the buttons can't fit on the screen comfortably.
+By default this component just groups buttons together to ensure they are spaced correctly. But can be turned into a toggle menu at a configurable screen width that:
 
-### Grey toggle menu
+- is aligned right or left
+- is coloured green (primary) or grey (secondary)
 
-This menu is aligned left and is in the secondary colour because there are other more important actions the user needs to take.
+### Left aligned grey toggle menu
+
+Use the grey clour when it's not the main action the user needs to take.
 
 {{dsExample({
   name: 'menu',
@@ -28,9 +31,9 @@ This menu is aligned left and is in the secondary colour because there are other
   height: 250
 })}}
 
-### Green toggle menu
+### Right aligned green toggle menu
 
-This menu is aligned right and is in the primary colour because selecting an action from the menu is the primary user need.
+Use the green colour when it's the main action the user needs to take.
 
 {{dsExample({
   name: 'menu',
