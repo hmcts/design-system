@@ -12,17 +12,15 @@ Use this component when the there are a number of possible actions the user can 
 
 ## When not to use this component
 
-Don't use this component when a standard form has more than one action.
+Don't use this component when a basic in-page form has multiple actions.
 
 ## How it works
 
-By default all this component does is group buttons together to ensure they are spaced correctly.
+By default this component just groups buttons together to ensure they are spaced correctly. But you can turn it into a toggle menu at particular screen size which is useful when the buttons can't fit on the screen comfortably.
 
-But it can be configured to collapse into a toggle menu at a particular screen size. This is useful when you have a number of options that can't fit on screen.
+### Grey toggle menu
 
-### Collapsible menu
-
-This menu is in the grey secondary colour.
+This menu is aligned left and is in the secondary colour because there are other more important actions the user needs to take.
 
 {{dsExample({
   name: 'menu',
@@ -30,9 +28,9 @@ This menu is in the grey secondary colour.
   height: 250
 })}}
 
-### Collapsible menu
+### Green toggle menu
 
-This menu is in the green primary colour and aligned right.
+This menu is aligned right and is in the primary colour because selecting an action from the menu is the primary user need.
 
 {{dsExample({
   name: 'menu',
