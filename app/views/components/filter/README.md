@@ -1,9 +1,9 @@
 Use the Filter component to filter a large set of results.
 
 {{dsExample({
-  name: 'filters',
+  name: 'filter',
   example: 'default',
-  height: 900
+  height: 1000
 })}}
 
 ## When to use this component
