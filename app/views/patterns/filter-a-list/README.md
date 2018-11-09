@@ -1,5 +1,12 @@
 Help users find items in a long list in a way that matches their mental model and preference.
 
+{{dsExample({
+  section: 'patterns',
+  name: 'filter-a-list',
+  example: 'default',
+  height: 1600
+})}}
+
 ## When to use this component
 
 When users are trying to find items that match a particular set of attributes.
