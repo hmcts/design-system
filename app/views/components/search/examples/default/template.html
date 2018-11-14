@@ -1,0 +1,17 @@
+{% from "search/macro.njk" import hmctsSearch %}
+
+{{ hmctsSearch({
+  input: {
+    id: 'bill',
+    name: 'bill'
+  },
+  label: {
+    text: 'Search'
+  },
+  hint: {
+    text: 'You can search for cases, documents and events'
+  },
+  button: {
+    text: 'Search'
+  }
+}) }}
