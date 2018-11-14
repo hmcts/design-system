@@ -75,6 +75,12 @@ p {
     width: 100%;
   }
 
+  video {
+    max-width: 600px;
+    @include govuk-responsive-margin(2, "top");
+    @include govuk-responsive-margin(6, "bottom");
+  }
+
 }
 
 
