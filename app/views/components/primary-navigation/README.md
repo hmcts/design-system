@@ -14,9 +14,27 @@ Use this together with the [Header](/components/header) component for non-citize
 
 Do not use the Primary Navigation component for a citizen facing service because they already have their own primary navigation component in the header.
 
-## How it works
+## Examples
 
-There are 2 ways to use the file upload component. You can use HTML or, if you’re using Nunjucks or the GOV.UK Prototype Kit, you can use the Nunjucks macro.
+### Inline search
+
+You can configure this component to show an inline search form. Use this type of search when users can search everything within a service.
+
+{{dsExample({
+  name: 'primary-navigation',
+  example: 'inline-search',
+  height: 179
+})}}
+
+### Toggle search
+
+You can configure this component to show a toggleable search form. Use this type of search when users can only search for certain things in a certain way. For example, searching for cases via case reference number or party.
+
+{{dsExample({
+  name: 'primary-navigation',
+  example: 'toggle-search',
+  height: 250
+})}}
 
 ### What links belong in the primary navigation component?
 
