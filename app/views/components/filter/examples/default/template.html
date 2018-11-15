@@ -1,4 +1,4 @@
-{% from "filters/macro.njk" import hmctsFilters %}
+{% from "filter/macro.njk" import hmctsFilter %}
 {% from "checkboxes/macro.njk" import govukCheckboxes %}
 
 {% set filterOptionsHtml %}
@@ -60,7 +60,7 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-one-third">
 
-{{ hmctsFilters({
+{{ hmctsFilter({
   heading: {
     text: 'Filter'
   },
