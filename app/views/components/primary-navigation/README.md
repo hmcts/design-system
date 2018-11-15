@@ -1,4 +1,4 @@
-Use the Primary Navigation component when your service has a number of top level links.
+Let users navigate top level locations within your service. Optionally, you can also supply a globally accessible search form too.
 
 {{dsExample({
   name: 'primary-navigation',
@@ -12,11 +12,9 @@ Use this together with the [Header](/components/header) component for non-citize
 
 ## When not to use this component
 
-Do not use the Primary Navigation component for a citizen facing service because they already have their own primary navigation component in the header.
+Don't use this for citizen facing services as they should use the GOV.UK Design System's [header and navigation](https://design-system.service.gov.uk/components/header/) component.
 
-## Examples
-
-### Inline search
+## With inline search
 
 You can configure this component to show an inline search form. Use this type of search when users can search everything within a service.
 
@@ -26,7 +24,7 @@ You can configure this component to show an inline search form. Use this type of
   height: 179
 })}}
 
-### Toggle search
+## With toggle search
 
 You can configure this component to show a toggleable search form. Use this type of search when users can only search for certain things in a certain way. For example, searching for cases via case reference number or party.
 
@@ -36,9 +34,11 @@ You can configure this component to show a toggleable search form. Use this type
   height: 250
 })}}
 
-### What links belong in the primary navigation component?
+## Links
 
-The primary navigation should contain the top level items for a service. For example, it could contain “Cases” and “Appointments”. Preferably action buttons such as “Create case” shouldn't be placed here.
+The primary navigation should contain top level links for locations within your service. So if your service contains cases and appointments, they should be primary navigation items.
+
+Don't put calls to action in the primary navigation area. For example, “Create case” should belong within the “cases” section and not within the primary navigation bar.
 
 ## Research on this component
 
