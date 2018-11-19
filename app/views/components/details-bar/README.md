@@ -1,4 +1,4 @@
-Use the Details Bar component to provide context to the user that they are within a particular detail view.
+Use this component to give users context of where they are within a service such as viewing a case, user or fee account.
 
 {{dsExample({
   name: 'details-bar',
@@ -8,27 +8,17 @@ Use the Details Bar component to provide context to the user that they are withi
 
 ## When to use this component
 
-Use this component when the user is looking at an item in detail but when the detail view is split across several screens.
-
-For example, when moving from a case list to a case detail the user is taken to a case summary but they can also view additional sections of the case such as timeline and documents.
-
-To give users context, give them a details bar that appears at the top of each of those pages.
+This component is helpful when an entity consists of additional [sub sections](/components/sub-navigation/).
 
 ## When not to use this component
 
-Don't use this component if there is only one detail page such as clicking on a case and seeing a single page of information. In this case, use a sensible `h1` with a back link above it to get back to the list view.
+Don't use this component if there's only one detail page. For example, clicking a case in a case list and seeing a single page of information about the case.
 
-## How it works
+<!--In this case, put a back link above the main page heading.-->
 
-### Standard
+## Actions
 
-{{dsExample({
-  name: 'details-bar',
-  example: 'standard',
-  height: 175
-})}}
-
-### Advanced
+You can optionally configure the component to display actions. Place actions here when the user might want to take an action from within any sub section.
 
 {{dsExample({
   name: 'details-bar',
