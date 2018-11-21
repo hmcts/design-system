@@ -1,4 +1,4 @@
-Some content goes here...
+Use the Alertt component to tell users that something has happened in response to an action.
 
 {{dsExample({
   name: 'alert',
@@ -8,17 +8,15 @@ Some content goes here...
 
 ## When to use this component
 
-Some stuff here
+Use this component for internal systems where the user performs the same action frequently. For example, when a judge creates a number of questions in a batch before sending them to the citizen.
 
 ## When not to use this component
 
-Some stuff here
-
-## How it works
+You should not use this pattern for citizen facing journeys or internal processes that have a signficant impact such as making decisions. For these cases you should use [Confirmation Page](https://design-system.service.gov.uk/patterns/confirmation-pages/) pattern.
 
 ### Success
 
-Some content goes here...
+This is the default style and should be used when the user performs an action successfully.
 
 {{dsExample({
   name: 'alert',
@@ -28,7 +26,7 @@ Some content goes here...
 
 ### Warning
 
-Some content goes here...
+Use this variant when you want to warn the user that something went wrong.
 
 {{dsExample({
   name: 'alert',
@@ -38,7 +36,7 @@ Some content goes here...
 
 ### Information
 
-Some content goes here...
+Use this variant when you want to tell users some information.
 
 {{dsExample({
   name: 'alert',
@@ -47,3 +45,7 @@ Some content goes here...
 })}}
 
 ## Research on this component
+
+This component has been used in:
+
+- Judicial user interface

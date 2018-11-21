@@ -1,4 +1,6 @@
-Use the Cookie policy to inform users of how their information is collected.
+Use the cookie policy to tell users how their information is collected.
+
+You may be able to use this content without any changes. Check with your technical lead.
 
 {{dsExample({
   section: 'patterns',
@@ -9,9 +11,11 @@ Use the Cookie policy to inform users of how their information is collected.
 
 ## When to use this component
 
-Some stuff here
+Every service for citizens and professional users needs a cookie policy. Services for staff and the judiciary may not need them.
 
-## When not to use this component
+If you need a cookie policy, link to it from the footer.
+
+<!-- ## When not to use this component
 
 Some stuff here
 
@@ -35,4 +39,4 @@ Some more again
 
 [GitHub](http://github.com)
 
-## Research on this component
+## Research on this component -->

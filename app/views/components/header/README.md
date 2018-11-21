@@ -1,4 +1,6 @@
-Use the Header component for services that are not hosted on GOV.UK.
+Use the Header component for any service or system not hosted on GOV.UK such as those for the judiciary or HMCTS staff.
+
+Do not use this for citizen-facing services.
 
 {{dsExample({
   name: 'header',
@@ -6,14 +8,15 @@ Use the Header component for services that are not hosted on GOV.UK.
   height: 150
 })}}
 
-## When to use this component
-
-Use this header component for services that are not hosted on GOV.UK.  For example, services used by judiciary or HMCTS staff.
-
-Do not use this for citizen-facing services.
-
 ## How it works
 
-The service or system name is displayed in the black bar.  Global navigation options can be added as links to the right hand side of the black bar.  Sign out is a global navigation option.
+The name of the service or system appears in the top left.
 
-If more than 3 global navigation options are identified, the links would change to be incorporated into a single drop-down list. 
+You can add global links to the top right which is useful for “Account” and “Sign out”.
+
+## Research on this component
+
+This component has been used in:
+
+- Judicial user interface
+- Professional user interface

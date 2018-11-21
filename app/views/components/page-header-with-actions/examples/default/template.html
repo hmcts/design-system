@@ -1,0 +1,14 @@
+{% from "page-header-with-actions/macro.njk" import hmctsPageHeaderWithActions %}
+
+{{ hmctsPageHeaderWithActions({
+  title: {
+    html: '<h1 class="govuk-heading-xl">Documents</h1>'
+  },
+  items: [{
+    text: 'Upload new',
+    classes: 'hmcts-button--secondary'
+  }, {
+    text: 'Share collection',
+    classes: 'hmcts-button--secondary'
+  }]
+}) }}

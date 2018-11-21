@@ -1,0 +1,35 @@
+{% from "primary-navigation/macro.njk" import hmctsPrimaryNavigation %}
+{% from "search/macro.njk" import hmctsSearch %}
+
+{% set inlineSearchHtml %}
+  {{ hmctsSearch({
+    classes: 'hmcts-search--ondark hmcts-search--inline',
+    input: {
+      id: 'search1',
+      name: 'search1'
+    },
+    label: {
+      text: 'Search',
+      classes: 'govuk-visually-hidden'
+    },
+    button: {
+      text: 'Search'
+    }
+  }) }}
+{% endset %}
+
+{{ hmctsPrimaryNavigation({
+  label: 'Primary navigation',
+  items: [{
+    text: 'Nav item 1',
+    href: '#1',
+    active: true
+  }, {
+    text: 'Nav item 2',
+    href: '#2'
+  }, {
+    text: 'Nav item 3',
+    href: '#3'
+  }],
+  searchHtml: inlineSearchHtml
+}) }}

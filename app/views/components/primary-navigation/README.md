@@ -1,4 +1,4 @@
-Use the Primary Navigation component when your service has a number of top level links.
+Let users navigate top level locations within your service. Optionally, you can also supply a globally accessible search form too.
 
 {{dsExample({
   name: 'primary-navigation',
@@ -8,19 +8,37 @@ Use the Primary Navigation component when your service has a number of top level
 
 ## When to use this component
 
-Use this together with the [Header](/components/header) component for non-citizen facing services.
+Use this together with the [Header](/components/header) component for non-citizen facing services. This component comes directly after the Header.
 
 ## When not to use this component
 
-Do not use the Primary Navigation component for a citizen facing service because they already have their own primary navigation component in the header.
+Don't use this for citizen facing services as they should use the GOV.UK Design System's [header and navigation](https://design-system.service.gov.uk/components/header/) component.
 
-## How it works
+## With inline search
 
-There are 2 ways to use the file upload component. You can use HTML or, if you’re using Nunjucks or the GOV.UK Prototype Kit, you can use the Nunjucks macro.
+You can configure this component to show an inline search form. Use this type of search when users can search everything within a service.
 
-### What links belong in the primary navigation component?
+{{dsExample({
+  name: 'primary-navigation',
+  example: 'inline-search',
+  height: 179
+})}}
 
-The primary navigation should contain the top level items for a service. For example, it could contain “Cases” and “Appointments”. Preferably action buttons such as “Create case” shouldn't be placed here.
+## With toggle search
+
+You can configure this component to show a toggleable search form. Use this type of search when users can only search for certain things in a certain way. For example, searching for cases via case reference number or party.
+
+{{dsExample({
+  name: 'primary-navigation',
+  example: 'toggle-search',
+  height: 250
+})}}
+
+## Links
+
+The primary navigation should contain top level links for locations within your service. So if your service contains cases and appointments, they should be primary navigation items.
+
+Don't put calls to action in the primary navigation area. For example, “Create case” should belong within the “cases” section and not within the primary navigation bar.
 
 ## Research on this component
 

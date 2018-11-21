@@ -1,0 +1,21 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "styles" %}
+{% set pageId = "filter-layout" %}
+{% set pageTitle = "Filter layout" %}
+
+{% block subNav %}
+  {% include "styles-subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Styles</span> {{pageTitle}}</h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+  {{dsContactPanel()}}
+
+{% endblock %}

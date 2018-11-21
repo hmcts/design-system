@@ -1,0 +1,12 @@
+{% from "pagination/macro.njk" import hmctsPagination %}
+
+{{hmctsPagination({
+  previous: {
+    text: 'Previous',
+    href: '/'
+  },
+  next: {
+    text: 'Next',
+    href: '/'
+  }
+})}}

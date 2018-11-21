@@ -1,0 +1,32 @@
+{% from "global-footer/macro.njk" import hmctsGlobalFooter %}
+
+{{ hmctsGlobalFooter({
+
+  help: {
+    heading: 'Help',
+    email: {
+      address: '#',
+      text: 'service-desk@hmcts.gov.uk'
+    },
+    phone: {
+      text: '0207 633 4140'
+    },
+    opening: {
+      text: 'Monday to Friday, 8am to 6pm (excluding public holidays)'
+    }
+  },
+
+  navigation: {
+    items: [{
+      text: 'Terms and conditions',
+      href: '#'
+    }, {
+      text: 'Cookies',
+      href: '#'
+    }, {
+      text: 'Privacy policy',
+      href: '#'
+    }]
+  }
+
+}) }}

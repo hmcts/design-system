@@ -1,20 +1,20 @@
 {% extends "layouts/guidance.html" %}
 
-{% set sectionId = "addresses" %}
-{% set pageTitle = "Addresses" %}
-{% set pageId = "Addresses" %}
+{% set sectionId = "components" %}
+{% set pageId = "details-bar" %}
+{% set pageTitle = "Details bar" %}
 
 {% block subNav %}
-  {% include "patterns-subnav.html" %}
+  {% include "components-subnav.html" %}
 {% endblock %}
 
 {% block pageContent %}
 
-  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4"><span class="govuk-caption-xl">Pages</span> {{pageTitle}}</h1>
+  <h1 class="govuk-heading-xl govuk-!-margin-bottom-4"><span class="govuk-caption-xl">Components</span> {{pageTitle}}</h1>
 
   {{ govukTag({
     classes: 'govuk-!-margin-bottom-8',
-    text: 'draft'
+    text: 'experimental'
   }) }}
 
   <div class="app-prose-scope">

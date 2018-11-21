@@ -1,4 +1,6 @@
 
+Use the secondary button style for secondary actions.
+
 {{dsExample({
   name: 'secondary-button',
   example: 'default',
@@ -6,14 +8,6 @@
   section: 'styles'
 })}}
 
-## When to use this component
-
-Use the secondary button style to help users perform secondary actions on a page.
-
-## When not to use this component
-
-Use the primary button style if only one action exists on a page.
-
 ## How it works
 
-Write the button text in sentence case, describing the action it performs. For example ‘Add questions’ or ‘List for hearing’.
+This class can be added to the green [GOV.UK button](https://design-system.service.gov.uk/components/button/) to turn it from green to grey.

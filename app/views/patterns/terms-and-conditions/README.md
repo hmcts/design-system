@@ -1,4 +1,6 @@
-Use the Terms and Conditions to tell users the terms and conditions.
+Use terms and conditions to tell users what they're agreeing to when they use your service.
+
+You may be able to use this content without any changes. Check with your product owner.
 
 {{dsExample({
   section: 'patterns',
@@ -9,9 +11,11 @@ Use the Terms and Conditions to tell users the terms and conditions.
 
 ## When to use this component
 
-Some stuff here
+Every service for citizens and professional users needs terms and conditions. Services for staff and the judiciary may not need them.
 
-## When not to use this component
+If you need terms and conditions, link to them from the footer.
+
+<!-- ## When not to use this component
 
 Some stuff here
 
@@ -34,3 +38,7 @@ Some more stuff
 Some more again
 
 ## Research on this component
+ -->
+## Legal review
+
+The template been reviewed by a legal team.
