@@ -1,4 +1,4 @@
-Use the Alertt component to tell users that something has happened in response to an action.
+Use the Alert component to tell users that something has happened in response to an action.
 
 {{dsExample({
   name: 'alert',
