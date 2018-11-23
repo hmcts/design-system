@@ -1,11 +1,11 @@
 Anyone can propose a new component or pattern for the HMCTS Design System.
 
-To be successful, proposals need to show that the component or pattern being suggested would be [useful and unique](/community/contribution-criteria).
+To be successful, proposals need to show that the component or pattern being suggested would be [useful and unique](/get-started/contribution-criteria).
 
 Follow 3 steps to propose a component or pattern for the Design System.
 
 ## 1. Check the community backlog
-Check if someone else has already suggested your idea or something similar on the [community backlog](/community/backlog).
+Check if someone else has already suggested your idea or something similar on the [community backlog](/get-started/backlog).
 
 If your idea is on the backlog and marked as ‘proposed’, follow the link and comment on the issue. Say you need the component or pattern and share any examples or evidence you have to support the proposal.
 

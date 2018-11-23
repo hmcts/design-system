@@ -12,6 +12,5 @@ Find out:
 
 * how to [propose a component or pattern](/community/propose-a-component-or-pattern)
 * how to [develop a component or pattern](/community/develop-a-component-or-pattern)
-* what people are currently working on in the [community backlog](/community/backlog)
 
 Learn how the [team reviews](/community/team-reviews) and approves components and patterns to confirm they meet the [contribution criteria](/community/contribution-criteria).

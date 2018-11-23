@@ -1,16 +1,16 @@
 {% extends "layouts/guidance.html" %}
 
-{% set sectionId = "community" %}
+{% set sectionId = "get-started" %}
 {% set pageTitle = "Contribution criteria" %}
 {% set pageId = "contribution-criteria" %}
 
 {% block subNav %}
-  {% include "community-subnav.html" %}
+  {% include "get-started-subnav.html" %}
 {% endblock %}
 
 {% block pageContent %}
 
-  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Community</span> Contribution criteria</h1>
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Community guides</span> Contribution criteria</h1>
 
   <div class="app-prose-scope">
     {% markdown %}{% include "./README.md" %}{% endmarkdown %}
