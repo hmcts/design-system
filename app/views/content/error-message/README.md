@@ -9,11 +9,6 @@ If you need to create a new error message, add the template and an example to th
 Say 'Select a \[formats\] file'.
 For example, 'Select a JPG, BMP, PNG, TIF or PDF file'.
 
-### If a user tries to upload a file which is too large
-
-Say 'Select a file \[x\] or smaller'.
-For example, 'Select a file 5MB or smaller'.
-
 <!-- ## When to use this component
 
 ## When not to use this component
