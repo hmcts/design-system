@@ -1,7 +1,7 @@
 Use this component to give users context of where they are within a service such as viewing a case, user or fee account.
 
 {{dsExample({
-  name: 'details-bar',
+  name: 'identity-bar',
   example: 'default',
   height: 175
 })}}
@@ -21,7 +21,7 @@ Don't use this component if there's only one detail page. For example, clicking 
 You can optionally configure the component to display actions. Place actions here when the user might want to take an action from within any sub section.
 
 {{dsExample({
-  name: 'details-bar',
+  name: 'identity-bar',
   example: 'advanced',
   height: 175
 })}}

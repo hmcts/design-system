@@ -1,0 +1,14 @@
+{% from "identity-bar/macro.njk" import hmctsIdentityBar %}
+
+  {{ hmctsIdentityBar({
+    title: { html: '<b>John Smith</b> and <b>Jane Smith</b>' },
+    items: [
+      {
+        text: 'Make a decision'
+      },
+      {
+        classes: 'hmcts-button--secondary',
+        text: 'List for hearing'
+      }
+    ]
+  }) }}
