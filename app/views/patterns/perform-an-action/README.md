@@ -65,6 +65,10 @@ If the user has to perform the same action many times within a single session, a
 
 If the user is performing an important action or if that action is taken infrequently, show users a [check answers](https://design-system.service.gov.uk/patterns/check-answers) page followed by a [confirmation page](https://design-system.service.gov.uk/patterns/confirmation-pages).
 
+## Actions versus navigation items
+
+Don't put actions inside the [primary navigation](/components/primary-navigation) or [sub navigation](/components/sub-navigation) components.
+
 ## Research on this component
 
 This pattern is used for many journeys throughout JUI and PUI and has tested well so far.
