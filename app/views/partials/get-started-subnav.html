@@ -1,16 +1,38 @@
 {{dsSubnav({
   sections: [{
+
     heading: {
-      text: 'Setup guides'
+      text: 'How we work'
     },
     items: [{
+      title: 'Our approach',
+      link: '/get-started/our-approach',
+      selected: pageId == 'our-approach'
+    },
+    {
       title: 'Prototyping',
       link: '/get-started/prototyping',
       selected: pageId == 'prototyping'
-    }]
+    }
+    ]
   }, {
+  heading: {
+    text: 'Common user needs'
+  },
+  items: [{
+    title: 'Common needs of citizens',
+    link: '/get-started/needs-of-citizens',
+    selected: pageId == 'needs-of-citizens'
+  },
+  {
+    title: 'Common needs of the Judiciary',
+    link: '/get-started/needs-of-judiciary',
+    selected: pageId == 'needs-of-judiciary'
+  }
+  ]
+}, {
     heading: {
-      text: 'Community guides'
+      text: 'Contributing to the design system'
     },
     items: [{
       title: 'Backlog',
@@ -25,5 +47,6 @@
       link: '/get-started/contribution-criteria',
       selected: pageId == 'contribution-criteria'
     }]
-  }]
+  }
+  ]
 }) }}
