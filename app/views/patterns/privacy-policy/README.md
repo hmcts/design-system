@@ -1,6 +1,6 @@
-Use the privacy policy to tell users how their data is used. 
+Use the privacy policy to tell users how their data is used.
 
-Use this template to make sure you include all the required information. 
+Use this template to make sure you include all the required information.
 
 Edit the content to make it specific to your service. Check with your product owner what data the service will collect and what your data retention policy is.
 
@@ -11,7 +11,7 @@ Edit the content to make it specific to your service. Check with your product ow
   height: 1840
 })}}
 
-## When to use this component
+## When to use this pattern
 
 Every service for citizens and professional users needs a privacy policy. Services for staff and the judiciary may not need it.
 

@@ -9,7 +9,7 @@ You may be able to use this content without any changes. Check with your product
   height: 3070
 })}}
 
-## When to use this component
+## When to use this pattern
 
 Every service for citizens and professional users needs terms and conditions. Services for staff and the judiciary may not need them.
 

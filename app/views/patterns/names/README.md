@@ -2,11 +2,11 @@ Use the Names...
 
 Example goes here...
 
-## When to use this component
+## When to use this pattern
 
 Some stuff here
 
-## When not to use this component
+## When not to use this pattern
 
 Some stuff here
 

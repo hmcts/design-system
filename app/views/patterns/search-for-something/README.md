@@ -12,6 +12,6 @@ Some guidance about when to use this pattern
 
 Some stuff here
 
-## Research on this component
+## Research on this pattern
 
 Some stuff we know from research

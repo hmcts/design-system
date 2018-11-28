@@ -1,10 +1,10 @@
 Help users send messages and contact support online.
 
-<video role="region" aria-label="Address lookup flow example video, this video has no audio." controls muted>
+<video role="region" aria-label="Get support online video, this video has no audio." controls muted>
   <source src="/public/videos/support.mp4" type="video/mp4">
 </video>
 
-## When to use this component
+## When to use this pattern
 
 Use this component at the bottom of every page of your service.
 

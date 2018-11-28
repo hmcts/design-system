@@ -7,11 +7,11 @@ Help users find items in a long list in a way that matches their mental model an
   height: 1600
 })}}
 
-## When to use this component
+## When to use this pattern
 
 When users are trying to find items that match a particular set of attributes.
 
-## When not to use this component
+## When not to use this pattern
 
 Don't use this pattern if there aren't many items to filter.
 
