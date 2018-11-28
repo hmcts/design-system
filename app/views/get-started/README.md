@@ -1,8 +1,5 @@
 # Get started
 
-The examples in the HMCTS Design System come with code to make it easy for you to use them in your project.
+HMCTS builds on the principles and guidelines published by GDS. The guidance here is intended to supplement that published by GDS and not replace it.
 
-Get started:
-
-- [prototyping](/get-started/prototyping)
-- [in production](production)
+The guidelines published here show how these have been adapted and refined to fit the goals and context of the HMCTS Reform programme. 
