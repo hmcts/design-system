@@ -35,7 +35,7 @@ In the example above the user is adding a new document to the case file but not 
 You shouldn't use the page heading with actions if you:
 
 - need to help users perform the same action across several sub sections. In this case use the identity bar.
-- users are performing actions against a component within the page. For example, there are multiple batches/rounds of questions on the questions page on JUI. In this case buttons should be placed in close proximity to the batch to which they relate.
+- users are performing actions against a component within the page. See below for an example of this for asking questions.
 
 ## Buttons within the body
 
