@@ -1,0 +1,10 @@
+{% from "banner/macro.njk" import hmctsBanner %}
+
+{% set bannerHtml %}
+  <h2 class="govuk-heading-m">The case has been reassigned to you by Jane Smith</h2>
+  <p><a href="#">Dismiss</a></p>
+{% endset %}
+
+{{ hmctsBanner({
+  html: bannerHtml
+}) }}
