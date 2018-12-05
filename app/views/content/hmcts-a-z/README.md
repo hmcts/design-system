@@ -107,9 +107,142 @@ Use the explanation
 ## B
 
 
+### Bailiffs, enforcement agents
+
+Explanation:
+Visit the debtor's home or business to see if anything can be sold to pay the debt.
+
+For citizens: 
+Use the explanation
+
+
+### Beneficiary 
+
+Explanation: 
+A person who will get money or other property according to instructions left in a will. 
+
+For citizens: 
+Use the explanation
 
 
 
+## C
+
+### Circuit judge
+
+Explanation: 
+Sits in crown and county courts. Judges on criminal, civil, public and private cases.
+
+For citizens: 
+Use the explanation
+
+
+### Claim
+
+Explanation: 
+To apply for money you’re owed by a person or business. It can be known as making a court claim and taking someone to a ‘small claims court’.
+
+For citizens use the explanation the first time the word is used. 
+
+
+### Claimant
+
+Explanation: 
+The person making a claim.
+
+For citizens: 
+Use the explanation
+
+
+
+### Co-respondent
+
+Explanation: 
+Person the applicant alleges their husband or wife committed adultery with.
+
+For citizens: 
+Use the explanation
+
+
+### Codicil 
+
+Explanation: 
+Extra pages to change a valid will which needs a minor alteration. The codicil must be signed and witnessed and then be attached to the will.
+
+For citizens use: 
+An update to the will ('codicil').
+
+
+### Cohabit
+
+Explanation: 
+Live together
+
+For citizens: 
+Use the explanation
+
+
+### Compliant
+
+Explanation: 
+To meet to rules or standards.
+
+For citizens use:
+meet the rules
+
+
+### Conducted
+
+Explanation: 
+Carried out
+
+For citizens: 
+Use the explanation
+
+
+### Consent order
+
+Explanation:
+If the applicant and respondent both agree on how to split their money and property and want to make it legally binding.
+
+For citizens: 
+Use the explanation
+
+
+### Consented
+
+Explanation: 
+Agree to. 
+
+For citizens: 
+Use the explanation
+
+
+### Consider
+
+Explanation: 
+Think about
+
+For citizens: 
+Use the explanation
+
+
+### Contested
+
+Explanation:
+Disagreed with
+
+For citizens: 
+Use the explanation
+
+
+### Court claim, money claim
+
+Explanation: 
+A claim for money made to the County Court.
+
+For citizens: 
+Use the explanation
 
 
 
