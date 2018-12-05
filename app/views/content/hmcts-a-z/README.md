@@ -655,6 +655,10 @@ For citizens:
 Use with explanation
 
 
+
+##P
+
+
 ### Parental responsibility
 
 Explanation: 
@@ -691,6 +695,123 @@ For citizens use:
 The person who is applying for a divorce.
 
 
+### Point of law
+
+Explanation: 
+An individual legal issue or proposition at the heart of a case.
+
+For citizens use: 
+Issue, or issues of your case
+
+
+### Postponement
+
+Explanation: 
+
+When a court case is delayed. 
+
+For citizens use: 
+delay
+
+
+
+### Probate
+
+Explanation: 
+The legal right to deal with the property and belongings of someone who has died.
+
+For citizens: 
+Use with explanation, for example: "Applying for the legal right to deal with someone’s property, money and possessions (their ‘estate’) when they die is called ‘applying for probate’." 
+
+
+### Probate registry
+
+Explanation: 
+The part of HM Courts & Tribunals that deals with everything related to probate. 
+
+For citizens: 
+Use with explanation
+
+
+### Public record
+
+Explanation: 
+Grants of probate are available for the public to view, as they are public records. 
+
+For citizens use: 
+The grant of probate will be stored as a public record.
+
+
+### Reduced notice hearing
+
+Explanation: 
+An urgent hearing
+
+For citizens: 
+Use with explanation
+
+
+### Representative
+
+Explanation: 
+Someone acting on your behalf. This could be a family member or friend who can receive updates on behalf of the person going to court or tribunal.
+
+For citizens: 
+Use with explanation
+
+
+### Rescind
+
+Explanation: 
+To reverse or cancel a decision.
+
+For citizens: 
+Use with explanation
+
+
+### Residual jurisdiction
+
+Explanation: 
+The court may have residual jurisdiction if none of the other connections apply, and both of the following are true:
+
+- either you or your wife are domiciled in England or Wales
+- neither you nor your wife are able to apply (on the basis of your nationality or residence) for a divorce in another member state of the EU
+
+In addition, if you're married to a person of the same sex, the court may have residual jurisdiction if all the following apply:
+
+- you and your wife married each other in England or Wales
+- neither you nor your wife are able to apply for a divorce in any other country
+- it would be in the interests of justice for the court to consider the application (for example, this may apply if you or your wife's home country doesn’t allow divorce between same-sex couples).
+
+For citizens: 
+Use with explanation
+
+
+### Resolve 
+
+Explanation: 
+fix
+
+For citizens use: 
+fix
+
+
+### Respondent
+
+Explanation: 
+The person a case is being made against. In a divorce case it is the husband or wife of the person who has applied for a divorce.
+
+For citizens: 
+Use with explanation
+
+
+### Serve
+
+Explanation: 
+Deliver court documents
+
+For citizens use: 
+Deliver court documents
 
 
 
