@@ -593,6 +593,111 @@ For citizens:
 Use with explanation
 
 
+### Mediation
+
+Explanation: 
+When an impartial person helps both sides work out an agreement
+
+For citizens: 
+Use with explanation
+
+
+### Mental capacity 
+
+Explanation: 
+The ability to make your own decisions. Some people are medically certified as lacking in mental capacity because of an accident or injury. Someone may then need to be appointed to make decisions on their behalf.
+
+For citizens use: 
+ability to make a decision
+
+
+
+##N
+
+
+### Notice
+
+Explanation: 
+A warning of something which is about to happen.
+
+For citizens: 
+Use with explanation
+
+
+
+##O
+
+
+### Oath
+
+Explanation: 
+Swearing the truth of a statement.
+
+For citizens: 
+Use with explanation
+
+
+### Obtain
+
+Explanation: 
+get
+
+For citizens use: 
+get
+
+
+### Order
+
+Explanation: 
+An instruction by a court.
+
+For citizens: 
+Use with explanation
+
+
+### Parental responsibility
+
+Explanation: 
+The legal rights and responsibilities over a child
+
+For citizens: 
+Use with explanation
+
+
+### Party, plaintiff
+
+Explanation: 
+The claimant (or plaintiff, before April 1999) or defendant in a lawsuit. It is also someone who has taken out a contract or agreement.
+
+For citizens: 
+Use with explanation
+
+
+### Persons
+
+Explanation: 
+people
+
+For citizens use: 
+people
+
+
+### Petitioner
+
+Explanation: 
+The person who is applying for a divorce.
+
+For citizens use: 
+The person who is applying for a divorce.
+
+
+
+
+
+
+
+
+
 
 <!-- ## When to use this component
 
