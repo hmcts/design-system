@@ -2,7 +2,7 @@
 
 ## A
 
-###Acknowledgement of service
+### Acknowledgement of service
 
 Explanation:
 A spouse's (respondent's) legal response to a divorce application. Also will be sent out to co-respondents (those who has been named within the application as having committed adultery with the respondent). 
@@ -11,7 +11,7 @@ For citizens use:
 The legal response to a divorce application.
 
 
-###Adjourn
+### Adjourn
 
 Explanation:
 When a court case is postponed.
@@ -20,7 +20,7 @@ For citizens use:
 Postpone
 
 
-###Adultery
+### Adultery
 
 Explanation:
 One of the facts (reasons) for divorce. The adultery must have been with a member of the opposite sex.
@@ -29,7 +29,7 @@ For citizens:
 Use the explanation
 
 
-###Appeal
+### Appeal
 
 Explanation
 To ask a court to look at a decision again.
@@ -38,7 +38,7 @@ For citizens use the explanation the first time the word is used:
 For example, 'You can appeal. This means a court will look at the decision again.’
 
 
-###Appellant
+### Appellant
 
 Explanation:
 The person asking for a decision to be changed, or the person who is making an appeal.
@@ -48,7 +48,7 @@ Use the explanation
 
 
 
-###Applicant
+### Applicant
 
 Explanation:
 The person or group making the application.
@@ -57,7 +57,7 @@ For citizens:
 Use the explanation
 
 
-###Appointee
+### Appointee
 
 Explanation:
 Someone appointed by DWP to help someone going to a tribunal.
@@ -67,7 +67,7 @@ Use the explanation
 
 
 
-###Ascertain
+### Ascertain
 
 Explanation: Find out.
 
@@ -76,7 +76,7 @@ Use the explanation
 
 
 
-###Assets
+### Assets
 
 Explanation: Money, belongings, or property
 
@@ -85,7 +85,7 @@ Use the explanation
 
 
 
-###Assist
+### Assist
 
 Explanation: Help
 
