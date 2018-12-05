@@ -714,7 +714,6 @@ For citizens use:
 delay
 
 
-
 ### Probate
 
 Explanation: 
@@ -740,6 +739,10 @@ Grants of probate are available for the public to view, as they are public recor
 
 For citizens use: 
 The grant of probate will be stored as a public record.
+
+
+
+### R
 
 
 ### Reduced notice hearing
@@ -815,6 +818,56 @@ Deliver court documents
 
 
 
+## S
+
+### Specified amount of money
+
+Explanation: 
+Fixed amount of money
+
+For citizens: 
+Use with explanation
+
+
+
+## U
+
+
+### Unspecified claim
+Explanation: 
+A money claim for damages which can't be calculated exactly at the time of the claim, for example someone claiming for personal injury where no precise value can be put on the treatment.
+
+For citizens: 
+Use with explanation
+
+
+
+## V
+
+
+### Vested land 
+Archaic legal term used to describe land or property that is attached to a title or employment. 
+
+For citizens: 
+Use with explanation
+
+
+### Without notice
+
+Explanation: 
+When a respondent is not told about a hearing before it happens.
+
+For citizens: 
+Use with explanation
+
+
+### Without prejudice
+
+Explanation: 
+Information which can't be used in a hearing – for example: if someone suggests a settlement it can sometimes be 'without prejudice', so it can't be mentioned if the claim goes to a hearing. 
+
+For citizens: 
+Use with explanation
 
 
 
