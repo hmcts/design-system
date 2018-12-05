@@ -26,8 +26,7 @@ Explanation:
 One of the facts (reasons) for divorce. The adultery must have been with a member of the opposite sex.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 ### Appeal
 
@@ -44,8 +43,7 @@ Explanation:
 The person asking for a decision to be changed, or the person who is making an appeal.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ### Applicant
@@ -54,8 +52,7 @@ Explanation:
 The person or group making the application.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 ### Appointee
 
@@ -63,8 +60,7 @@ Explanation:
 Someone appointed by DWP to help someone going to a tribunal.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ### Ascertain
@@ -72,8 +68,7 @@ Use the explanation
 Explanation: Find out.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ### Assets
@@ -81,8 +76,7 @@ Use the explanation
 Explanation: Money, belongings, or property
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ### Assist
@@ -90,8 +84,7 @@ Use the explanation
 Explanation: Help
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ### Asylum, asylum claim or protection claim
@@ -100,8 +93,7 @@ Explanation:
 Someone asking for political protection from another country because they cannot return to their own country.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ## B
@@ -113,8 +105,7 @@ Explanation:
 Visit the debtor's home or business to see if anything can be sold to pay the debt.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 ### Beneficiary 
 
@@ -122,8 +113,7 @@ Explanation:
 A person who will get money or other property according to instructions left in a will. 
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ## C
@@ -134,8 +124,7 @@ Explanation:
 Sits in crown and county courts. Judges on criminal, civil, public and private cases.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 ### Claim
 
@@ -151,8 +140,7 @@ Explanation:
 The person making a claim.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ### Co-respondent
@@ -161,7 +149,7 @@ Explanation:
 Person the applicant alleges their husband or wife committed adultery with.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Codicil 
@@ -179,7 +167,7 @@ Explanation:
 Live together
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Compliant
@@ -197,7 +185,7 @@ Explanation:
 Carried out
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Consent order
@@ -206,7 +194,7 @@ Explanation:
 If the applicant and respondent both agree on how to split their money and property and want to make it legally binding.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Consented
@@ -215,7 +203,7 @@ Explanation:
 Agree to. 
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Consider
@@ -224,7 +212,7 @@ Explanation:
 Think about
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Contested
@@ -233,7 +221,7 @@ Explanation:
 Disagreed with
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Court claim, money claim
@@ -242,8 +230,7 @@ Explanation:
 A claim for money made to the County Court.
 
 For citizens: 
-Use the explanation
-
+Use with explanation
 
 
 ## D
@@ -255,7 +242,7 @@ Explanation:
 The person or business who owes money.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Decision
@@ -264,7 +251,7 @@ Explanation:
 The ruling made by the court.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Decree absolute
@@ -291,7 +278,6 @@ For citizens use:
 A court order which shows that the court agrees that you’re entitled to a divorce.
 
 
-
 ### Deem
 
 Explanation: 
@@ -309,7 +295,7 @@ A court service that the applicant can apply for if their spouse doesn't respond
 If granted, the applicant can continue their divorce as if their spouse had responded
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Defendant
@@ -318,7 +304,7 @@ Explanation:
 The person, business or organisation that's being claimed against.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Defend 
@@ -327,7 +313,7 @@ Explanation:
 When the respondent (the person being divorced) tries to prevent a divorce.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Desertion
@@ -336,7 +322,7 @@ Explanation:
 One of the facts (reasons) for divorce which can be used when the applicant's spouse abandoned them (left without their agreement).
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Dispense with service
@@ -345,7 +331,7 @@ Explanation:
 A court service that the applicant can apply for if their spouse doesn't respond to the divorce application. If granted, the court will decide that the applicant doesn't need their spouse's response to continue with the divorce. 
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### District judge
@@ -354,7 +340,7 @@ Explanation:
 Judges on civil and family law cases.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Divorce application form
@@ -364,8 +350,6 @@ The divorce petition
 
 For citizens use: 
 Application for a divorce
-
-
 
 
 ### Domicile, Domiciled
@@ -386,7 +370,7 @@ When you're born, you acquire a domicile of origin. This is usually:
 If you leave your domicile of origin and settle in another country as an adult, the new country may become your domicile of choice.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ## E
@@ -398,7 +382,7 @@ Explanation:
 find out
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ### Executor 
@@ -407,7 +391,7 @@ Explanation:
 The person responsible for carrying out the instructions in the will.
 
 For citizens: 
-Use the explanation
+Use with explanation
 
 
 ## F
@@ -428,7 +412,185 @@ Explanation:
 A legally binding decision on how assets are divided after a divorce.
 
 For citizens: 
-Use the explanation
+Use with explanation
+
+
+
+## H
+
+
+### Habitual resident
+
+Explanation: 
+A person whose life is mainly based in England or Wales
+
+For citizens: 
+Use with explanation
+
+
+### Hearing 
+
+Explanation: 
+A court hearing, where a case is heard by a judge
+
+For citizens use: 
+Where a case is heard by a judge
+
+
+### High Court judge
+
+Explanation: 
+The judges on serious criminal and civil cases.
+
+For citizens: 
+Use with explanation
+
+
+
+## I
+
+
+### In camera
+
+Explanation: 
+A court hearing which is held in private, without public access. 
+
+For citizens use: 
+in private
+
+
+### In order to
+
+Explanation: 
+to
+
+For citizens use: 
+to
+
+
+### Incur costs
+
+
+Explanation: 
+There will be costs to pay.
+
+For citizens use: 
+You will have to pay
+
+
+### Intestate 
+
+Explanation: 
+Someone who has died without having made a will.
+
+For citizens use: 
+A person who died without a will. 
+
+
+
+### Investigate
+
+Explanation: 
+look into
+
+For citizens use: 
+look into
+
+
+### Issue
+
+Explanation: 
+The legal word for: 
+- children
+- the matter to be decided by a court 
+
+For citizens: 
+Use with explanation
+
+
+### Issued
+
+Explanation: 
+A claimant has sent details of the claim to the court. 
+
+For citizens use: 
+sent
+
+
+## J
+
+
+### Judge
+
+Explanation: 
+A judge is a person who presides over court proceedings, either alone or as a part of a panel of judges.
+
+For citizens: 
+Use with explanation
+
+
+### Judgement
+
+Explanation: 
+A decision made by a court.
+
+For citizens: 
+Use with explanation
+
+
+### Jurisdiction
+
+Explanation: 
+There are multiple meanings and usages:
+- the territory in which a court can operate
+- the power it has to deal with particular cases
+- the power it has to issue orders
+
+For citizens: 
+Use with explanation
+
+
+## L
+
+
+### Legal aid
+
+Explanation: 
+Help with legal costs
+
+For citizens: 
+Use with explanation
+
+
+### Litigant, litigant in person
+
+Explanation: 
+A person involved in a court case who is not represented by a lawyer and are representing themselves. Someone that isn't represented by a lawyer in court; self-represented appellants
+
+For citizens use: 
+Someone representing themselves in a court case.
+
+
+### Local Authority
+
+Explanation: 
+The local council or social services.
+
+For citizens use: 
+Council, social services
+
+
+
+## M
+
+
+### MacKenzie friend
+
+Explanation: 
+A McKenzie friend helps someone who is representing themselves in a court case in England and Wales and Northern Ireland. This person does not need to be legally qualified.
+
+For citizens: 
+Use with explanation
 
 
 
