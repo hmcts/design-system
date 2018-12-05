@@ -94,6 +94,16 @@ Use the explanation
 
 
 
+### Asylum, asylum claim or protection claim
+
+Explanation: 
+Someone asking for political protection from another country because they cannot return to their own country.
+
+For citizens: 
+Use the explanation
+
+
+
 ## B
 
 
