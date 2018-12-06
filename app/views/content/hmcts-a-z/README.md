@@ -500,9 +500,8 @@ look into
 ### Issue
 
 Explanation: 
-The legal word for: 
-- children
-- the matter to be decided by a court 
+The legal word for children or grandchildren.
+The matter to be decided by a court 
 
 For citizens: 
 Use with explanation
@@ -612,7 +611,7 @@ ability to make a decision
 
 
 
-##N
+## N
 
 
 ### Notice
@@ -625,7 +624,7 @@ Use with explanation
 
 
 
-##O
+## O
 
 
 ### Oath
@@ -808,6 +807,9 @@ For citizens:
 Use with explanation
 
 
+## S
+
+
 ### Serve
 
 Explanation: 
@@ -816,9 +818,6 @@ Deliver court documents
 For citizens use: 
 Deliver court documents
 
-
-
-## S
 
 ### Specified amount of money
 
@@ -850,6 +849,10 @@ Archaic legal term used to describe land or property that is attached to a title
 
 For citizens: 
 Use with explanation
+
+
+
+## W
 
 
 ### Without notice
