@@ -14,7 +14,7 @@ The legal response to a divorce application.
 ### Adjourn
 
 Explanation:
-When a court case is postponed.
+When a court case or hearing has started and then needs to be postponed until another day.
 
 For citizens use:
 Postpone
@@ -31,7 +31,7 @@ Use with explanation
 ### Appeal
 
 Explanation
-To ask a court to look at a decision again.
+To ask a court or a tribunal to look at a decision again.
 
 For citizens use the explanation the first time the word is used: 
 For example, 'You can appeal. This means a court will look at the decision again.’
@@ -57,7 +57,7 @@ Use with explanation
 ### Appointee
 
 Explanation:
-Someone appointed by DWP to help someone going to a tribunal.
+Someone who has been appointed to deal with someone else’s benefits because they cannot manage their own affairs. This is because they are too young, mentally incapable or severely disabled.
 
 For citizens: 
 Use with explanation
@@ -130,6 +130,8 @@ Use with explanation
 
 Explanation: 
 To apply for money you’re owed by a person or business. It can be known as making a court claim and taking someone to a ‘small claims court’.
+
+To make a claim for benefits. 
 
 For citizens use the explanation the first time the word is used. 
 
@@ -248,7 +250,7 @@ Use with explanation
 ### Decision
 
 Explanation: 
-The ruling made by the court.
+The ruling made by the court or tribunal.
 
 For citizens: 
 Use with explanation
@@ -325,6 +327,15 @@ For citizens:
 Use with explanation
 
 
+### Directions
+
+Explanation: 
+Instructions given to one or more of the parties by a judge during court or tribunal proceedings.   
+
+For citizens: 
+Use with explanation
+
+
 ### Dispense with service
 
 Explanation: 
@@ -394,13 +405,23 @@ For citizens:
 Use with explanation
 
 
+### Evidence
+
+Explanation:
+Information provided by any means which helps the tribunal or court reach a decision on a case or appeal.
+
+For citizens: 
+Use with explanation
+
 ## F
 
 
 ### Fact 
 
 Explanation: 
-The legal reason for why the marriage has broken down irretrievably.
+The legal reason for why a marriage has broken down irretrievably.
+
+The facts of the appeal which a tribunal is trying to establish.
 
 For citizens use: 
 Reason for divorce
@@ -414,6 +435,17 @@ A legally binding decision on how assets are divided after a divorce.
 For citizens: 
 Use with explanation
 
+
+## G
+
+
+### Grounds 
+
+Explanation: 
+The reasons the appeal is being made, or the reason for a divorce, provided by the person making the appeal or applying for the divorce.
+
+For citizens: 
+Use with explanation
 
 
 ## H
@@ -431,10 +463,11 @@ Use with explanation
 ### Hearing 
 
 Explanation: 
-A court hearing, where a case is heard by a judge
+A court or tribunal hearing where a case is heard by a judge, or a panel.
 
 For citizens use: 
-Where a case is heard by a judge
+Where a case is heard by a judge.
+Where a case is heard by a tribunal.
 
 
 ### High Court judge
@@ -522,7 +555,7 @@ sent
 ### Judge
 
 Explanation: 
-A judge is a person who presides over court proceedings, either alone or as a part of a panel of judges.
+A judge is a person who presides over court or tribunal proceedings, either alone or as a part of a panel of judges.
 
 For citizens: 
 Use with explanation
@@ -541,7 +574,7 @@ Use with explanation
 
 Explanation: 
 There are multiple meanings and usages:
-- the territory in which a court can operate
+- the territory in which a court or tribunal can operate
 - the power it has to deal with particular cases
 - the power it has to issue orders
 
@@ -581,6 +614,15 @@ Council, social services
 
 
 ## M
+
+
+### Mandatory reconsideration
+
+Explanation: 
+When the Department of Work and Pensions looks at a decision they have issued again, before the benefit claimant is granted the right to appeal.
+ 
+For citizens: 
+Use with explanation
 
 
 ### MacKenzie friend
@@ -645,6 +687,24 @@ For citizens use:
 get
 
 
+### On the papers
+
+Explanation: 
+When a tribunal hearing is held privately using written evidence alone, without either party in attendance.
+
+For citizens: 
+Use with explanation
+
+
+### Oral hearing
+
+Explanation: 
+A hearing which is held with one or more of the parties in attendance to provide oral evidence.
+
+For citizens: 
+Use with explanation
+
+
 ### Order
 
 Explanation: 
@@ -670,7 +730,7 @@ Use with explanation
 ### Party, plaintiff
 
 Explanation: 
-The claimant (or plaintiff, before April 1999) or defendant in a lawsuit. It is also someone who has taken out a contract or agreement.
+The claimant (or plaintiff, before April 1999) or defendant in a lawsuit or in a tribunal. It is also someone who has taken out a contract or agreement.
 
 For citizens: 
 Use with explanation
@@ -707,7 +767,7 @@ Issue, or issues of your case
 
 Explanation: 
 
-When a court case is delayed. 
+When a court case or hearing that has been scheduled is cancelled and postponed to another day before it has started.
 
 For citizens use: 
 delay
@@ -756,7 +816,7 @@ Use with explanation
 ### Representative
 
 Explanation: 
-Someone acting on your behalf. This could be a family member or friend who can receive updates on behalf of the person going to court or tribunal.
+Someone who is appointed by the appellant (the person making the appeal) to act on their behalf and support them throughout their appeal or court case.
 
 For citizens: 
 Use with explanation
@@ -801,10 +861,21 @@ fix
 ### Respondent
 
 Explanation: 
-The person a case is being made against. In a divorce case it is the husband or wife of the person who has applied for a divorce.
+The person or organistion a case is being made against. 
+In a divorce case it is the husband or wife of the person who has applied for a divorce. In a benefit appeal case the respondent is the Department of Work and Pensions.
 
 For citizens: 
 Use with explanation
+
+
+### Response
+
+Explanation: 
+TThe information which is submitted in response to an appeal.
+
+For citizens: 
+Use with explanation
+
 
 
 ## S
@@ -819,6 +890,14 @@ For citizens use:
 Deliver court documents
 
 
+## Set-aside
+
+When the decision that is issued by a tribunal is cancelled after being successfully challenged from a legal perspective.
+
+For citizens: 
+Use with explanation
+
+
 ### Specified amount of money
 
 Explanation: 
@@ -828,6 +907,25 @@ For citizens:
 Use with explanation
 
 
+### Statement of reasons
+
+Explanation: 
+A summary of the reasons for how a decision was made, written by a judge.
+
+For citizens: 
+Use with explanation
+
+
+
+## T
+
+### Tribunal panel
+
+Explanation: 
+A group of people who sit on a tribunal and collectively make decisions about appeals that are put before them.
+
+For citizens: 
+Use with explanation
 
 ## U
 
@@ -853,6 +951,15 @@ Use with explanation
 
 
 ## W
+
+
+### Withdrawn appeal
+
+Explanation: 
+When someone making an appeal decides they no longer want to continue and withdraw it.
+
+For citizens: 
+Use with explanation
 
 
 ### Without notice
