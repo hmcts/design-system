@@ -12,19 +12,28 @@ This component is helpful when an entity consists of additional [sub sections](/
 
 ## When not to use this component
 
-Don't use this component if there's only one detail page. For example, clicking a case in a case list and seeing a single page of information about the case.
+Don't use this component if there's only one details page. For example, clicking a case in a case list and seeing a single page of information about the case.
 
-<!--In this case, put a back link above the main page heading.-->
+## Action menu
 
-## Actions
-
-You can optionally configure the component to display actions. Place actions here when the user might want to take an action from within any sub section.
+You can optionally configure the component to display actions that the user can take from within any sub section.
 
 {{dsExample({
   name: 'identity-bar',
-  example: 'advanced',
+  example: 'menu',
   height: 175
 })}}
+
+## Drop down action menu
+
+The action menu uses the [Menu](/components/menu) component which can be configured to show as a drop down menu.
+
+{{dsExample({
+  name: 'identity-bar',
+  example: 'toggle-menu',
+  height: 275
+})}}
+
 
 ## Research on this component
 
