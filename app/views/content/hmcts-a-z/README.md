@@ -5,7 +5,7 @@
 ### Acknowledgement of service
 
 Explanation:
-A spouse's (respondent's) legal response to a divorce application. Also will be sent out to co-respondents (those who has been named within the application as having committed adultery with the respondent). 
+A spouse's (respondent's) legal response to a divorce application. This is sent out to everyone involved in the divorce, including (link)co-respondents.  
 
 For citizens use:
 The legal response to a divorce application.
@@ -14,19 +14,19 @@ The legal response to a divorce application.
 ### Adjourn
 
 Explanation:
-When a court case or hearing has started and then needs to be postponed until another day.
+When a court case or hearing has started and then needs to be postponed. 
 
 For citizens use:
-Postpone
+Postpone.
 
 
 ### Adultery
 
 Explanation:
-One of the facts (reasons) for divorce. The adultery must have been with a member of the opposite sex.
+One of the facts (reasons) to support an application for divorce. For the purposes of divorce, adultery can only take place between members of the opposite sex.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 ### Appeal
 
@@ -43,7 +43,7 @@ Explanation:
 The person asking for a decision to be changed, or the person who is making an appeal.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ### Applicant
@@ -52,7 +52,7 @@ Explanation:
 The person or group making the application.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 ### Appointee
 
@@ -60,7 +60,7 @@ Explanation:
 Someone who has been appointed to deal with someone else’s benefits because they cannot manage their own affairs. This is because they are too young, mentally incapable or severely disabled.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ### Ascertain
@@ -68,7 +68,7 @@ Use with explanation
 Explanation: Find out.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ### Assets
@@ -76,7 +76,7 @@ Use with explanation
 Explanation: Money, belongings, or property
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ### Assist
@@ -84,7 +84,7 @@ Use with explanation
 Explanation: Help
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ### Asylum, asylum claim or protection claim
@@ -93,7 +93,7 @@ Explanation:
 Someone asking for political protection from another country because they cannot return to their own country.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ## B
@@ -102,10 +102,10 @@ Use with explanation
 ### Bailiffs, enforcement agents
 
 Explanation:
-Visit the debtor's home or business to see if anything can be sold to pay the debt.
+People who visit a debtor's home or business to see if anything can be sold to pay the debt.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 ### Beneficiary 
 
@@ -113,7 +113,7 @@ Explanation:
 A person who will get money or other property according to instructions left in a will. 
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ## C
@@ -121,10 +121,10 @@ Use with explanation
 ### Circuit judge
 
 Explanation: 
-Sits in crown and county courts. Judges on criminal, civil, public and private cases.
+A judge who makes decisions on criminal, civil, public and private cases in crown and county courts. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 ### Claim
 
@@ -142,22 +142,22 @@ Explanation:
 The person making a claim.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Co-respondent
 
 Explanation: 
-Person the applicant alleges their husband or wife committed adultery with.
+The person named as having committed adultery with a husband or wife in an application for divorce. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Codicil 
 
 Explanation: 
-Extra pages to change a valid will which needs a minor alteration. The codicil must be signed and witnessed and then be attached to the will.
+An update to a will. A codicil may change or add to details in the will, and must be signed and witnessed. 
 
 For citizens use: 
 An update to the will ('codicil').
@@ -166,34 +166,34 @@ An update to the will ('codicil').
 ### Cohabit
 
 Explanation: 
-Live together
+Live together. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Compliant
 
 Explanation: 
-To meet to rules or standards.
+To meet rules or standards.
 
 For citizens use:
-meet the rules
+Meet the rules. 
 
 
 ### Conducted
 
 Explanation: 
-Carried out
+Carried out. 
 
-For citizens: 
-Use with explanation
+For citizens:
+Carried out.  
 
 
 ### Consent order
 
 Explanation:
-If the applicant and respondent both agree on how to split their money and property and want to make it legally binding.
+An applicant and respondent in a divorce case may create a consent order to detail how their money and property will be distributed. The consent order must be agreed by a judge. 
 
 For citizens: 
 Use with explanation
@@ -205,25 +205,25 @@ Explanation:
 Agree to. 
 
 For citizens: 
-Use with explanation
+Agree to. 
 
 
 ### Consider
 
 Explanation: 
-Think about
+Think about. 
 
 For citizens: 
-Use with explanation
+Think about. 
 
 
 ### Contested
 
 Explanation:
-Disagreed with
+Disagreed with. 
 
 For citizens: 
-Use with explanation
+Disagreed with. 
 
 
 ### Court claim, money claim
@@ -232,7 +232,7 @@ Explanation:
 A claim for money made to the County Court.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ## D
@@ -241,10 +241,10 @@ Use with explanation
 ### Debtor
 
 Explanation: 
-The person or business who owes money.
+A person or business who owes money.
 
 For citizens: 
-Use with explanation
+Use with explanation.
 
 
 ### Decision
@@ -253,7 +253,7 @@ Explanation:
 The ruling made by the court or tribunal.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Decree absolute
@@ -262,6 +262,7 @@ Explanation:
 The court order for divorce (known as a decree) is made in 2 stages. You’re only divorced once both stages are complete.
 
 The 'decree nisi', which shows that the court agrees that you’re entitled to a divorce.
+
 The ‘decree absolute’, which legally ends the marriage. It cannot be made until at least 6 weeks after the decree nisi.
 
 For citizens use: 
@@ -274,6 +275,7 @@ Explanation:
 The court order for divorce (known as a decree) is made in 2 stages. You’re only divorced once both stages are complete.
 
 The 'decree nisi', which shows that the court agrees that you’re entitled to a divorce.
+
 The ‘decree absolute’, which legally ends the marriage. It cannot be made until at least 6 weeks after the decree nisi.
 
 For citizens use: 
@@ -283,21 +285,21 @@ A court order which shows that the court agrees that you’re entitled to a divo
 ### Deem
 
 Explanation: 
-think
+Think. 
 
 For citizens use: 
-think
+Think. 
 
 
 ### Deemed service
 
 Explanation: 
-A court service that the applicant can apply for if their spouse doesn't respond to the divorce application. The applicant will need to prove that their spouse received the application. 
+A court service that the applicant can apply for if their spouse doesn't respond to a divorce application. The applicant will need to prove that their spouse received the application. 
 
-If granted, the applicant can continue their divorce as if their spouse had responded
+If granted, the applicant can continue their divorce as if their spouse had responded. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Defendant
@@ -306,7 +308,7 @@ Explanation:
 The person, business or organisation that's being claimed against.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Defend 
@@ -315,34 +317,34 @@ Explanation:
 When the respondent (the person being divorced) tries to prevent a divorce.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Desertion
 
 Explanation: 
-One of the facts (reasons) for divorce which can be used when the applicant's spouse abandoned them (left without their agreement).
+One of the facts (reasons) for divorce which can be used when the applicant's husband or wife left the family home without agreement. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Directions
 
 Explanation: 
-Instructions given to one or more of the parties by a judge during court or tribunal proceedings.   
+Instructions given by a judge during a court or tribunal hearing.   
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Dispense with service
 
 Explanation: 
-A court service that the applicant can apply for if their spouse doesn't respond to the divorce application. If granted, the court will decide that the applicant doesn't need their spouse's response to continue with the divorce. 
+A court service that an applicant can apply for if their spouse doesn't respond to the divorce application. If granted, the court will decide that the applicant doesn't need their spouse's response to continue with the divorce. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### District judge
@@ -351,22 +353,22 @@ Explanation:
 Judges on civil and family law cases.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
-### Divorce application form
+### Divorce petition
 
 Explanation: 
-The divorce petition
+Divorce application form. 
 
 For citizens use: 
-Application for a divorce
+Application for a divorce. 
 
 
 ### Domicile, Domiciled
 
 Explanation: 
-A person who lives permanently in England or Wales, or intended to return here to live permanently.
+A person who lives permanently in England or Wales, or intends to return here to live permanently.
 
 More in depth explanation for divorce
 Your domicile is usually the place in which you were born, regard as your permanent home and to which you have the closest ties.
@@ -381,7 +383,7 @@ When you're born, you acquire a domicile of origin. This is usually:
 If you leave your domicile of origin and settle in another country as an adult, the new country may become your domicile of choice.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ## E
@@ -390,10 +392,10 @@ Use with explanation
 ### Establish
 
 Explanation: 
-find out
+Find out or determine. 
 
 For citizens: 
-Use with explanation
+Find out or determine. 
 
 
 ### Executor 
@@ -402,7 +404,7 @@ Explanation:
 The person responsible for carrying out the instructions in the will.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Evidence
@@ -411,7 +413,7 @@ Explanation:
 Information provided by any means which helps the tribunal or court reach a decision on a case or appeal.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 ## F
 
@@ -424,16 +426,16 @@ The legal reason for why a marriage has broken down irretrievably.
 The facts of the appeal which a tribunal is trying to establish.
 
 For citizens use: 
-Reason for divorce
+Use with explanation. 
 
 
 ### Financial order
 
 Explanation: 
-A legally binding decision on how assets are divided after a divorce.
+A decision on how money and property should be divided as part of a divorce. A financial order is agreed by a judge and is legally-binding. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ## G
@@ -442,10 +444,10 @@ Use with explanation
 ### Grounds 
 
 Explanation: 
-The reasons the appeal is being made, or the reason for a divorce, provided by the person making the appeal or applying for the divorce.
+The reason an appeal is being made, or the reason for an application for divorce. The reasons are provided by the person making the appeal or applying for the divorce.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ## H
@@ -454,10 +456,10 @@ Use with explanation
 ### Habitual resident
 
 Explanation: 
-A person whose life is mainly based in England or Wales
+A person whose life is mainly based in England or Wales. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Hearing 
@@ -476,7 +478,7 @@ Explanation:
 The judges on serious criminal and civil cases.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
@@ -489,16 +491,16 @@ Explanation:
 A court hearing which is held in private, without public access. 
 
 For citizens use: 
-in private
+Use with explanation. 
 
 
 ### In order to
 
 Explanation: 
-to
+'So that' or 'to'. 
 
 For citizens use: 
-to
+'So that' or 'to'. 
 
 
 ### Incur costs
@@ -508,7 +510,7 @@ Explanation:
 There will be costs to pay.
 
 For citizens use: 
-You will have to pay
+Use with explanation. 
 
 
 ### Intestate 
@@ -524,20 +526,19 @@ A person who died without a will.
 ### Investigate
 
 Explanation: 
-look into
+Look into. 
 
 For citizens use: 
-look into
+Look into. 
 
 
 ### Issue
 
 Explanation: 
-The legal word for children or grandchildren.
-The matter to be decided by a court 
+The legal word for children or grandchildren or the matter to be decided by a court.  
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Issued
@@ -546,7 +547,7 @@ Explanation:
 A claimant has sent details of the claim to the court. 
 
 For citizens use: 
-sent
+Sent. 
 
 
 ## J
@@ -555,10 +556,10 @@ sent
 ### Judge
 
 Explanation: 
-A judge is a person who presides over court or tribunal proceedings, either alone or as a part of a panel of judges.
+A judge is a person who makes decisions in court or tribunal cases, either alone or as a part of a panel of judges.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Judgement
@@ -567,7 +568,7 @@ Explanation:
 A decision made by a court.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Jurisdiction
@@ -579,7 +580,7 @@ There are multiple meanings and usages:
 - the power it has to issue orders
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ## L
@@ -588,19 +589,19 @@ Use with explanation
 ### Legal aid
 
 Explanation: 
-Help with legal costs
+Help with legal costs. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Litigant, litigant in person
 
 Explanation: 
-A person involved in a court case who is not represented by a lawyer and are representing themselves. Someone that isn't represented by a lawyer in court; self-represented appellants
+A person involved in a court case who is representing themselves rather than being represented by a lawyer. 
 
 For citizens use: 
-Someone representing themselves in a court case.
+Use with explanation. 
 
 
 ### Local Authority
@@ -619,10 +620,11 @@ Council, social services
 ### Mandatory reconsideration
 
 Explanation: 
-When the Department of Work and Pensions looks at a decision they have issued again, before the benefit claimant is granted the right to appeal.
+A person who has received a decision about their benefits can ask the Department for Work and Pensions to look again at the decision. This is known as asking for a 'mandatory reconsideration'. 
+
  
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### MacKenzie friend
@@ -631,16 +633,16 @@ Explanation:
 A McKenzie friend helps someone who is representing themselves in a court case in England and Wales and Northern Ireland. This person does not need to be legally qualified.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
-### Mediation
+### Mediator, mediation 
 
 Explanation: 
-When an impartial person helps both sides work out an agreement
+A mediator is an impartial person who can help people come to an agreement. For example, a couple who is divorcing may take part in mediation. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Mental capacity 
@@ -649,7 +651,7 @@ Explanation:
 The ability to make your own decisions. Some people are medically certified as lacking in mental capacity because of an accident or injury. Someone may then need to be appointed to make decisions on their behalf.
 
 For citizens use: 
-ability to make a decision
+Use with explanation. 
 
 
 
@@ -662,7 +664,7 @@ Explanation:
 A warning of something which is about to happen.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
@@ -675,34 +677,34 @@ Explanation:
 Swearing the truth of a statement.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Obtain
 
 Explanation: 
-get
+Get. 
 
 For citizens use: 
-get
+Get. 
 
 
 ### On the papers
 
 Explanation: 
-When a tribunal hearing is held privately using written evidence alone, without either party in attendance.
+When a tribunal hearing is held privately without the people involved and using only written evidence. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Oral hearing
 
 Explanation: 
-A hearing which is held with one or more of the parties in attendance to provide oral evidence.
+A hearing which is held with the people involved who are there to speak about their experience (give oral evidence).
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Order
@@ -711,7 +713,7 @@ Explanation:
 An instruction by a court.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
@@ -721,28 +723,28 @@ Use with explanation
 ### Parental responsibility
 
 Explanation: 
-The legal rights and responsibilities over a child
+A person who has parental responsibility for a child has the right to make decisions about their care and upbringing.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Party, plaintiff
 
 Explanation: 
-The claimant (or plaintiff, before April 1999) or defendant in a lawsuit or in a tribunal. It is also someone who has taken out a contract or agreement.
+The claimant or defendant in a lawsuit or in a tribunal. It is also someone who has taken out a contract or agreement.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Persons
 
 Explanation: 
-people
+People. 
 
 For citizens use: 
-people
+People.
 
 
 ### Petitioner
@@ -760,17 +762,16 @@ Explanation:
 An individual legal issue or proposition at the heart of a case.
 
 For citizens use: 
-Issue, or issues of your case
+Issue, or issues of your case. 
 
 
 ### Postponement
 
 Explanation: 
-
-When a court case or hearing that has been scheduled is cancelled and postponed to another day before it has started.
+When a court case or hearing that has been scheduled is cancelled or postponed before it has started.
 
 For citizens use: 
-delay
+Delayed court case or hearing. 
 
 
 ### Probate
@@ -788,7 +789,7 @@ Explanation:
 The part of HM Courts & Tribunals that deals with everything related to probate. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Public record
@@ -807,10 +808,10 @@ The grant of probate will be stored as a public record.
 ### Reduced notice hearing
 
 Explanation: 
-An urgent hearing
+An urgent hearing, one that is held with little notice. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Representative
@@ -819,7 +820,7 @@ Explanation:
 Someone who is appointed by the appellant (the person making the appeal) to act on their behalf and support them throughout their appeal or court case.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Rescind
@@ -828,7 +829,7 @@ Explanation:
 To reverse or cancel a decision.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Residual jurisdiction
@@ -852,20 +853,21 @@ Use with explanation
 ### Resolve 
 
 Explanation: 
-fix
+'Come to an agreement' or 'fix'. 
 
 For citizens use: 
-fix
+'Come to an agreement' or 'fix'. 
 
 
 ### Respondent
 
 Explanation: 
 The person or organistion a case is being made against. 
-In a divorce case it is the husband or wife of the person who has applied for a divorce. In a benefit appeal case the respondent is the Department of Work and Pensions.
+
+In a divorce case it is the husband or wife of the person who has applied for a divorce. In a benefit appeal case the respondent is the Department for Work and Pensions.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Response
@@ -874,7 +876,7 @@ Explanation:
 TThe information which is submitted in response to an appeal.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
@@ -884,10 +886,10 @@ Use with explanation
 ### Serve
 
 Explanation: 
-Deliver court documents
+Deliver court documents. 
 
 For citizens use: 
-Deliver court documents
+Deliver court documents. 
 
 
 ## Set-aside
@@ -895,25 +897,25 @@ Deliver court documents
 When the decision that is issued by a tribunal is cancelled after being successfully challenged from a legal perspective.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Specified amount of money
 
 Explanation: 
-Fixed amount of money
+Fixed amount of money. 
 
 For citizens: 
-Use with explanation
+Fixed amount of money. 
 
 
 ### Statement of reasons
 
 Explanation: 
-A summary of the reasons for how a decision was made, written by a judge.
+A summary of the reasons a decision was made, written by a judge.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
@@ -922,10 +924,10 @@ Use with explanation
 ### Tribunal panel
 
 Explanation: 
-A group of people who sit on a tribunal and collectively make decisions about appeals that are put before them.
+A group of people who sit on a tribunal and collectively make decisions about appeals.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 ## U
 
@@ -935,7 +937,7 @@ Explanation:
 A money claim for damages which can't be calculated exactly at the time of the claim, for example someone claiming for personal injury where no precise value can be put on the treatment.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
@@ -946,7 +948,7 @@ Use with explanation
 Archaic legal term used to describe land or property that is attached to a title or employment. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
@@ -956,28 +958,28 @@ Use with explanation
 ### Withdrawn appeal
 
 Explanation: 
-When someone making an appeal decides they no longer want to continue and withdraw it.
+When someone making an appeal decides they no longer want to continue and withdraws it.
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Without notice
 
 Explanation: 
-When a respondent is not told about a hearing before it happens.
+A hearing that goes ahead without the respondent being told (or 'given notice'). 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 ### Without prejudice
 
 Explanation: 
-Information which can't be used in a hearing – for example: if someone suggests a settlement it can sometimes be 'without prejudice', so it can't be mentioned if the claim goes to a hearing. 
+Information which can't be used in a hearing. For example: an 'out of court settlement' may be suggested 'without prejudice'. This mean the settlement can't be mentioned if the claim goes to a hearing. 
 
 For citizens: 
-Use with explanation
+Use with explanation. 
 
 
 
