@@ -36,7 +36,7 @@ The action menu uses the [Menu](/components/menu) component which can be configu
 
 ## Primary button plus secondary action menu
 
-The action menu uses the [Menu](/components/menu) component which can be configured to show as a drop down menu.
+This [menu](/components/menu) is made up of multiple menus. The first consists of just one button and is exposed because it's a primary action. The second menu consists of two secondary options are placed within a drop down menu because of this.
 
 {{dsExample({
   name: 'identity-bar',
