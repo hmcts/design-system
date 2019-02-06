@@ -34,6 +34,15 @@ The action menu uses the [Menu](/components/menu) component which can be configu
   height: 275
 })}}
 
+## Primary button plus secondary action menu
+
+The action menu uses the [Menu](/components/menu) component which can be configured to show as a drop down menu.
+
+{{dsExample({
+  name: 'identity-bar',
+  example: 'secondary-action-menu',
+  height: 275
+})}}
 
 ## Research on this component
 

@@ -1,0 +1,20 @@
+{% from "identity-bar/macro.njk" import hmctsIdentityBar %}
+
+{{ hmctsIdentityBar({
+  title: { html: '<b>John Smith</b> and <b>Jane Smith</b> and <a href="#">4 others</a> (Financial remedy)' },
+  menus: [{
+    items: [{
+      text: 'Make a decision'
+    }]
+  }, {
+    items: [{
+      text: 'Do this',
+      classes: 'hmcts-button--secondary',
+      href: "#"
+    }, {
+      text: 'Do that',
+      classes: 'hmcts-button--secondary',
+      href: "#"
+    }]
+  }]
+}) }}
