@@ -1,0 +1,9 @@
+{% from "textarea/macro.njk" import govukTextarea %}
+
+{{ govukTextarea({
+  name: 'message',
+  id: 'message',
+  label: {
+    html: 'Question'
+  }
+}) }}
