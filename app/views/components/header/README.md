@@ -10,9 +10,7 @@ Do not use this for citizen-facing services.
 
 ## How it works
 
-The name of the service or system appears in the top left.
-
-You can add global links to the top right which is useful for “Account” and “Sign out”.
+The name of the service or system appears in the top left. You can also add global links in the top right. For example, ‘Profile’ and ‘Sign out’.
 
 ## Research on this component
 
