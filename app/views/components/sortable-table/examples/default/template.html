@@ -1,0 +1,81 @@
+{% from "table/macro.njk" import govukTable %}
+
+{{ govukTable({
+  head: [
+    {
+      text: "Name",
+      attributes: {
+        "aria-sort": "ascending"
+      }
+    },
+    {
+      text: "Date",
+      attributes: {
+        "aria-sort": "none"
+      }
+    },
+    {
+      text: "Amount",
+      attributes: {
+        "aria-sort": "none"
+      },
+      format: "numeric"
+    }
+  ],
+  rows: [
+    [
+      {
+        text: "Adam Smith"
+      },
+      {
+        text: "19 September 2019",
+        attributes: {
+          "data-sort-value": "1568847600000"
+        }
+      },
+      {
+        text: "£59",
+        format: "numeric",
+        attributes: {
+          "data-sort-value": "59"
+        }
+      }
+    ],
+    [
+      {
+        text: "Benjamin Franklin"
+      },
+      {
+        text: "18 January 2018",
+        attributes: {
+          "data-sort-value": "1516233600000"
+        }
+      },
+      {
+        text: "£45",
+        format: "numeric",
+        attributes: {
+          "data-sort-value": "45"
+        }
+      }
+    ],
+    [
+      {
+        text: "Jane Benn"
+      },
+      {
+        text: "1 November 2001",
+        attributes: {
+          "data-sort-value": "1004572800000"
+        }
+      },
+      {
+        text: "£2000",
+        format: "numeric",
+        attributes: {
+          "data-sort-value": "2000"
+        }
+      }
+    ]
+  ]
+}) }}
