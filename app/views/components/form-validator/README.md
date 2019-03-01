@@ -16,6 +16,7 @@ In alignment with established GOV.UK Design System standards:
 
 * validation is performed on submit. Forms should never be validated as the user types or blurs the field.
 * when the form is submitted with errors, focus moves to the error summary; errors are shown above the field and the `<title>` is prefixed with the error count.
+* submit buttons are never disabled.
 
 ## Research on this component
 
