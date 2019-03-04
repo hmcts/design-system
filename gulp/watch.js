@@ -10,6 +10,7 @@ gulp.task('watch-sass', () => {
 gulp.task('watch-assets', () => {
   return gulp.watch([
     'app/assets/images/**',
+    'app/assets/videos/**',
     'app/components/**',
     'app/assets/javascripts/**'], {cwd: './'}, ['copy-assets', 'copy-component-javascript']);
 });
