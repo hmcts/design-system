@@ -4,7 +4,7 @@ Help users find items in a long list in a way that matches their mental model an
   section: 'patterns',
   name: 'filter-a-list',
   example: 'default',
-  height: 1600
+  height: 1150
 })}}
 
 ## When to use this pattern
