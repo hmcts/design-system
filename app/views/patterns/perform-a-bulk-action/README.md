@@ -8,7 +8,7 @@ Help users perform an action in bulk.
 
 Use this pattern when users need to perform the same action on a collection repeatedly.
 
-For example, rather than make users share an individual case. Let them select multiple cases because it's likely they will want to share multiple cases with same group of people.
+For example, instead of making users share an individual case, they can do multiple cases at the same time. This is because users need to share multiple cases with same group of people.
 
 ## How it works
 
