@@ -45,7 +45,7 @@ You shouldn't use the page heading with actions if you:
 
 ### When to use the buttons within the page
 
-Use buttons within the page when the action is being taken against a particular component within the page. For example
+Use buttons within the page when the action relates to a component within the page. For example, adding a new question to a round.
 
 ### Button placement: above or below?
 
@@ -55,11 +55,13 @@ You should first left align buttons underneath the component they relate to. Whe
 
 When taking an action (creating, editing etc), users should be taken to a new page with as much of the screen paraphernalia removed as possible including the original list of items.
 
-A back link should be placed at the top left of the flow. Don't use a cancel link next to the Continue button.
+A back link should be placed at the top left of the flow.
+
+You can optionally include a cancel link below the continue button to help users leave a multi-page form process.
 
 ## Repeat use actions
 
-If the user has to perform the same action many times within a single session, adding an item should end by taking the user back to where they started with a [success message](/components/alert) at the top of the page.
+If the user has to perform the same action many times within a single session, adding an item should end by taking the user back to where they started with a [success message](/components/banner) at the top of the page.
 
 ## Infrequent or dangerous actions
 
