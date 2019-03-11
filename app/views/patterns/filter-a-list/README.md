@@ -1,4 +1,4 @@
-Help users find items in a long list in a way that matches their mental model and preference.
+Help users filter a list of items based on their preferences.
 
 {{dsExample({
   section: 'patterns',
@@ -9,7 +9,7 @@ Help users find items in a long list in a way that matches their mental model an
 
 ## When to use this pattern
 
-When users are trying to find items that match a particular set of attributes.
+Use this pattern to help users refine a set of items either in a list or a set of search results. This pattern should be used instead of advanced search.
 
 ## When not to use this pattern
 
@@ -29,6 +29,6 @@ Filters can be used in combination with [search](/components/search). In this ca
 2. See a search results page with filters
 3. Users can then filter the search results page further or search again starting from (1)
 
-## Research on this component
+## Research on this pattern.
 
 This pattern has been through several design crits. As this gets tested we'll update the research on this pattern.
