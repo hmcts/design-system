@@ -1,4 +1,4 @@
-Help users send messages and contact support online.
+Help users get support online and by telephone.
 
 <video role="region" aria-label="Get support online video, this video has no audio." controls muted>
   <source src="/public/videos/support.mp4" type="video/mp4">

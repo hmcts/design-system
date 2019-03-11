@@ -20,7 +20,7 @@ The action might take the user down a flow. Or if the action can be performed im
 
 Consider letting users select all the items in a list. When within a table, put the select all checkbox in the table heading.
 
-## Research on this component
+## Research on this pattern
 
 While this is an established pattern, it's marked as experimental because it needs to be tested with solicitos, judges, legal advisors.
 
