@@ -1,4 +1,4 @@
-Help users perform an action in bulk.
+Help users to manage items in a list.
 
 <video role="region" aria-label="Performing an action in bulk, this video has no audio." controls muted>
   <source src="/public/videos/bulk-actions.mp4" type="video/mp4">
@@ -6,7 +6,7 @@ Help users perform an action in bulk.
 
 ## When to use this pattern
 
-Use this pattern when users need to perform the same action on a collection repeatedly.
+Use this pattern when users need to perform the same action on a list repeatedly.
 
 For example, instead of making users share an individual case, they can do multiple cases at the same time. This is because users need to share multiple cases with same group of people.
 
@@ -23,3 +23,8 @@ Consider letting users select all the items in a list. When within a table, put 
 ## Research on this component
 
 While this is an established pattern, it's marked as experimental because it needs to be tested with solicitos, judges, legal advisors.
+
+### Gaps
+
+- being able to manage items one at a time, without multiple selection. Such as buttons and links in each row. Or when to click an item before editing it.
+- alternative patterns to tables. Such as a timeline or a list of items shown as cards.
