@@ -1,0 +1,10 @@
+{% from "currency-input/macro.njk" import hmctsCurrencyInput %}
+
+{{ hmctsCurrencyInput({
+  id: 'amount',
+  name: 'amount',
+  label: {
+    text: 'How much do you need to pay?',
+    classes: 'govuk-label--m'
+  }
+}) }}
