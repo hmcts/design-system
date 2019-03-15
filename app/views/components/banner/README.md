@@ -16,7 +16,7 @@ For rarely performed or important actions, you should use the [Confirmation Page
 
 ## How it works
 
-The banner should be displayed at the top of the page.
+The banner should be displayed at the top of the page above the main heading and below the back link if there is one.
 
 It can be configured with and without icons and in different colours for success, warning and information message types.
 
