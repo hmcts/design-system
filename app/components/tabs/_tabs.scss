@@ -99,6 +99,10 @@
     margin-bottom: 0; // Remove margin bottom from any last element
   }
 
+  pre {
+    max-width: 745px;
+  }
+
   p {
     background-color: govuk-colour("white");
     max-width: 100% !important;
