@@ -1,7 +1,18 @@
 {% from "filter/macro.njk" import hmctsFilter %}
 {% from "checkboxes/macro.njk" import govukCheckboxes %}
+{% from "input/macro.njk" import govukInput %}
 
 {% set filterOptionsHtml %}
+
+  {{ govukInput({
+    id: 'keywords',
+    name: 'keywords',
+    label: {
+      text: 'Keywords',
+      classes: 'govuk-label--m'
+    }
+  }) }}
+
   {{ govukCheckboxes({
     idPrefix: 'type',
     name: 'type',
