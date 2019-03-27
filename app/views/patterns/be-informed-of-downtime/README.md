@@ -13,6 +13,8 @@ Use this component when you know in advance that your service will be unavailabl
 
 ## How it works
 
+<img src="/public/images/downtime-warning.png" alt="A screenshot of the downtime warning pattern in use. It is placed directly below the H1." />
+
 The banner should be shown on the first page the user sees after logging in, and then not shown again for that session. If they log in again before the downtime, it would be shown again.
 
 ## Research on this component
