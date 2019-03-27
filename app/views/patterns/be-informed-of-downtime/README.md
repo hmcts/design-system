@@ -9,7 +9,7 @@ Inform users of upcoming downtime.
 
 ## When to use this pattern
 
-Use this component when you know in advance that your service will be unavailable.
+Use this pattern when you know in advance that your service will be unavailable.
 
 ## How it works
 
