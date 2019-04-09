@@ -1,11 +1,6 @@
 Inform users of upcoming downtime.
 
-{{dsExample({
-  section: 'patterns',
-  name: 'be-informed-of-downtime',
-  example: 'information',
-  height: 175
-})}}
+<img src="/public/images/downtime-warning.png" alt="A screenshot of the downtime warning pattern in use. It is placed directly above the H1." />
 
 ## When to use this pattern
 
@@ -13,7 +8,7 @@ Use this pattern when you know in advance that your service will be unavailable.
 
 ## How it works
 
-<img src="/public/images/downtime-warning.png" alt="A screenshot of the downtime warning pattern in use. It is placed directly below the H1." />
+The pattern uses the information variant of the <a href="/components/banner">banner pattern</a>.
 
 The banner should be shown on the first page the user sees after logging in, and then not shown again for that session. If they log in again before the downtime, it would be shown again.
 
