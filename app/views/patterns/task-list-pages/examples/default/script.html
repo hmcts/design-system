@@ -1,0 +1,19 @@
+<script>
+  new HMCTSFrontend.FilterToggleButton({
+    bigModeMediaQuery: '(min-width: 48.063em)',
+    startHidden: true,
+    toggleButton: {
+      container: $('.hmcts-action-bar__filter'),
+      showText: 'Show filter',
+      hideText: 'Hide filter',
+      classes: 'hmcts-button--secondary'
+    },
+    closeButton: {
+      container: $('.hmcts-filter__header-action'),
+      text: 'Close'
+    },
+    filter: {
+      container: $('.hmcts-filter')
+    }
+  });
+</script>

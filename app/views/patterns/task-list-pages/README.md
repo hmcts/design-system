@@ -9,14 +9,12 @@ Task list pages help users understand:
 * the order they should complete tasks in
 * when they have completed tasks
 
-<!-- IMAGE -->
-
-
-{{dsExample({
-  name: 'timeline',
+<!-- {{dsExample({
+  section: 'patterns',
+  name: 'filter-a-list',
   example: 'default',
-  height: 454
-})}}
+  height: 1150
+})}} -->
 
 ## When to use this component
 
