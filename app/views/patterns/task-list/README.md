@@ -9,12 +9,7 @@ Task list pages help users understand:
 * the order they should complete tasks in
 * when they have completed tasks
 
-<!-- {{dsExample({
-  section: 'patterns',
-  name: 'filter-a-list',
-  example: 'default',
-  height: 1150
-})}} -->
+<img src="/public/images/task-list.png" alt="A screenshot of the task list pattern in use. It is placed directly above the H1." />
 
 ## When to use this component
 
