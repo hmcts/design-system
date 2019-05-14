@@ -1,4 +1,4 @@
-{% from "filter/macro.njk" import hmctsFilter %}
+{% from "hmcts-filter/macro.njk" import hmctsFilter %}
 {% from "checkboxes/macro.njk" import govukCheckboxes %}
 {% from "input/macro.njk" import govukInput %}
 
@@ -16,6 +16,7 @@
   {{ govukCheckboxes({
     idPrefix: 'type',
     name: 'type',
+    classes: "govuk-checkboxes--small",
     fieldset: {
       legend: {
         text: 'Type',
@@ -43,6 +44,7 @@
   {{ govukCheckboxes({
     idPrefix: 'status',
     name: 'status',
+    classes: "govuk-checkboxes--small",
     fieldset: {
       legend: {
         text: 'Status',

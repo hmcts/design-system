@@ -1,4 +1,4 @@
-{% from "search/macro.njk" import hmctsSearch %}
+{% from "hmcts-search/macro.njk" import hmctsSearch %}
 
 {{ hmctsSearch({
   input: {
@@ -6,7 +6,8 @@
     name: 'bill'
   },
   label: {
-    text: 'Search'
+    text: 'Search',
+    classes: 'govuk-label--m'
   },
   hint: {
     text: 'You can search for cases, documents and events'

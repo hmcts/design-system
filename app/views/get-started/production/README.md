@@ -1,17 +1,21 @@
-This guide explains how to create prototypes using the HMCTS Design System and GOV.UK Prototype Kit.
+This guide explains how to set up your project so you can start using the styles and coded examples in the HMCTS Design System in production.
 
 ## Before you start
 
-First you must have followed the [GOV.UK Design System prototype setup guide](https://design-system.service.gov.uk/get-started/prototyping/).
+First you must have followed the [GOV.UK Design System production setup guide](https://design-system.service.gov.uk/get-started/production/).
 
-## Setting up HMCTS Frontend
 
-The Design System uses HMCTS Frontend. To get it running follow these steps:
+## Include HMCTS Frontend in your project
 
-1. Open terminal
-2. Change the directory to your prototype. For example, `cd path/to/protoype`
-3. Run `npm install --save @hmcts/frontend`
-4. Run `npm start`
+To start using HMCTS styles, components and patterns contained here, you’ll need to include HMCTS Frontend in your project.
+
+We recommend [installing HMCTS Frontend using npm](https://github.com/hmcts/frontend/blob/master/docs/installation/installing-with-npm.md). Using this option, you will be able to:
+
+- selectively include the CSS or JavaScript for individual components
+- build your own styles or components based on the palette or typography and spacing mixins
+- customise the build (for example, overriding colours or enabling global styles)
+- use the component Nunjucks templates
+
 
 <!--
 

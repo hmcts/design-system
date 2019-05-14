@@ -1,5 +1,8 @@
 # Get started
 
-HMCTS builds on the principles and guidelines published by GDS. The guidance here is intended to supplement that published by GDS and not replace it.
+The HMCTS Design System is an extension of the GOV.UK Design System. And has been designed to work in tandem with it. The HMCTS Design System contains styles, components and patterns that are:
 
-The guidelines published here show how these have been adapted and refined to fit the goals and context of the HMCTS Reform programme. 
+- not yet in the GOV.UK Design System
+- unique to HMCTS services
+
+Therefore you should reference the GOV.UK Design System first. And only use this if you can't find what you need.
