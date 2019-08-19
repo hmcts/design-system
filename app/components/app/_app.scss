@@ -23,6 +23,12 @@ $toc-width: 260px;
     a:visited {
       color: govuk-colour("purple");
     }
+
+    a:focus {
+      color: $govuk-focus-text-colour;
+      background-color: $govuk-focus-colour;
+      box-shadow: 0 -2px $govuk-focus-colour, 0 4px $govuk-focus-text-colour;
+    }
   }
 }
 
@@ -41,7 +47,7 @@ $toc-width: 260px;
 
 
 .app-template {
-  background-color: govuk-colour("grey-3");
+  background-color: govuk-colour("light-grey", $legacy: "grey-3");
 }
 
 .app-template__body {
@@ -58,6 +64,10 @@ $toc-width: 260px;
 
   &:hover {
     color: govuk-colour("light-purple");
+  }
+  
+  &:focus {
+    color: $govuk-focus-text-colour;
   }
 
 }

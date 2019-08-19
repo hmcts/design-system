@@ -42,4 +42,9 @@
     color: govuk-colour("light-purple");
   }
 
+  a:focus {
+    background-color: $govuk-focus-colour;
+  }
+
+
 }

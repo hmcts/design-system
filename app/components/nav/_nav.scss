@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .app-pane__nav {
-  background-color: govuk-colour("grey-4");
+  background-color: govuk-colour("light-grey", $legacy: "grey-4");
 }
 
 .app-nav {
@@ -46,8 +46,11 @@
   }
 
   a:focus {
-    background-color: govuk-colour("white");
     position: relative;
+    color: $govuk-focus-text-colour;
+    background-color: $govuk-focus-colour;
+    border-bottom-color: $govuk-focus-text-colour;
+    box-shadow: none;
   }
 
 }
@@ -60,6 +63,14 @@
   a:visited {
     border-bottom-color: govuk-colour("purple");
     color: govuk-colour("purple");
+  }
+
+  a:focus {
+    position: relative;
+    color: $govuk-focus-text-colour;
+    background-color: $govuk-focus-colour;
+    border-left-color: $govuk-focus-text-colour;
+    box-shadow: none;
   }
 
 }

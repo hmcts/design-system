@@ -2,7 +2,7 @@ $govuk-global-styles: true;
 
 
 // Import GOV.UK Frontend
-@import "node_modules/govuk-frontend/all";
+@import "node_modules/govuk-frontend/govuk/all";
 @import "node_modules/@hmcts/frontend/all";
 
 

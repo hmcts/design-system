@@ -60,4 +60,4 @@ To use Nunjucks macros in your application, you’ll need to setup Nunjucks view
 
 To include a specific component macro in your page template, you need to import the macro.
 
-For example, to use the timeline macro, use the import statement `{% raw %}{% from "timeline/macro.njk" import hmctsTimeline %}{% endraw %}`.
+For example, to use the timeline macro, use the import statement `{% raw %}{% from "hmcts-timeline/macro.njk" import hmctsTimeline %}{% endraw %}`.
