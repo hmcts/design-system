@@ -1,0 +1,21 @@
+{% extends "layouts/guidance.html" %}
+
+{% set sectionId = "get-started" %}
+{% set pageTitle = "Make changes to the Desgin System" %}
+{% set pageId = "make-changes-to-the-design-system" %}
+
+{% block subNav %}
+  {% include "get-started-subnav.html" %}
+{% endblock %}
+
+{% block pageContent %}
+
+  <h1 class="govuk-heading-xl"><span class="govuk-caption-xl">Community guides</span> Make changes to the Design System</h1>
+
+  <div class="app-prose-scope">
+    {% markdown %}{% include "./README.md" %}{% endmarkdown %}
+  </div>
+
+  {{dsContactPanel()}}
+
+{% endblock %}

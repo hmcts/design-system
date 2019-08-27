@@ -15,7 +15,7 @@
 {% set exampleUrl = '/' + section + params.name + '/examples/'+params.example %}
 
 {% if section == 'components/' %}
-  {% set argumentsUrl = 'https://github.com/hmcts/frontend/tree/master/src/' + section + params.name + '#arguments' %}
+  {% set argumentsUrl = 'https://github.com/hmcts/frontend/tree/master/src/' + section + 'hmcts-' + params.name + '#arguments' %}
 {% endif %}
 
 {% set nunjucksCode %}
@@ -61,7 +61,7 @@
 
 
     {% if argumentsUrl %}
-    You can configure this component using the [Nunjucks macro arguments]({{argumentsUrl}})
+    You may be able to configure this component using the [Nunjucks macro arguments]({{argumentsUrl}})
     {% endif %}
 
   </div>
