@@ -53,11 +53,11 @@ To create a local copy of the repo, you need to follow these steps:
 3. Type: git clone https://github.com/hmcts/design-system.git
 4. Install the dependencies of the project by typing: npm install
 
-Running the design system and making changes
+## Running the design system and making changes
 
 Now that the design system has been setup, you’ll be able to run it and make changes. You’ll do the following steps on a regular basis so you can refer back this bit in the future.
 
-### 7) Run the app
+### 1) Run the app
 
 1. Open Terminal
 2. Go to the directory where you saved the design system by typing: cd path/to/design-system
@@ -66,7 +66,7 @@ Now that the design system has been setup, you’ll be able to run it and make c
 
 To stop running the app type ctrl+c. This is useful if you’re using the prototype kit which also runs on the same address (localhost:3000). If your prototype is running first, then you’ll want to stop that from running before getting the design system running.
 
-### 8) Make changes to the guidance
+### 2) Make changes to the guidance
 
 The majority of changes you’ll make involve simple text changes to headings and paragraphs. To do this follow these steps:
 
@@ -88,7 +88,7 @@ You might get some warning/error about not being able to run the last step. This
 
 To fix this, you need to type: git pull origin master
 
-### 9) Create a new pattern from scratch
+### 3) Create a new pattern from scratch
 Creating a new pattern involves:
 * creating a new folder
 * creating a new navigation item in the menu
@@ -100,9 +100,9 @@ To do this follow these steps:
 2. Change the name of the folder to be the name of the new pattern
 3. Create a new link by carefully editing app/views/partials/patterns-subnav.html. It involves a little bit of JSON and will complain if you get it wrong.
 
-You can then run through same process as step (8) to make changes to the README.md file and commiting the changes to Github.
+You can then run through same process as step (2) to make changes to the README.md file and commiting the changes to Github.
 
-### 10) Creating a video for pattern
+### 4) Creating a video for pattern
 
 Pattern pages may include videos to show a flow. To do this I had to create a gif and then convert into an MP4 video file so this might seem long-winded.
 
@@ -113,9 +113,9 @@ Pattern pages may include videos to show a flow. To do this I had to create a gi
 5. Place the video into app/assets/videos/
 6. Restart the application (ctrl+c and npm start)
 
-A note about getting latest and conflicts
+### A note about getting latest and conflicts
 
-You’ll periodically have to keep you’re version of the Design System up to date. You can do this yourself before you start making changes to minimise the risk of running into problems by follow these steps:
+You’ll periodically have to keep your version of the Design System up to date. You can do this yourself before you start making changes to minimise the risk of running into problems by follow these steps:
 
 1. Type: git pull origin master
 2. Type: npm install
