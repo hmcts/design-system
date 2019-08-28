@@ -6,8 +6,7 @@ The following steps only need to be done once.
 
 ### 1) Get access to HMCTS Github
 
-Make sure your name is on this list by creating a row at the bottom of the table.
-https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance
+Make sure your name is on this list by [https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance])creating a row at the bottom of the table).
 
 After you have done this email reformtech-pmo@HMCTS.NET  to say that you have added your name on the list and want to get access to Github.
 
@@ -32,7 +31,7 @@ The project lives on Github.com. To work with Github you need Git installed on y
 
 The design system needs Node to be installed in order to work.
 
-1. Go to [https://nodejs.org/en/]
+1. Go to https://nodejs.org/en/
 2. Download the recommended version (first green button) and follow the prompts
 
 
