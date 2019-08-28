@@ -50,7 +50,7 @@ To create a local copy of the repo, you need to follow these steps:
 
 1. Open Terminal
 2. Go to the folder you created in step (5) by typing: cd path/to/your/folder. Mine for example is /Users/adambsilver/work/hmcts/design-system
-3. Type: git clone https://github.com/hmcts/design-system.git
+3. Type: git clone git@github.com:hmcts/design-system.git
 4. Install the dependencies of the project by typing: npm install
 
 ## Running the design system and making changes
