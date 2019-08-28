@@ -6,14 +6,14 @@ The following steps only need to be done once.
 
 ### 1) Get access to HMCTS Github
 
-Make sure your name is on the [https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance](access list) by creating a row at the bottom of the table.
+Make sure your name is on the [access list](https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance) by creating a row at the bottom of the table.
 
 After you have done this email reformtech-pmo@HMCTS.NET  to say that you have added your name on the list and want to get access to Github.
 
 ### 2) Get write access to the Design System repo
 
 To make changes to the design system, you need to be given permission to write to the repository. 
-You'll need a Github account, create one on [https://github.com](github.com) if you don't have one and note your username.
+You'll need a Github account, create one on [github.com](https://github.com) if you don't have one and note your username.
 Then find someone with Admin rights, give them your GitHub username and ask them to add you to the Design System repository. Currently Pete Williams and Guy Tristram have admin access, but you're best off just asking in the #uxdigitalpractise Slack channel.
 
 
