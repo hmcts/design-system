@@ -4,7 +4,7 @@
 
 ## When to use this pattern
 
-The users attention needs to be focused on specific content within the body of a page.
+Users attention needs to be focused on specific content within the body of a page.
 
 This could be a summary of the page or key information the user should take away.
 
@@ -19,4 +19,4 @@ This is particularly helpful where there is a lot of content on the page or wher
 
 ## Research on this pattern
 
-SSCS have tested this pattern on the Submit your appeal confirmation screen, track your appeal and the online resolution preliminary view and decision screens. Participants gave positive feedback in all scenarios. They were drawn to the panel and where able to play back the key information it contained.  
+SSCS has tested this pattern on the Submit your appeal confirmation screen, Track your appeal and the Online resolution preliminary view and decision screens. Participants gave positive feedback in all scenarios. They were drawn to the panel and were able to playback the key information it contained.  

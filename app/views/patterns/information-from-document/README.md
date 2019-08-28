@@ -19,11 +19,11 @@ Enabling users to enter information from the physical document can save them fro
 
 - Ensure that values in the example are realistic but not valid data.
 
-- Error messaging should help direct users self correct if they enter the example data.
+- Error messaging should help users self correct if they enter the example data.
 
 
 
 ## Research on this pattern
 ### Key insights
-- Users need explicit instructions to help locate the required information as well as the graphic.
+- Users may need explicit instructions to help locate the required information as well as the graphic.
 - Some users will try to enter data from the example graphic rather than from their document. This could be by mistake or because they don't have their document to hand.

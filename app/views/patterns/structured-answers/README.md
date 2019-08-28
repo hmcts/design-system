@@ -4,16 +4,16 @@
 
 ## When to use this pattern
 
-If users want to, or are required to, provide longer and more complex responses. They may need help in focusing on relevant points and structuring their response.
+If users want to or are required to, provide longer and more complex responses. They may need help in focusing on relevant points and structuring their response.
 
 Those reading the response would also benefit from it being more focused and structured in a consistent format.
 
 
 ## How it works
 
-HMCTS cannot provide advice on what to write as this would compromise its impartiality. It can however help users to understand what to respond to and assist in structuring their answers.
+HMCTS cannot provide advice on what to write as this would compromise its impartiality. It can, however, help users to understand what to respond to and assist in structuring their answers.
 
-In the SSCS 'Reasons for appealing' example above users are asked to respond to points made by DWP in the Mandatory Reconsideration Notice or decison letter.
+In the SSCS 'Reasons for appealing' example above users are asked to respond to points made by DWP in the Mandatory Reconsideration Notice or decision letter.
 
 The 'What' and 'Why' form fields provide structure and users are able to add multiple reasons using the 'Add another' button.
 
