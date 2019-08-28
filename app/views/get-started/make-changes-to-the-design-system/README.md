@@ -6,8 +6,7 @@ The following steps only need to be done once.
 
 ### 1) Get access to HMCTS Github
 
-Make sure your name is on this list by creating a row at the bottom of the table.
-https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance
+Make sure your name is on the [https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance](access list) by creating a row at the bottom of the table.
 
 After you have done this email reformtech-pmo@HMCTS.NET  to say that you have added your name on the list and want to get access to Github.
 
@@ -32,7 +31,7 @@ The project lives on Github.com. To work with Github you need Git installed on y
 
 The design system needs Node to be installed in order to work.
 
-1. Go to [https://nodejs.org/en/]
+1. Go to https://nodejs.org/en/
 2. Download the recommended version (first green button) and follow the prompts
 
 
@@ -50,7 +49,7 @@ To create a local copy of the repo, you need to follow these steps:
 
 1. Open Terminal
 2. Go to the folder you created in step (5) by typing: cd path/to/your/folder. Mine for example is /Users/adambsilver/work/hmcts/design-system
-3. Type: git clone https://github.com/hmcts/design-system.git
+3. Type: git clone git@github.com:hmcts/design-system.git
 4. Install the dependencies of the project by typing: npm install
 
 ## Running the design system and making changes
