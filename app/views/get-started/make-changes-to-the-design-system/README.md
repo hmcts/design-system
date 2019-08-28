@@ -13,7 +13,9 @@ After you have done this email reformtech-pmo@HMCTS.NET  to say that you have ad
 ### 2) Get write access to the Design System repo
 
 To make changes to the design system, you need to be given permission to write to the repository. 
+
 You'll need a Github account, create one on [github.com](https://github.com) if you don't have one and note your username.
+
 Then find someone with Admin rights, give them your GitHub username and ask them to add you to the Design System repository. Currently Pete Williams and Guy Tristram have admin access, but you're best off just asking in the #uxdigitalpractise Slack channel.
 
 
