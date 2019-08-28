@@ -6,7 +6,7 @@ The following steps only need to be done once.
 
 ### 1) Get access to HMCTS Github
 
-Make sure your name is on this list by [https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance])creating a row at the bottom of the table).
+Make sure your name is on the [https://tools.hmcts.net/confluence/display/RPE/Acceptable+Use+Policy+and+Contractor+Security+Guidance](access list) by creating a row at the bottom of the table.
 
 After you have done this email reformtech-pmo@HMCTS.NET  to say that you have added your name on the list and want to get access to Github.
 
