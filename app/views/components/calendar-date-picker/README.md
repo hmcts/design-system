@@ -4,7 +4,7 @@
 
 ## When to use this pattern
 
-If users are required to enter multiple dates.
+If users may need to enter multiple dates.
 
 Using the standard date field and add another patterns could be repetitive and laborious. It could be particularly frustrating for users who have physical conditions which affects their typing or if they tire easily.
 
@@ -23,6 +23,7 @@ There are some design features which haven't yet be implemented in code.
 
 - Restricting navigation so users can't navigate to months in the past if only dates in the future are selectable.
 - In the summary list date ranges should be displayed as, e.g. 'Monday, 3rd June to Thursday, 6th June 2019'. Currently, they're displayed as a single date per item in the list.
+- When a date from an another month is selected within the current month view the calendar moves to the new month. This can be disorientating. The calendar should stay in the current month unless unless the user explicitly navigates to the month.
 
 There is a non-JS version of the pattern which uses the standard date fields and 'add another' patterns to build up a list of dates.
 
