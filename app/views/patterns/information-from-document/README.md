@@ -22,8 +22,12 @@ Enabling users to enter information from the physical document can save them fro
 - Error messaging should help users self correct if they enter the example data.
 
 
+<a href="/public/images/find-info-from-doc-illustration.sketch">Sketch file</a> for the illustration shown above.
+
 
 ## Research on this pattern
 ### Key insights
+- This visual aid is particularly useful for users who have problems following written instructions, such as those with dyslexia.
 - Users may need explicit instructions to help locate the required information as well as the graphic.
-- Some users will try to enter data from the example graphic rather than from their document. This could be by mistake or because they don't have their document to hand.
+- Some users will try to enter data from the example graphic rather than from their document. This could be by a misunderstanding or because they don't have their document to hand.
+- Following iterations, such as adding the 'Example' banner, Google analytics from the live SSCS service has shown that users entering the date from the example graphic has reduced and those succeeding the first time has increased.  
