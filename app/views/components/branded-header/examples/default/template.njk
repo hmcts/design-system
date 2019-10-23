@@ -1,5 +1,4 @@
 <header class="hmcts-header {{- ' ' + params.classes if params.classes}}" role="banner">
-
   <div class="hmcts-header__container{% if params.containerClasses %} {{ params.containerClasses }}{% endif %}">
     <div class="govuk-header__logo">
       <a href="{{ params.brandedHeader.url | default('/') }}" class="govuk-header__link govuk-header__link--homepage">
@@ -11,15 +10,10 @@
       </a>
     </div>
     <a class="hmcts-header__link" href="{{ params.service.url | default('/') }}">{{ params.service.name }}</a>
-
-
     {% if params.navigation %}
       <div class="hmcts-header__content">
-
         <nav class="hmcts-header__navigation{% if params.navigation.classes %} {{ params.navigation.classes }}{% endif %}"{% if (params.navigation.label) %} aria-label="{{ params.navigation.label }}" {% endif %}>
-
           <ul class="hmcts-header__navigation-list">
-
             {% for item in params.navigation.items %}
               <li class="hmcts-header__navigation-item">
                 <a class="hmcts-header__navigation-link" href="{{ item.href }}" {{ 'aria-current="page"' | safe if item.active }}>
@@ -27,14 +21,9 @@
                 </a>
               </li>
             {% endfor %}
-
           </ul>
-
         </nav>
-
       </div>
     {% endif %}
-
   </div>
-
 </header>

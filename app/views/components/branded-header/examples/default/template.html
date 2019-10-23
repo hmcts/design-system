@@ -1,6 +1,4 @@
-{% macro hmctsBrandedHeader(params) %}
-  {%- include "./template.njk" -%}
-{% endmacro %}
+{% from "branded-header/examples/default/macro.njk" import hmctsBrandedHeader %}
 
 {{ hmctsBrandedHeader({
 
