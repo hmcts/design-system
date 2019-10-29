@@ -1,9 +1,9 @@
-Use the MyHMCTS Branded Header component for any service or system not hosted on GOV.UK such as those for the judiciary or HMCTS staff.
+Use the MyHMCTS Header (Branded) component for any service or system not hosted on GOV.UK such as those for the judiciary or HMCTS staff.
 
 Do not use this for citizen-facing services.
 
 {{dsExample({
-  name: 'branded-header',
+  name: 'header-branded',
   example: 'default',
   height: 150
 })}}

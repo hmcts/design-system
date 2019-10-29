@@ -1,10 +1,10 @@
 <header class="hmcts-header {{- ' ' + params.classes if params.classes}}" role="banner">
   <div class="hmcts-header__container{% if params.containerClasses %} {{ params.containerClasses }}{% endif %}">
     <div class="govuk-header__logo">
-      <a href="{{ params.brandedHeader.url | default('/') }}" class="govuk-header__link govuk-header__link--homepage">
+      <a href="{{ params.headerBranded.url | default('/') }}" class="govuk-header__link govuk-header__link--homepage">
         <span class="govuk-header__logotype">    
           <span class="govuk-header__logotype-text">
-            {{ params.brandedHeader.name }}
+            {{ params.headerBranded.name }}
           </span>
         </span>
       </a>
