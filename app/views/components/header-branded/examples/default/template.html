@@ -1,0 +1,26 @@
+{% from "header-branded/examples/default/macro.njk" import hmctsHeaderBranded %}
+
+{{ hmctsHeaderBranded({
+
+  headerBranded: {
+    name: 'MyHMCTS',
+    url: '#'
+  },
+
+  service: {
+    name: 'Service name',
+    url: '#'
+  },
+
+  navigation: {
+    label: 'Account navigation',
+    items: [{
+      text: 'Profile',
+      href: '#1'
+    }, {
+      text: 'Sign out',
+      href: '#1'
+    }]
+  }
+
+}) }}
