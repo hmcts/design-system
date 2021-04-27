@@ -1,7 +1,7 @@
 const gulp = require('gulp');
-const clean = require('gulp-clean');
+const del = require('del');
 
-gulp.task('clean', () => {
-  return gulp.src('public')
-  .pipe(clean());
+gulp.task('clean', (done) => {
+  return del(['public/*',
+    '.port.tmp']).then(() => done())
 });
