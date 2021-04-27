@@ -8,15 +8,13 @@ requireDir('./gulp', {
 
 gulp.task('generate-assets', gulp.series(
     'clean',
-    gulp.parallel(
-      'copy-assets',
-      'copy-component-javascript',
-      'sass'
-    )
+    'copy-assets',
+    'copy-component-javascript',
+    'sass'
   )
 )
 
-gulp.task('watch', gulp.parallel(
+gulp.task('watch', gulp.series(
     'watch-sass',
     'watch-assets'
   )
@@ -24,9 +22,7 @@ gulp.task('watch', gulp.parallel(
 
 gulp.task('default', gulp.series(
     'generate-assets',
-    gulp.parallel(
-      'watch',
-      'server'
-    )
+    'watch',
+    'server'
   )
 )
