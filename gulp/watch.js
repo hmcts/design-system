@@ -1,16 +1,23 @@
 const gulp = require('gulp');
 
-gulp.task('watch-sass', () => {
-  return gulp.watch([
-    'app/assets/sass/**/*.scss',
-    'app/components/**/*.scss'
-  ], ['sass']);
-});
+gulp.task('watch-sass', (done) => {
+	gulp.watch( [ 'app/assets/sass/**', 'app/components/**' ], { cwd: './' }, gulp.task('sass') ) 
+	done();
+ })
 
-gulp.task('watch-assets', () => {
-  return gulp.watch([
+gulp.task('watch-assets', (done) => {
+  gulp.watch([
     'app/assets/images/**',
     'app/assets/videos/**',
     'app/components/**',
-    'app/assets/javascripts/**'], {cwd: './'}, ['copy-assets', 'copy-component-javascript']);
-});
+    'app/assets/javascripts/**'],
+    { cwd: './' }, gulp.series('copy-assets', 'copy-component-javascript') )
+	done();
+})
+
+
+
+
+
+
+
